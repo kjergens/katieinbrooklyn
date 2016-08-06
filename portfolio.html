@@ -1,0 +1,333 @@
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <title>Katie Jergens</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+
+   <!-- Bootstrap-->
+ <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="css/portfolio.css" />
+
+  <link zhref="css/pesticide.css" rel="stylesheet" type="text/css" />
+  
+  <!-- Add jQuery library -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+  <!-- Add fancyBox -->
+<script type="text/javascript" src="js/footer.js"></script>
+<script type="text/javascript">
+
+    var nav = '<nav class="navbar navbar-default" > \
+  <div class="container-fluid"> \
+   <!-- Brand and toggle get grouped for better mobile display --> \
+    <div class="navbar-header"> \
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> \
+        <span class="sr-only">Toggle navigation</span> \
+        <span class="icon-bar"></span> \
+        <span class="icon-bar"></span> \
+        <span class="icon-bar"></span> \
+      </button> \
+<a href="index.html"><img src="images/favicon/head.svg"><span id="site_title">KATIE IN BROOKLYN<span id="tagline">Short articles about the things we see.</span></span></a> \
+    </div> \
+    <!-- Collect the nav links, forms, and other content for toggling --> \
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> \
+      <ul class="nav navbar-nav navbar-right" id="menu"> \
+        <li><a href="index.html">Home</a></li> \
+        <li class="active"><a href="portfolio.html">Portfolio</a></li> \
+        <li><a href="resume.html">Resum&eacute;</a></li> \
+        <li><a href="about.html">About Me</a></li> \
+        <li><a href="contact.html">Contact</a></li> \
+      </ul> \
+    </div><!-- /.navbar-collapse --> \
+  </div><!-- /.container-fluid --> \
+</nav>';
+
+
+$(document).ready(function(){
+  document.getElementById("header_container").innerHTML = nav;
+
+  // browser window scroll (in pixels) after which the "back to top" link is shown
+  var offset = 300,
+    //browser window scroll (in pixels) after which the "back to top" link opacity is reduced
+    offset_opacity = 1200,
+    //duration of the top scrolling animation (in ms)
+    scroll_top_duration = 700,
+    //grab the "back to top" link
+    $back_to_top = $('.cd-top');
+
+  //hide or show the "back to top" link
+  $(window).scroll(function(){
+    ( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
+    if( $(this).scrollTop() > offset_opacity ) { 
+      $back_to_top.addClass('cd-fade-out');
+    }
+  });
+
+  //smooth scroll to top
+  $back_to_top.on('click', function(event){
+    event.preventDefault();
+    $('body,html').animate({
+      scrollTop: 0 ,
+      }, scroll_top_duration
+    );
+  });
+
+  // smooth scroll to anchor
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+      }
+    });
+  });
+
+
+});
+
+</script>
+
+
+</head>
+
+<body>
+
+<!-----Top Navigation------>
+  <div id="header_container"></div> <!-- /header_container -->
+
+
+<!-----Sub-Navigation------>
+  <div id="subnav_container" class="list-group">  
+      <a class="list-group-item" href="#infoarch">Information Architecture</a>
+      <a class="list-group-item" href="#dataviz">Data Visualization</a>
+      <a class="list-group-item" href="#prototypes">Prototypes</a>
+      <a class="list-group-item" href="#userresearch">User Research</a>
+      <a class="list-group-item" href="#pageflows">Page Flows</a>
+      <a class="list-group-item" href="#pdf">PDF Reports</a>
+      <a class="list-group-item" href="#wires">Wireframes</a>
+  </div>  <!-- end subnav_container -->
+
+<!-----Main content------>
+<div class="container">
+
+
+<!-----Information Architecture ------>
+<div class="row" id="infoarch">
+<div class="category_title">Information Architecture</div>
+<p>1. Site architecture redesign</p>
+<figure>
+  <h4 class="before">Before</h4>
+  <a rel="gallery" target="blank" href="images/portfolio/ia_before.svg"><img alt="" src="images/portfolio/ia_before.svg"></a>
+  <figcaption>The original website had multiple entry points and redundant paths (indicated by arrows).
+  </figcaption>
+</figure >
+
+<figure>
+<h4 class="before">After</h4>
+<a target="blank" href="images/portfolio/ia_after_.svg">
+<img alt="" src="images/portfolio/ia_after_.svg"></a>
+<figcaption>The redesigned site is reduced to one entry point and unique paths. </figcaption>
+</figure>
+
+<div class="clearfix"></div>
+
+</div><!-- end Information Architecture -->
+
+
+<!-----Data Visualization------>
+<div class="row" id="dataviz">
+  <div class="category_title">Data Visualization</div>
+<p>1. Data visualization for standardized test results</p>
+<figure>
+<h4 class="before">Before</h4>
+<a class="zfancybox" target="blank" href="images/portfolio/dv_before.jpg">
+<img alt="" src="images/portfolio/dv_before.jpg"></a>
+<figcaption>The original report was difficult to understand and was limited to just two time periods.</figcaption>
+</figure>
+
+<figure>
+<h4 class="before">After</h4>
+<a class="zfancybox" target="blank" href="images/portfolio/def.png">
+<img alt="" src="images/portfolio/def.png" ></a>
+<figcaption>The redesigned chart accommodates unlimited time periods and provides labels and mini-graphs that help to understand the data.
+</figcaption>
+</figure>
+</div>
+
+<div class="row">
+   <figure>
+   <h4 class="before">Earlier Drafts</h4>
+
+    <a target="blank" href="images/portfolio/dataviz_arrows.png">
+        <img src="images/portfolio/dataviz_arrows.png" class="thumb"></a>
+
+    <a target="blank" href="images/portfolio/dataviz_bars.png">
+        <img src="images/portfolio/dataviz_bars.png" class="thumb"></a>
+
+    <a target="blank" href="images/portfolio/dataviz_bubble.png">
+        <img src="images/portfolio/dataviz_bubble.png" class="thumb"></a>
+<figcaption>The client also liked these alternative designs.</figcaption>
+  </figure>
+  
+</div>
+
+
+<!-----Prototypes------>
+<div id="prototypes" class="row">
+  <div class="category_title">Prototypes</div>
+
+<p>1. Modal window redesign</p>
+
+<figure>
+
+<h4 class="before">Before</h4>
+<a class="zfancybox" target="blank" href="images/portfolio/pt_modal_before.png">
+<img alt="" src="images/portfolio/pt_modal_before.png" ></a>
+
+<figcaption>The original modal window didn't help the viewer know what to look at first.
+</figcaption>
+
+</figure>
+
+<figure>
+<h4 class="before">After</h4>
+<a class="zfancybox" target="blank" zrel="group" href="images/portfolio/pt_modal_1.png">
+<img alt="" src="images/portfolio/pt_modal_1.png" ></a>
+<figcaption>The redesigned modal window arranges sections vertically so the viewer knows the recommended order. Important information like logins is pulled out of collapsed sections and into full view.</figcaption>
+</figure>
+
+<p>
+<a target="new" href="https://www.google.com/url?q=http://kjergens.github.io/amplify/Beacon/OA/Indiana/archive/index.html&amp;sa=D&amp;usg=AFQjCNEYNrtYK2ZwS7ZiWZyXyP72Vgy_3Q">See more prototypes.</a></p>
+
+</div><!-- end Prototypes --> 
+
+ <!----- PDFs------>
+<div id="pdf" class="row">
+  <div class="category_title">PDF Reports</div>
+
+<p>1. Student report</p>
+
+<figure>
+<h4 class="before">Before</h4>
+<a class="zfancybox" target="blank" href="images/portfolio/pdf_old.png">
+<img alt="" src="images/portfolio/pdf_old.png" ></a>
+<figcaption>
+The old report wasted space, didn't sort the information and required a lot of ink to print the logos, a concern for the client.
+</figcaption></figure>
+
+<figure>
+<h4 class="before">After</h4>
+<a class="zfancybox" target="blank" href="images/portfolio/pdf_new.png">
+<img alt="" src="images/portfolio/pdf_new.png" ></a>
+<figcaption>The new report conserves space, sorts rows and omits unhelpful logos.
+</figcaption></figure>
+</div> <!-- end PDF Reports --> 
+
+<!-----User Data------>
+<div id="userresearch" class="row">
+  <div class="category_title">User Research</div>
+  <p>1. In-house Online directory</p>
+      <figure>
+        <a class="zfancybox" target="blank" zrel="group" href="images/portfolio/ud_bnation.png">
+        <img alt="" src="images/portfolio/ud_bnation.png" ></a>
+      <figcaption>
+       An online searchable directory makes customer data available to the entire team.
+        I made it for the UX and Development teams but it quickly became popular with Sales and Marketing.
+  </figcaption></figure>
+
+<p>2. Research Data Bank</p>
+
+<figure>
+<a class="zfancybox" target="blank" zrel="group" href="images/portfolio/ud_tags.png">
+<img alt="" src="images/portfolio/ud_tags.png" ></a>
+<figcaption>User research lives in a shared databank. Tags and notebooks make data as easy to find as it is to add. Everyone on the team can contribute.
+</figcaption></figure>
+
+<p>3. Illustrated Sprint Stories</p>
+
+<figure>
+  <a class="zfancybox" target="blank" zrel="group" href="images/portfolio/ud_illustratedsprint_15-1.jpg">
+    <img alt="" src="images/portfolio/ud_illustratedsprint_15-1.jpg" style="display:block"></a>
+</figure>
+
+<figure>
+     <a class="zfancybox" target="blank" zrel="group" href="images/portfolio/ud_illustratedsprint_15-2.jpg">
+    <img alt="" src="images/portfolio/ud_illustratedsprint_15-2.jpg" ></a>
+<figcaption>Developers' sprint stories as told by customers.
+The goal is to emphasize the real-world impact of the team's work.
+</figcaption></figure> 
+
+</div> <!-- end User Research -->
+
+
+ <!-----Page Flows------>
+<div id="pageflows" class="row">
+  <div class="category_title">Page Flows</div>
+    <p>1. Small business app for managing search engine optimizations</p>
+  <figure>
+  <a class="zfancybox" target="blank" zrel="group" href="images/portfolio/pf_mobile_1.png">
+  <img alt="" src="images/portfolio/pf_mobile_1.png" ></a>
+<figcaption>Page flow for a mobile app contains wireframes to give stakeholders a sense of complexity and cost.
+</figcaption>
+</figure>
+</div> <!-- end Page Flows -->
+
+
+
+
+<!-----Wireframes------>
+<div id="wires" class="row">
+<div class="category_title">Wireframes</div>
+
+     <p>1. Small business app for managing search engine optimizations</p>
+
+
+  <figure>
+  <a class="zfancybox" target="blank" zrel="group" href="images/portfolio/wf_mobile_1.png">
+  <img alt="" src="images/portfolio/wf_mobile_1.png" ></a>
+<figcaption>Annotated wireframes for a mobile app leave little room for confusion.</figure>
+
+
+  <figure>
+  <a class="zfancybox" target="blank" rel="group" href="images/portfolio/wf_mobile_2.png">
+  <img alt="" src="images/portfolio/wf_mobile_2.png" ></a>
+<figcaption>Each interaction is described in detail.</figcaption></figure>
+
+<p>2. Lesson Planner</p>
+<figure>
+  <a class="zfancybox" target="blank" zrel="group" href="images/portfolio/wf_desktop_1.png">
+    <img alt="" src="images/portfolio/wf_desktop_1.png"></a></figure>
+
+<figure>
+    <a class="zfancybox" target="blank" zrel="group" href="images/portfolio/wf_desktop_2.png">
+    <img alt="" src="images/portfolio/wf_desktop_2.png"></a>
+    <figcaption>Two states of an online lesson planner.</figcaption>
+</figure>
+
+</div> <!-- end Wireframes -->
+
+
+ 
+<br><br>
+
+<br><br><br>
+<a href="#0" class="cd-top">Top</a>
+<br><br><br>
+
+  </div> <!-- end container-->
+
+
+<!-----Footer------>
+<div id="footer_container"></div>
+
+</body></html>

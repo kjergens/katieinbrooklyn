@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="536px" height="701px" viewBox="0 0 536 701" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>straight_up</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="52.7259827%" cy="36.6966881%" fx="52.7259827%" fy="36.6966881%" r="35.8596346%" id="radialGradient-1">
+            <stop stop-color="#FBDA49" offset="0%"></stop>
+            <stop stop-color="#F6B323" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="straight_up">
+            <rect id="Rectangle-1" fill="url(#radialGradient-1)" x="0" y="0" width="536" height="700.330017"></rect>
+            <text id="In-a-stemmed-glass-b" font-family="LucidaGrande, Lucida Grande" font-size="28" font-weight="normal" line-spacing="36" fill="#FFFFFF">
+                <tspan x="75.6501465" y="567">In a stemmed glass but not </tspan>
+                <tspan x="75.6501465" y="603">chilled. There is no reason </tspan>
+                <tspan x="75.6501465" y="639">you’d want this.</tspan>
+            </text>
+            <text id="“Straight-Up”" font-family="LucidaGrande-Bold, Lucida Grande" font-size="72" font-weight="bold" letter-spacing="-1.60000002" fill="#FFFFFF">
+                <tspan x="36" y="138">“Straight Up</tspan>
+                <tspan x="466.51875" y="138">”</tspan>
+            </text>
+            <g id="up" transform="translate(152.000000, 193.000000)">
+                <polygon id="glass" fill="#6A95F2" transform="translate(115.500000, 83.000000) scale(1, -1) translate(-115.500000, -83.000000) " points="115.5 4 231 162 0 162"></polygon>
+                <polygon id="stem" fill="#6A95F2" points="115.5 72 125.486093 153.190503 121.671745 284.559497 109.328255 284.559497 105.513907 153.190503"></polygon>
+                <polygon id="joiner" fill="#6A95F2" points="115.5 269 131.192433 284.201626 125.198457 308.798374 105.801543 308.798374 99.8075675 284.201626"></polygon>
+                <path d="M177.058038,300 C164.727056,291.715729 137.166584,285 115.5,285 C93.8334163,285 66.2729439,291.715729 53.9419619,300 C41.61098,308.284271 69.1714524,315 115.5,315 C161.828548,315 189.38902,308.284271 177.058038,300 Z" id="base" fill="#6A95F2"></path>
+                <ellipse id="rim" stroke="#FFFFFF" fill="#4990E2" transform="translate(115.500000, 5.000000) scale(1, -1) translate(-115.500000, -5.000000) " cx="115.5" cy="5" rx="113.5" ry="5"></ellipse>
+                <polygon id="drink" stroke="#979797" fill="#2365F5" points="49 59.0000063 115.39179 149.061654 181.995162 59"></polygon>
+                <path d="M182.339996,59 C182.339996,61.209139 152.490821,63 115.669998,63 C78.8491749,63 49,61.209139 49,59 C49,56.790861 78.8491749,55 115.669998,55 C152.490821,55 182.339996,56.790861 182.339996,59 Z" id="drink-surface" fill="#4990E2"></path>
+            </g>
+        </g>
+    </g>
+</svg>

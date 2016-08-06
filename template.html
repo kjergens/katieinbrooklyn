@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="head">
+<script>
+/*****************************
+ 
+ Facebook metadata to fill out:
+      Page Title
+      Description
+      Filename (to complete the path to the url)
+
+******************************/
+var title = "Placeholder for Title";
+var desc = "Placeholder for description.";
+var filename = "page.html";
+var fb_img_path = "favicon/android-icon-192x192.png";
+</script>
+</head>
+
+<body>
+<div id="body">
+<!--
+Scratchpad for editing HTML. You need to copy&paste it into content variable below. 
+-->
+
+</div>	
+<script>
+/*****************************
+ 
+ Article content to add:
+      Date
+      Content (formatted in HTML)
+
+******************************/
+var date = "Aug 5, 2016";
+var content = "<p>Placeholder for content</p>"
+
+
+/*****************************
+ 
+ Boilerplate code. Does not need to be filled out.
+
+******************************/
+</script>
+  <!-- JQuery & Bootstrap-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/page.js"></script>
+
+    <!-- custom scripts -->
+  <script src="js/nav.js"></script>
+  <script src="js/foot.js"></script>
+  <script src="js/facebook.js"></script>
+  <script src="js/twitter.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/menu.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+  document.getElementById("head").innerHTML = head;
+  document.getElementById("body").innerHTML = body;
+
+  // Need to build nav after #nav element exists
+  buildNav();
+  // Need to build menu after #right_menu element exists
+  buildMenu();
+  // Need to build footer after #foot element exists
+  buildFooter();
+ 
+});
+</script>
+</body>
+</html>
+

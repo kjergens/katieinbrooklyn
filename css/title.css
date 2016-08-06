@@ -1,0 +1,26 @@
+.title {
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 20px;
+}
+
+.byline {
+  border-top: 0px solid #ebebeb;
+  border-bottom: 0px solid #ebebeb;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+
+.date {
+  float: none;
+  margin-bottom: 10px;
+}
+
+#twitter, .fb-like  {
+  float: none;
+}
+
+#twitter {
+  position: relative;
+  top: 5px;
+  margin-right: 0px;
+}

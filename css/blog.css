@@ -1,0 +1,175 @@
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.title {
+  padding: 10px;
+  font-size: 42px;
+  letter-spacing: -3px;
+  line-height: 1.1em;
+  font-weight: bold;
+  font-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
+}
+
+.byline {
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  padding: 10px 0px 5px 0px;
+  margin-bottom: 40px;
+}
+
+
+.date {
+    font-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
+    color: #bfbfbf;
+    font-size: 14px;
+    float: left;
+    margin-right: 15px; 
+}
+
+#twitter, .fb-like  {
+  float: right;
+}
+
+#twitter{
+  margin-right: 5px;
+}
+
+.fb-share-button {
+  margin: 20px 0px;
+} 
+
+a:hover h4, a:hover .title{
+  text-decoration: underline;
+
+}
+
+figure {
+  text-align: center;
+  margin: 20px auto;
+}
+
+
+.citation {
+  font-size: 10px;
+  color: #888;
+  text-align: left;
+}
+
+.article {
+  max-width: 580px;
+  margin-left: -15px;
+}
+
+/*
+   Right menu
+*/
+
+#right_menu {
+  left: 30px;
+  
+}
+
+.menu_heading {
+  font-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 2px 4px 0px 0px;
+  border-bottom: 7px solid #CD3300;
+}
+
+.menu_item {
+  border-bottom: 1px solid #ebebeb;
+  margin: 5px 0px;
+  padding: 10px 0px;
+  width: 290px;
+  max-height: 105px;
+  overflow: hidden;
+}
+
+.menu_item:hover {
+  opacity: .9;
+}
+
+
+.thumb_container {
+  float: left;
+  overflow: hidden;
+  width: 100px;
+  height: 85px;
+}
+
+
+.article_title_container {
+  padding: 0px 3px 3px 8px;
+  float: left;
+  max-width: 152px;
+}
+
+.article_title {
+  color: #414f55; /* override hyperlink color */
+  font-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;  /* use header font */
+  font-size: 14px;
+  -webkit-text-stroke: 0.35px;
+  line-height: 1.3em;
+}
+
+.article_subtitle {
+  font-size: 11px;
+  font-weight: lighter;
+  margin-top: 2px;
+  color: #666; /* override hyperlink color */
+  font-family: Merriweather, serif;
+  line-height: 1.3em;
+}
+
+@media (max-width: 992px) {     /* Get rid of the excess padding when the */
+  #right_menu {
+    padding-left: 0px;
+    left: 0px;
+  }
+
+  .menu_item {                   /* menu is below the article */
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .article_title_container {
+    width: 300px;
+    max-width: none;
+  }
+
+}
+
+
+@-moz-document url-prefix() {  /* hack to deal with FF not know max-width */
+  
+  img {
+     max-width: 612px;   /* if 640 (iPhone) or larger */
+    }
+
+
+   @media (min-width: 718px) {  
+    img {
+     max-width: 720px;
+    }
+
+   @media (min-width: 992px) {  
+    img {
+     max-width: 620px;
+    }
+
+  @media (min-width: 1240px) {  /* if 1280 (sm. desktop) or larger */
+    img {
+     max-width: 750px;
+    }
+  }
+
+}
+
+
+
+

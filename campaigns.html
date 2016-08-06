@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="head">
+<script>
+/*****************************
+ 
+ Facebook metadata to fill out:
+      Page Title
+      Description
+      Filename (to complete the path to the url)
+
+******************************/
+var title = "Presidential Campaign Posters: The Art of the Sell";
+var desc = "Some odd ways past candidates tried to get the vote.";
+var filename = "campaigns.html";
+var fb_img_path = "campaigns/coolidge.jpg";
+</script>
+</head>
+
+<body>
+<div id="body">
+<!--
+Scratchpad for editing HTML. You need to copy&paste it into content variable below. 
+-->
+
+
+<!-- end of scratchpad -->
+</div>  
+<script>
+/*****************************
+ 
+ Article content to add:
+      Date
+      Content (formatted in HTML)
+
+******************************/
+var date = "Aug 5, 2016";
+var content = '<p>Over the years, candidates for the highest office in the land have tried to reach voters with campaign posters that are eye-catching, personal and convincing. Here are five strategies to that end that and the results, for better or for worse.</p> \
+\
+<h3>1. Summoning the Ghosts of Past Presidents</h3> \
+<p>A common tactic was to pretend dead presidents endorsed your campaign.</p> \
+\
+<figure><img src="images/campaigns/pierce.jpg" alt="" /><figcaption>Vote for me. Washington would want that.</figcaption></figure>';
+
+content += '<figure><img src="images/campaigns/lbj_greatsociety.jpg" width="400px" /><figcaption>Johnson conjures up recently-deceased presidents FDR and JFK.</figcaption></figure>';
+
+content += '<figure><img src="images/campaigns/hayes.gif" width="500px"  /><figcaption>Heck, let\'s throw everyone in there, thought Hayes.</figcaption></figure>';
+
+content += '<br><br><h3>2. Puns</h3><p>Two of these candidates actually won.</p>';
+
+content += '<figure><img src="images/campaigns/coolidge.jpg" width="500px"  /><figcaption>I see what you did there.</figcaption></figure>';
+
+content += '<figure><img src="images/campaigns/hoo-hoover.jpg" width="500px"  /><figcaption>This was the cover of sheet music, not a poster, about one of the country\'s most unpopular presidents.</figcaption></figure>';
+
+content += '<figure><img src="images/campaigns/dewey.jpg" width="500px"  /><figcaption>We didn\'t.</figcaption></figure>';
+
+
+content += '<br><br><h3>3. Explanatory Cartoons</h3><p></p>';
+
+content += '<figure><img src="images/campaigns/harrison.png" width="500px"  /><figcaption>Harrison is manning the keg but President Van Buren is draining it while a creepy man comments.</figcaption></figure>';
+
+content += '<figure><img src="images/campaigns/nixoncomic.jpg" width="500px"  /><figcaption>Photo of Nixon surrounded by a cartoon strip featuring (l-r) a university student, office workers, women, black people, politicians, more politicians, sports heros and teachers.</figcaption></figure>';
+
+
+content += '<br><br><h3>4. Short and Sweet</h3><p></p>';
+
+content += '<figure><img src="images/campaigns/taft.jpg" width="500px"  /><figcaption>Got it.</figcaption></figure>';
+
+content += '<figure><img src="images/campaigns/w.png"  /><figcaption>Even easier.</figcaption></figure>';
+
+
+content += '<br><br><h3>5. Dressing Up as Characters More Popular Than They Are</h3>';
+
+content += '<figure><img src="images/campaigns/fordie.png"  /><figcaption>Daaaaad! You\'re embarrassing me!</figcaption></figure>';
+
+content += '<figure><img src="images/campaigns/jc.png"/><figcaption>Not fearing separation of church and state, like at all.</figcaption></figure>';
+
+
+
+content += '<br><br><h3>6. Inspiring Future Posters</h3>';
+
+content += '<figure><img src="images/campaigns/reagan.jpg"/><figcaption>Hm. Where have I seen that slogan lately?</figcaption></figure>';
+
+
+
+
+/*****************************
+ 
+ Boilerplate code. Does not need to be filled out.
+
+******************************/
+</script>
+  <!-- JQuery & Bootstrap-->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/page.js"></script>
+
+    <!-- custom scripts -->
+  <script src="js/nav.js"></script>
+  <script src="js/foot.js"></script>
+  <script src="js/facebook.js"></script>
+  <script src="js/twitter.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/menu.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+  document.getElementById("head").innerHTML = head;
+  document.getElementById("body").innerHTML = body;
+
+  // Need to build nav after #nav element exists
+  buildNav();
+  // Need to build menu after #right_menu element exists
+  buildMenu();
+  // Need to build footer after #foot element exists
+  buildFooter();
+ 
+});
+</script>
+</body>
+</html>
+

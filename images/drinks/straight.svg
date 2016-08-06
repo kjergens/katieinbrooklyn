@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="536px" height="701px" viewBox="0 0 536 701" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>straight</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="52.7259827%" cy="36.6966881%" fx="52.7259827%" fy="36.6966881%" r="35.8596346%" id="radialGradient-1">
+            <stop stop-color="#FBDA49" offset="0%"></stop>
+            <stop stop-color="#F6B323" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="straight">
+            <rect id="Rectangle-1-Copy" fill="url(#radialGradient-1)" x="0" y="0" width="536" height="700.330017"></rect>
+            <text id="Straight-from-the-bo" font-family="LucidaGrande, Lucida Grande" font-size="28" font-weight="normal" line-spacing="36" fill="#FFFFFF">
+                <tspan x="86" y="566">Straight from the bottle, </tspan>
+                <tspan x="86" y="602">not chilled, no ice.</tspan>
+            </text>
+            <text id="Straight" font-family="LucidaGrande-Bold, Lucida Grande" font-size="72" font-weight="bold" fill="#FFFFFF">
+                <tspan x="122" y="138">Straight</tspan>
+            </text>
+            <g transform="translate(164.000000, 225.000000)">
+                <path d="M197.530381,6.00302343 C204.342646,6.00302343 209.294552,11.2785702 208.591914,17.7909224 L185.965532,237.337573 C185.326054,243.84785 180.607962,249.125472 175.402486,249.125472 L33.2924093,249.125472 C28.0973439,249.125472 23.3694271,243.849926 22.7302164,237.337573 L0.119723304,17.7909224 C-0.582219683,11.2806456 4.35619332,6.00302343 11.1821094,6.00302343 L197.530381,6.00302343 Z" id="glass" fill="#EF89A9"></path>
+                <path d="M207.499244,10.505291 C207.499244,4.70337899 161.473321,-7.87806702e-15 104.697468,-7.87806702e-15 C47.9216146,-7.87806702e-15 1.89569161,4.70337899 1.89569161,10.505291 C1.89569161,16.307203 47.9216146,21.010582 104.697468,21.010582 C161.473321,21.010582 207.499244,16.307203 207.499244,10.505291 Z" id="rim" stroke="#FFFFFF" fill="#F69FBA"></path>
+                <ellipse id="bottom" fill="#EF89A9" cx="99.9499741" cy="232.117544" rx="74.5400009" ry="15.0075586"></ellipse>
+                <path d="M184.578135,121.769528 L175.018976,214.839459 C174.269974,221.585258 168.633855,227.053809 162.41662,227.053809 C162.41662,227.053809 125.97193,219.860733 102.889468,219.860733 C86.2162649,219.860733 43.1496241,227.053809 43.1496241,227.053809 C36.9412016,227.053809 31.307729,221.583293 30.5732332,214.839459 L21.1989471,121.769528 C20.5823458,115.023729 25.9596538,109.555178 33.223887,109.555178 L96.6151333,109.555178 L172.575755,109.555178 C179.829692,109.555178 185.207063,115.025694 184.578135,121.769528 Z" id="liquid" fill="#F52365"></path>
+                <ellipse id="drink-surface" fill="#EC5C89" cx="103.94709" cy="112.556689" rx="78.0393046" ry="7.50377929"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

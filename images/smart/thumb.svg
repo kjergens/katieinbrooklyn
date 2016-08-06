@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="133px" height="105px" viewBox="0 0 133 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFC61C;">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>thumb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Seek-Novelty" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="thumb">
+            <g id="Group" transform="translate(26.000000, 11.000000)">
+                <path d="M1.1109713,36.9543014 C-2.48916401,36.9543014 2.06373948,48.3744305 34.7316707,48.3744305" id="rim" fill="#FF1C54"></path>
+                <path d="M2.032689,33.8448659 C2.032689,33.8448659 2.22465401,16.7438522 7.48591737,13.7991327 C8.13478441,10.7883233 12.7259796,6.53997448 15.1880071,6.53997439 C16.1255634,4.1201638 25.4820935,0.645411736 31.09452,2.13658762 C29.8699669,-0.381008741 43.5910457,-4.60351882 60.7591271,17.6961332 C63.454665,21.6344056 60.5027947,44.021947 68.4779762,39.7818341 C73.8897859,36.6002484 87.0630335,42.7093626 77.7705048,46.4236328 C68.4779762,50.137903 65.3446275,58.2734438 34.2005407,47.6785757 C-8.96822704,44.0967785 2.032689,33.8448659 2.032689,33.8448659 Z" id="hat" stroke="#FFC61C" stroke-width="0.825" fill="#FF1C54"></path>
+                <g id="headlight" transform="translate(57.375000, 16.602253)">
+                    <ellipse id="Oval-1" stroke="#FF1C54" stroke-width="0.825" fill="#FFC61C" cx="7.52884615" cy="12.7111002" rx="7.52884615" ry="12.1922798"></ellipse>
+                    <ellipse id="Oval-1-Copy" stroke="#FF1C54" stroke-width="0.825" fill="#FFC61C" cx="10.125" cy="12.1922798" rx="7.52884615" ry="12.1922798"></ellipse>
+                    <ellipse id="Oval-1-Copy-2" fill="#FF1C54" cx="10.125" cy="11.9328696" rx="6.75" ry="10.8952287"></ellipse>
+                    <ellipse id="Oval-1-Copy-2" stroke="#FFC61C" stroke-width="0.66825" cx="10.2548077" cy="11.9328696" rx="6.10096154" ry="10.1169981"></ellipse>
+                    <ellipse id="Oval-1-Copy-3" stroke="#FFC61C" stroke-width="0.601425" cx="10.2548077" cy="12.0625747" rx="5.0625" ry="8.94965216"></ellipse>
+                    <ellipse id="Oval-1-Copy-3" fill="#FFC61C" cx="10.125" cy="12.3219849" rx="4.41346154" ry="7.91201133"></ellipse>
+                </g>
+                <path d="M8.09878305,13.7294879 C8.09878305,13.7294879 20.2028433,-2.93407164 54.4568622,21.3684092" id="Path-454" stroke="#FFC61C" stroke-width="0.825"></path>
+                <path d="M8.29755108,14.0237933 C3.99412172,11.7609827 20.6850579,-7.75190586 55.1819599,20.5937252" id="Path-454-Copy" stroke="#FFC61C" stroke-width="0.825"></path>
+                <path d="M31.0429395,2.1123711 C30.1506826,1.5900522 40.3701925,-6.95057881 58.5492616,18.3155632" id="Path-456" stroke="#FFC61C" stroke-width="0.825"></path>
+                <path d="M31.2363973,2.42442388 C38.8815155,1.26627642 46.5834437,4.12460709 57.8049872,18.6608152" id="Path-456-Copy" stroke="#FFC61C" stroke-width="0.825"></path>
+            </g>
+            <text id="SEEK-NOVELTY" font-family="Anton" font-size="22" font-weight="normal" fill="#FF1C54">
+                <tspan x="11.3930664" y="93">SEEK NOVELTY</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

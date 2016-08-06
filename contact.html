@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>Katie Jergens</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9" />
+
+   <!-- Bootstrap-->
+ <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+  <!--My stylesheets-->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="css/portfolio.css" rel="stylesheet" type="text/css" />
+  <zlink href="css/pesticide.css" rel="stylesheet" type="text/css" />
+
+<!-- JQuery -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+    <!-- custom scripts -->
+  <script src="js/footer.js"></script>
+
+    <script>
+    var nav = '<nav class="navbar navbar-default" > \
+  <div class="container-fluid"> \
+   <!-- Brand and toggle get grouped for better mobile display --> \
+    <div class="navbar-header"> \
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> \
+        <span class="sr-only">Toggle navigation</span> \
+        <span class="icon-bar"></span> \
+        <span class="icon-bar"></span> \
+        <span class="icon-bar"></span> \
+      </button> \
+<a href="index.html"><img src="images/favicon/head.svg"><span id="site_title">KATIE IN BROOKLYN<span id="tagline">Short articles about the things we see.</span></span></a> \
+     </div> \
+    <!-- Collect the nav links, forms, and other content for toggling --> \
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> \
+      <ul class="nav navbar-nav navbar-right" id="menu"> \
+        <li><a href="index.html">Home</a></li> \
+        <li><a href="portfolio.html">Portfolio</a></li> \
+        <li><a href="resume.html">Resume</a></li> \
+        <li><a href="about.html">About Me</a></li> \
+        <li class="active"><a href="contact.html">Contact</a></li> \
+      </ul> \
+    </div><!-- /.navbar-collapse --> \
+    <div class="row" id="tag">Short articles about the things we see.</div> \
+  </div><!-- /.container-fluid --> \
+</nav>';
+
+
+$(document).ready(function(){
+  document.getElementById("header_container").innerHTML = nav;
+});
+  </script>
+
+</head>
+
+<body>
+
+<!-----Top Navigation------>
+  <div id="header_container"></div> 
+    
+ <div class="container">  
+<div class="row">
+  <div class="article">
+  <div class="category_title">Contact</div>
+
+<div style="height:400px">
+ <h4>katie.jergens@gmail.com</h4>  <br><br>
+	
+	</div>
+</div>
+  </div>
+	       
+	</div><!--/container--> 
+  
+<!-----Footer------>
+<div id="footer_container"></div>
+  
+  </body>
+</html>

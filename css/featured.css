@@ -1,0 +1,88 @@
+/*
+	Main title
+*/
+
+a>.title {
+	color: #414f55;
+}
+
+figure {
+	margin: 0px auto;
+}
+
+.date {
+	float: none;
+}
+
+#twitter, .fb-like {
+	float:left;
+}
+
+.fb-share-button {
+  margin: 0px 0px;
+} 
+
+
+/* 
+   Recent articles 
+*/
+#recent_header {
+	border-bottom: 10px solid #CD3300;
+	margin: 40px 0px 0px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	letter-spacing: -2px;
+	font-weight: 600;
+}
+
+
+
+#recent_container {
+	border: 10px solid #ebebeb;
+}
+
+
+.recent h4 {
+	font-weight: 600;
+}
+
+.recent {               /* each recent article */
+	float: left;
+	width: 50%;
+	height: 500px;
+	overflow: hidden;
+	padding: 40px 20px; 
+	margin: 0px auto;	
+	border: 10px solid #ebebeb;
+}
+
+.recent p {
+	font-size: 16px;  
+}
+
+.recent img {
+	width: 100%;
+}
+
+.recent img:hover {
+	opacity: .8;
+}
+
+
+@-moz-document url-prefix() {  /* hack to deal with ff not know max-width */
+  img {
+     max-width: 220px;
+  }
+
+  .menu_item img {
+    max-width: 140px;
+  }
+
+  .featured img {
+  	max-width:610px;
+  	overflow: hidden;
+}
+
+#menu_heading {
+	margin-top: 0px;
+}
