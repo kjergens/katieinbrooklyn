@@ -47,23 +47,38 @@ figure {
 }
 
 
+.category_title {
+  font-size: 40px;
+  letter-spacing: -3px;
+  font-weight: bold;
+  font-family: "Merriweather Sans", "Open Sans", Helvetica, sans-serif;
+  margin: 40px 0px 20px;
+  display: inline-block;
+  border-bottom: 10px solid #CD3300; }
+
+
+  .category_title:first-child {
+    margin: 20px 0px; }
+
+
 /*Override bootstrap*/
 .navbar-default {
   background-color: #fff;
   border: 0px;
   border-radius: 0px;
-  padding-bottom: 5px;
-  border-bottom: 10px solid #009ACD; #CD3300; #d8d8d8;  #3a3a3a; 
+  padding-bottom: 1px; 
+  border-bottom: 30px solid #009ACD; #CD3300; #d8d8d8;  #3a3a3a; 
 }
 
 #site_title {
   float: left;
   font-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 800;
   letter-spacing: -2px;
   color: #CD3300;
-  padding-top: 19px;  
+  position: relative;
+  top: 20px; 
 }
 
 #tagline {
@@ -72,29 +87,20 @@ figure {
   color: #555;
   letter-spacing: 0px;
   display: block;
+  position: relative;
+  top: -3px;
 }
 
-.logo_separator {
-  background-color: #eae6e2;
-  margin: 0px 2px 0px 5px;
-  font-size: 16px;
-}
 
 .navbar-header img {
   display:inline; 
   margin-right:20px;
-  height: 75px;
+  height: 65px;
   border: 0px;
   margin-top: 5px;
   float: left;
 }
 
-.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>.active>a:focus, 
-.navbar-default .navbar-nav>.active>a:hover{
-  background-color: #fff;
-  border-top: 5px solid #CD3300;
-}
 
 ul#menu li a:hover{
   border-top: 5px solid #CD3300;
@@ -113,6 +119,14 @@ ul#menu li a {
   border-top: 5px solid white;
   padding-top: 20px;
 } 
+
+ul#menu li.active>a,
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover{
+  background-color: #fff;
+  border-top: 5px solid #CD3300;
+}
 
 #tag{
   display: none;

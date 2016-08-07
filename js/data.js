@@ -1,17 +1,28 @@
+ /*
+          {
+              title: 'Step by Step Guide to Terrific Color Palettes - Part 1 of 4',
+              subtitle: 'Interactive tool included.',
+              link: 'colorscheme1.html',
+              big_image: 'colorwheel/big.svg',
+              recent: 'colorwheel/big.svg',
+              thumb: 'colorwheel/big.svg',
+              date: 'Aug 4, 2016',
+              blurb: 'Be it your webpage, logo or bedroom, you might be scared your color choices don\'t pass graphics muster. Here is a tool for a fail-proof color palette.'
+            }, */
+
 var data = 
     {
        menu: 
-          [  
-          {
-              title: 'How to Create a Color Scheme - Part 1 of 4',
-              subtitle: 'Interactive tool included.',
-              link: 'colorscheme1.html',
-              big_image: 'colorwheel/big1.svg',
-              recent: 'colorwheel/big1.svg',
-              thumb: 'colorwheel/thumb1.svg',
-              date: 'Aug 4, 2016',
-              blurb: 'Be it your webpage, logo or bedroom, you might be scared your color choices don\'t pass graphics muster. Here is a tool for a fail-proof color palette.'
-            },
+          [
+              { title: 'Presidential Campaign Posters For Better or Worse',
+              subtitle: 'Strategies to lure the vote.',
+              link: 'campaigns.html',
+              big_image: 'campaigns/coolidge.jpg',
+              recent: 'campaigns/coolidge.jpg',
+              thumb: 'campaigns/coolidge.jpg',
+              date: 'Aug 8, 2016',
+              blurb: 'Strategies to lure the vote.'
+            }, 
            {
               title: 'How Old is the U.S. Constitution, Relatively Speaking? [Infographic]',
               subtitle: 'Pretty old.',

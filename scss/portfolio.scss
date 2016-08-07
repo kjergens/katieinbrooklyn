@@ -1,5 +1,9 @@
 @import '../partials/variables'; // colors, fonts, etc.
 
+.navbar-default {
+  border-bottom:0px;
+}
+
 /*
     Portfolio menu (Data Viz, etc.)
 */
@@ -12,7 +16,7 @@
   line-height: 28px;
   font-size: 17px;
   font-family: $titlefont;
-  background-color: $blue;
+  background-color: #fff;
   &:first-child {
     border-top-right-radius: 0px; 
     border-top-left-radius: 0px; 
@@ -24,11 +28,10 @@
 }
 
 a.list-group-item {
-  color: white;
   &:hover,
   &:focus {
-    color: $graytext;
-    background-color: white;
+    color: #fff;
+    background-color: $blue;
     transition-duration: 500ms;
   }
 }
@@ -38,19 +41,6 @@ a.list-group-item {
 /* 
     Portfolio body
 */
-
-.category_title {
-  font-size: 40px;
-  letter-spacing: -3px;
-  font-weight: bold;
-  font-family: $titlefont;
-  margin: 40px 0px 20px;
-  display: inline-block;
-  border-bottom: 10px solid $red;
-  &:first-child {
-    margin: 20px 0px;
-  }
-}
 
 
 figure {

@@ -23,22 +23,31 @@ figure {
 } 
 
 
+
+
 /* 
    Recent articles 
 */
-#recent_header {
-	border-bottom: 10px solid #CD3300;
-	margin: 40px 0px 0px;
+.recent_header {
+	border-bottom: 8px solid #CD3300;
+	zmargin: 40px 0px 0px;
 	padding-top: 10px;
 	padding-bottom: 5px;
 	letter-spacing: -2px;
 	font-weight: 600;
 }
 
-
+#latest {
+	color: white;
+	background-color: #CD3300;
+	border-radius: 2px;
+	padding: 2px 4px;
+	margin: 15px;
+}
 
 #recent_container {
-	border: 10px solid #ebebeb;
+	zborder: 10px solid #ebebeb; #009ACD; #ebebeb;
+	zbackground-color: #ebebeb;
 }
 
 
@@ -47,13 +56,14 @@ figure {
 }
 
 .recent {               /* each recent article */
+	background-color: white;
 	float: left;
-	width: 50%;
+	width: 49.5%;
 	height: 500px;
 	overflow: hidden;
-	padding: 40px 20px; 
-	margin: 0px auto;	
-	border: 10px solid #ebebeb;
+	padding: 40px 20px; 	
+	margin: 3px 1px;
+	border: 1px solid #d8d8d8; #009ACD;;
 }
 
 .recent p {
@@ -64,8 +74,9 @@ figure {
 	width: 100%;
 }
 
-.recent img:hover {
-	opacity: .8;
+#main:hover,
+.recent:hover {
+	opacity: .9;
 }
 
 
