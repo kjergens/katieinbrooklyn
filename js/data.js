@@ -15,7 +15,7 @@ var data =
        menu: 
           [
               { title: 'Presidential Campaign Posters For Better or Worse',
-              subtitle: 'Strategies to lure the vote.',
+              subtitle: 'Graphical strategies to lure the vote.',
               link: 'campaigns.html',
               big_image: 'campaigns/coolidge.jpg',
               recent: 'campaigns/coolidge.jpg',
