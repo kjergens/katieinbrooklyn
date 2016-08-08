@@ -10,8 +10,8 @@ var head = ' \
   <meta property="og:site_name"      content="Katie In Brooklyn" /> \
   <meta property="og:title"         content="' + title + '" /> \
   <meta property="og:description"   content="' + desc + '" /> \
-  <meta property="og:url"           content="https://s3.amazonaws.com/katieinbrooklyn.com/' + filename + '" /> \
-  <meta property="og:image"         content="http://s3.amazonaws.com/katieinbrooklyn.com/images/' + fb_img_path + '"/> \
+  <meta property="og:url"           content="katieinbrooklyn.com/' + filename + '" /> \
+  <meta property="og:image"         content="katieinbrooklyn.com/images/' + fb_img_path + '"/> \
   <meta property="fb:app_id"        content="1559834101001985" /> \
  <!-- Bootstrap--> \
   <link rel="stylesheet" href="css/bootstrap.min.css" /> \

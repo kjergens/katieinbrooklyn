@@ -21,7 +21,7 @@ var data =
               recent: 'campaigns/coolidge.jpg',
               thumb: 'campaigns/coolidge.jpg',
               date: 'Aug 8, 2016',
-              blurb: 'Strategies to lure the vote.'
+              blurb: 'Over the years, candidates for the highest office in the land have tried to reach voters with campaign posters that are eye-catching, personal and convincing.'
             }, 
            {
               title: 'How Old is the U.S. Constitution, Relatively Speaking? [Infographic]',
