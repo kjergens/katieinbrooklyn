@@ -1,20 +1,18 @@
- /*
-          {
-              title: 'Step by Step Guide to Terrific Color Palettes - Part 1 of 4',
-              subtitle: 'Interactive tool included.',
-              link: 'colorscheme1.html',
-              big_image: 'colorwheel/big.svg',
-              recent: 'colorwheel/big.svg',
-              thumb: 'colorwheel/big.svg',
-              date: 'Aug 4, 2016',
-              blurb: 'Be it your webpage, logo or bedroom, you might be scared your color choices don\'t pass graphics muster. Here is a tool for a fail-proof color palette.'
-            }, */
-
 var data = 
     {
        menu: 
           [
-              { title: 'Presidential Campaign Posters For Better or Worse',
+              {
+              title: 'Step by Step Guide to Terrific Color Palettes - Part 1 of 4',
+              subtitle: 'Interactive tool included.',
+              link: 'colorscheme1.html',
+              big_image: 'colorwheel/big1.svg',
+              recent: 'colorwheel/big1.svg',
+              thumb: 'colorwheel/big1.svg',
+              date: 'Aug 11, 2016',
+              blurb: 'Be it your webpage, logo or bedroom, you might be scared your color choices don\'t pass graphics muster. Here is a tool for a fail-proof color palette.'
+            },
+            { title: 'Presidential Campaign Posters For Better or Worse',
               subtitle: 'Graphical strategies to lure the vote.',
               link: 'campaigns.html',
               big_image: 'campaigns/coolidge.jpg',

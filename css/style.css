@@ -78,7 +78,7 @@ figure {
   letter-spacing: -2px;
   color: #CD3300;
   position: relative;
-  top: 20px; 
+  top: 22px; 
 }
 
 #tagline {
@@ -94,10 +94,9 @@ figure {
 
 .navbar-header img {
   display:inline; 
-  margin-right:20px;
-  height: 65px;
+  height: 55px;
   border: 0px;
-  margin-top: 5px;
+  margin: 15px 20px 15px 0px;
   float: left;
 }
 

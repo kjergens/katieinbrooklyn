@@ -3,11 +3,11 @@
 */
 
 a>.title {
-	color: #414f55;
+	color: #414f55; 
 }
 
 figure {
-	margin: 0px auto;
+	margin: 10px auto;
 }
 
 .date {
@@ -30,7 +30,6 @@ figure {
 */
 .recent_header {
 	border-bottom: 8px solid #CD3300;
-	zmargin: 40px 0px 0px;
 	padding-top: 10px;
 	padding-bottom: 5px;
 	letter-spacing: -2px;
@@ -45,11 +44,6 @@ figure {
 	margin: 15px;
 }
 
-#recent_container {
-	zborder: 10px solid #ebebeb; #009ACD; #ebebeb;
-	zbackground-color: #ebebeb;
-}
-
 
 .recent h4 {
 	font-weight: 600;
@@ -61,9 +55,9 @@ figure {
 	width: 49.5%;
 	height: 500px;
 	overflow: hidden;
-	padding: 40px 20px; 	
+	padding: 20px; 	
 	margin: 3px 1px;
-	border: 1px solid #d8d8d8; #009ACD;;
+	border: 1px solid #d8d8d8; 
 }
 
 .recent p {

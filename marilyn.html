@@ -1,143 +1,153 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head id="head">
-<script>
+<head>
+    <title>Katie In Brooklyn</title> 
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=9" /> 
+  <!--
 /*****************************
  
  Facebook metadata to fill out:
       Page Title
       Description
       Filename (to complete the path to the url)
+      fb_img_path 
+          - Image should be 528 X 277 px in png or jpg format (no svg)
+          - It defaults to fbook.png
+
+
+Cut and paste into data.js:
+
+{
+  title: 'Refreshingly Non-Sexual Photos Of Marilyn Monroe',
+  subtitle: '',
+  link: 'marilyn.html',
+  big_image: 'marilyn/big.svg',
+  recent: 'marilyn/big.svg',
+  thumb: 'marilyn/big.svg',
+  date: 'Aug 16, 2016',
+  blurb: ''
+},
 
 ******************************/
-var title = "Unsexual Pictures of Marilyn Monroe Reveal Some of her Personality";
-var desc = "Times when she was let down her guard.";
-var filename = "marilyn.html";
-var fb_img_path = "marilyn/android-icon-192x192.png";
-</script>
-</head>
-
-<body>
-<div id="body">
-<!--
-Scratchpad for editing HTML. You need to copy&paste it into content variable below. 
 -->
+  <meta property="og:type"          content="article" /> 
+  <meta property="og:site_name"      content="Katie In Brooklyn" /> 
+  <meta property="og:title"         content="Refreshingly Non-Sexual Photos Of Marilyn Monroe" /> 
+  <meta property="og:description"   content="" />
+  <meta property="og:url"           content="http://katieinbrooklyn.com/marilyn.html" /> 
+  <meta property="og:image"         content="http://katieinbrooklyn.com/images/marilyn/fbook.jpg"/>
+  <meta property="fb:app_id"        content="1559834101001985" /> 
+ <!-- Bootstrap--> 
+  <link rel="stylesheet" href="css/bootstrap.min.css" /> 
+  <!-- My stylesheets--> 
+  <link rel="stylesheet" type="text/css" href="css/style.css" /> 
+  <link rel="stylesheet" type="text/css" href="css/blog.css" /> 
+  <link rel="stylesheet" href="css/title.css" />
 
-</div>	
-<script>
-/*****************************
- 
- Article content to add:
-      Date
-      Content (formatted in HTML)
-
-******************************/
-var date = "Aug 15, 2016";
-var content = "<p>I'm interested in unposed pictures of Marilyn Monroe when she just got to be herself. Here are some of the times she showed her true self.</p>";
-
-content += "<h2>Letting her guard down outside.</h2>";
-
-content += '<figure><img src="images/marilyn/boat.jpg"></figure>';
-
-content += '<figure><img src="images/marilyn/windy.jpg"></figure>';
-
-content += '<figure><img src="images/marilyn/scrunchy.jpg"><figcaption>A glimpse of her freckles.</figcaption></figure>';
-
-
-content += "<h2>She liked to stick her tongue up.</h2><p>Don\'t believe me?</p>";
-
-content += '<figure><img src="images/marilyn/tongue.jpg"></figure>';
-
-content += '<figure><img src="images/marilyn/tongue2.jpg"></figure>';
-
-content += '<figure><img src="images/marilyn/tongue3.jpg"></figure>';
-
-content += '<figure><img src="images/marilyn/tongue4.jpg"></figure>';
-
-content += '<figure><img src="images/marilyn/tongue5.jpg"></figure>';
-
-content += '<figure><img src="images/marilyn/tongue6.jpg"><figcaption>With Joe Dimaggio</figcaption></figure>';
-
-content += "<h2>She didn't hold back while eating.</h2>";
-
-content += '<figure><img src="images/marilyn/bed.jpg"><figcaption>Even while sexy in bed, she chomps away.</figcaption></figure>';
-
-content += '<figure><img src="images/marilyn/hotdog.jpg"></figure>';
-
-content += '<figure><img src="images/marilyn/pudding.jpg"></figure>';
-
-
-
-
-content += "<h2>She had a wide stance.</h2>";
-
-
-
-content += "<p>Maybe it was a reaction to being wrapped in tight dresses so often. </p>";
-
-
-content += '<figure><img src="images/marilyn/woods.jpg"><figcaption>Happy amongst the bears.</figcaption></figure>';
-
-content += '<figure><img src="images/marilyn/army.jpg"><figcaption>Even in a tight dress she plants herself.</figcaption></figure>';
-
-content += '<figure><img src="images/marilyn/mirror.jpg"></figure>';
-
-content += '<figure><img src="images/marilyn/phone.jpg"><figcaption>Even while sitting you can see it.</figcaption></figure>';
-
-content += '<figure><img src="images/marilyn/wicker.png"></figure>';
-
-
-
-content += "<h2>She could be goofy.</h2>";
-
-content += '<figure><img src="images/marilyn/pool.jpg"><figcaption>Genuinely having fun.</figcaption></figure>';
-
-content += '<figure><img src="images/marilyn/hat.jpg"><figcaption>Playing on set.</figcaption></figure>';
-
-
-content += '<figure><img src="images/marilyn/whateverrr.jpg"><figcaption>Whateverrr!</figcaption></figure>';
-
-
-
-content += "<h2>So there you have it!</h2>";
-
-
-
-
-/*****************************
- 
- Boilerplate code. Does not need to be filled out.
-
-******************************/
-</script>
   <!-- JQuery & Bootstrap-->
   <script src="js/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/page.js"></script>
 
     <!-- custom scripts -->
-  <script src="js/nav.js"></script>
-  <script src="js/foot.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
   <script src="js/facebook.js"></script>
   <script src="js/twitter.js"></script>
   <script src="js/data.js"></script>
   <script src="js/menu.js"></script>
 
-<script type="text/javascript">
+</head>
 
-$(document).ready(function(){
-  document.getElementById("head").innerHTML = head;
-  document.getElementById("body").innerHTML = body;
+<body>
 
-  // Need to build nav after #nav element exists
-  buildNav();
-  // Need to build menu after #right_menu element exists
-  buildMenu();
-  // Need to build footer after #foot element exists
-  buildFooter();
- 
-});
-</script>
+<div id="fb-root"></div>
+<div id="header_container"></div>
+<div class="container">
+ <div class="row">
+ <div class="title">18 Refreshingly Non-Sexual Photos Of Marilyn Monroe</div>
+
+ <div class="col-md-8">
+ <div class="article">
+
+ <div class="byline">
+ <div class="date">Aug 16, 2016</div>
+  <!-- share buttons -->
+  <span id="twitter">
+   <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://katieinbrooklyn.com/marilyn.html">
+   Tweet</a>
+   </span>
+   <span class="fb-like" data-share="true" data-width="400" data-show-faces="false"></span>
+  </div> 
+  <!-- /byline -->
+
+ <!-----Article------>
+<figure><img src="images/marilyn/scrunchy.jpg"><figcaption>A glimpse of her freckles.</figcaption></figure>
+
+<h2>One with the elements</h2>
+
+<figure><img src="images/marilyn/windy.jpg"></figure>
+
+
+<h2>She liked to stick her tongue up.</h2>
+<figure><img src="images/marilyn/tongue3.jpg"></figure>
+<figure><img src="images/marilyn/tongue6.jpg"><figcaption>With Joe Dimaggio</figcaption></figure>
+<figure><img src="images/marilyn/tongue2.jpg"></figure>
+<figure><img src="images/marilyn/tongue5.jpg"></figure>
+<figure><img src="images/marilyn/tongue4.jpg"></figure>
+<figure><img src="images/marilyn/tongue.jpg"></figure>
+
+
+<h2>She didn't hold back while eating.</h2>
+
+<figure><img src="images/marilyn/hotdog.jpg"></figure>
+<figure><img src="images/marilyn/bed.jpg"><figcaption>Even while sexy in bed, she chomps away.</figcaption></figure>
+
+
+
+
+
+<h2>She didn't cross her legs.</h2>
+
+<figure><img src="images/marilyn/wicker.png"></figure>
+<figure><img src="images/marilyn/cowboy.jpg"></figure>
+<figure><img src="images/marilyn/phone.jpg"></figure>
+
+<p>Maybe it was a reaction to being wrapped in tight dresses so often. </p>
+
+
+<h2>And often stood with a wide stance.</h2>
+<figure><img src="images/marilyn/woods.jpg"><figcaption>Happy amongst the bears.</figcaption></figure>
+<figure><img src="images/marilyn/mirror.jpg"></figure>
+<figure><img src="images/marilyn/screentest.jpg" alt="" /><figcaption>Wardrobe fitting in 1962.</figcaption></figure>
+
+
+<h2>She could be goofy.</h2>
+
+<figure><img src="images/marilyn/pool.jpg"><figcaption>Genuinely having fun.</figcaption></figure>
+
+<figure><img src="images/marilyn/whateverrr.jpg"><figcaption>Whateverrr!</figcaption></figure>
+
+
+  <!-- share buttons -->
+  <span id="twitter">
+   <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://katieinbrooklyn.com/marilyn.html">
+   Tweet</a>
+   </span>
+   <span class="fb-like" data-share="true" data-width="400" data-show-faces="false"></span>
+  <!-- /byline -->
+<div class="fb-comments" data-href="http://katieinbrooklyn.com/marilyn.html" data-numposts="5"></div>
+
+
+  </div> <!-- end article -->
+</div> <!-- end column -->
+ <!-- Side Menu -->
+ <div class="col-md-4" id="right_menu"> </div>
+ </div>
+<a href="#0" class="cd-top">Top</a>
+</div>
+<div id="footer_container"></div>
+
 </body>
 </html>
 
