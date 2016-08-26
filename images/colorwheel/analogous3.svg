@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="645px" height="645px" viewBox="0 0 645 645" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>analogous copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="-1.70530257e-13" y="4.54747351e-13" width="645" height="645"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="645" height="645" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="42.227392%" id="radialGradient-3">
+            <stop stop-color="#263238" offset="0%"></stop>
+            <stop stop-color="#040B0E" offset="100%"></stop>
+        </radialGradient>
+        <path d="M503.171233,375.615068 C503.171233,375.615068 478.745173,379.978082 466.085616,379.978082 C454.021429,379.978082 429,375.615068 429,375.615068 L466.085616,99 L503.171233,375.615068 Z" id="path-4"></path>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-15" y="-15" width="104.171233" height="310.978082">
+            <rect x="414" y="84" width="104.171233" height="310.978082" fill="white"></rect>
+            <use xlink:href="#path-4" fill="black"></use>
+        </mask>
+        <path d="M322.085616,16 L359.171233,292.615068 C359.171233,292.615068 334.540657,296.105479 322.085616,296.105479 C309.816913,296.105479 285,292.615068 285,292.615068 L322.085616,16 Z" id="path-6"></path>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-15" y="-15" width="104.171233" height="310.105479">
+            <rect x="270" y="1" width="104.171233" height="310.105479" fill="white"></rect>
+            <use xlink:href="#path-6" fill="black"></use>
+        </mask>
+        <path d="M405.085616,39 L442.171233,315.615068 C442.171233,315.615068 417.540657,319.105479 405.085616,319.105479 C392.816913,319.105479 368,315.615068 368,315.615068 L405.085616,39 Z" id="path-8"></path>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-15" y="-15" width="104.171233" height="310.105479">
+            <rect x="353" y="24" width="104.171233" height="310.105479" fill="white"></rect>
+            <use xlink:href="#path-8" fill="black"></use>
+        </mask>
+        <pattern id="pattern-10" width="30.3673469" height="30.3673469" x="-30.3673469" y="-30.3673469" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-11" transform="scale(0.632653061,0.632653061)"></use>
+        </pattern>
+        <image id="image-11" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAALNJREFUaAXtmEEKwzAMBOP+yf9/gB/V0uMexZBtA5ObwJLiGQuM1977fQ2+c84aLL/urv+a/Mw/rnUDv7aiAQ1AAh4hCBCnawAjhAUeb2B0r/nCuvtuM63/eANuAM4gTtcARggLaAACxOkawAhhAQ1AgDh9Te8evgth5lnAGUge/UgDfebZUQPJox9poM88O2ogefQj34X6zLOjM5A8+pEG+syzowaSRz/SQJ95dtRA8uhHHxtJG5lrDDU9AAAAAElFTkSuQmCC"></image>
+    </defs>
+    <g id="color-wheels" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="printwheel">
+            <g id="analogous-copy" transform="translate(0.000000, -0.000000)">
+                <g id="wings" transform="translate(-0.000000, 0.000000)">
+                    <use id="Rectangle-59" stroke="#E6D8D8" mask="url(#mask-2)" stroke-width="2" opacity="0.00999999978" xlink:href="#path-1"></use>
+                    <use id="Triangle-2-Copy" stroke="url(#radialGradient-3)" mask="url(#mask-5)" stroke-width="30" transform="translate(466.085616, 239.489041) scale(-1, -1) rotate(-300.000000) translate(-466.085616, -239.489041) " xlink:href="#path-4"></use>
+                    <use id="Triangle-2" stroke="url(#radialGradient-3)" mask="url(#mask-7)" stroke-width="30" transform="translate(322.085616, 156.052740) scale(1, -1) translate(-322.085616, -156.052740) " xlink:href="#path-6"></use>
+                    <use id="Triangle-2-Copy-5" stroke="url(#radialGradient-3)" mask="url(#mask-9)" stroke-width="30" transform="translate(405.085616, 179.052740) scale(1, -1) rotate(-30.000000) translate(-405.085616, -179.052740) " xlink:href="#path-8"></use>
+                </g>
+                <g id="knob-copy" transform="translate(246.000000, 246.000000)">
+                    <circle id="Oval-3" fill="url(#radialGradient-3)" cx="76.7890411" cy="76.7890411" r="76.7890411"></circle>
+                    <circle id="Oval-3-Copy" fill="url(#pattern-10)" style="mix-blend-mode: overlay;" cx="76.7890411" cy="76.7890411" r="76.7890411"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

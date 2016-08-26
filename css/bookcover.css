@@ -43,7 +43,7 @@
 	background-color: #f3b128; 
 	position: relative;
 	height: 100px;
-	top: -250px;
+	top: -200px;
 }
 
 .fat {
@@ -54,37 +54,41 @@
 
 @media (min-width: 425px) {  
 	.blackout {               
-		top: -300px;
+		top: -250px;
 	}
 
 	.fat {
-		top: -320px;
+		top: -280px;
 	}
 }
 
 @media (min-width: 500px) {  
 	.blackout {               
-		top: -370px;
+		top: -320px;
+	}
+
+		.fat {
+		top: -300px;
 	}
 }
 
 @media (min-width: 600px) {  
 	.blackout {               
-		top: -400px;
+		top: -370px;
 	}
 
 	.fat {
-		top: -430px;
+		top: -380px;
 	}
 }
 
 @media (min-width: 640px) {  /* iPhone */
 	.blackout {
-		top: -430px;
+		top: -400px;
 	}
 
 	.fat {
-		top: -430;
+		top: -400;
 	}
 }
 
@@ -97,11 +101,11 @@
 
 @media (min-width: 700px) { 
 	.blackout {
-		top: -480px;
+		top: -440px;
 	}
 
 	.fat {
-		top: -495px;
+		top: -455px;
 		height: 155px;
 	}
 }
@@ -109,17 +113,17 @@
 
 @media (min-width: 740px) {  
 	.blackout {
-		top: -500px;
+		top: -470px;
 	}
 
 	.fat {
-		top: -515px;
+		top: -495px;
 	}
 }
 
 @media (min-width: 768px) {  /* Windows Phone */
 	.blackout {
-		top: -330px;
+		top: -315px;
 	}
 
 	.fat {
@@ -129,24 +133,25 @@
 
 @media (min-width: 992px) { 
 	.blackout {
-		top: -430px;
+		top: -400px;
 	}
 }
 
 @media (min-width: 1024px) { /* iPad */
 	.blackout {
-		top: -440px;
+		top: -400px;
 	}
 
 	.fat {
-		top: -455px;
-		height: 160px;
+		top: -435px;
+		height: 155px;
 	}
 }
 
 @media (min-width: 1200px) { 
 	.blackout {
-		top: -510px;
+		top: -530px;
+		height: 150px;
 	}
 
 	.fat {
@@ -157,12 +162,12 @@
 
 @media (min-width: 1280px) { /* small desktop, netbook */
 	.blackout {
-		top: -522px;
+		top: -520px;
 	}
 
 	.fat {
 		height: 150px;
-		top: -535px;
+		top: -515px;
 	}
 }
 

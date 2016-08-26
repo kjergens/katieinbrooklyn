@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="426px" height="256px" viewBox="0 0 426 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="DevanagariSangamMN, Devanagari Sangam MN" font-size="24" font-weight="normal" line-spacing="34" letter-spacing="6.01000023" fill="#003CEF">
+            <tspan x="4" y="229">where love of math begin</tspan>
+            <tspan x="404.453339" y="229">s</tspan>
+        </text>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M97.0788927,42.0801105 L138.856354,42.0801105 L138.856354,55.0801105 L97.694673,55.0801105 L69.8042355,82.970548 L41.913798,55.0801105 L0.856353591,55.0801105 L0.856353591,42.0801105 L42.5295782,42.0801105 L69.8042355,14.8054532 L97.0788927,42.0801105 Z" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="138" height="68.1650948" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+    </defs>
+    <g id="4-colors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="blue">
+            <g id="where-love-of-math-b" fill-opacity="1" fill="#003CEF">
+                <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                <use xlink:href="#text-1"></use>
+            </g>
+            <g id="3" transform="translate(285.814917, 99.919890)">
+                <rect id="Rectangle-75-Copy-5" fill="#FFC000" x="0.486187845" y="0" width="136.740005" height="98.8799973" rx="2.25"></rect>
+                <polygon id="Polygon-1" stroke="#FFFFFF" stroke-width="12" points="67.3456825 21.3480663 95.0956825 35.2230663 95.0956825 62.9730663 67.3456825 76.8480663 39.5956825 62.9730663 39.5956825 35.2230663"></polygon>
+                <rect id="Rectangle-7" fill="#FFFFFF" x="0.185082873" y="42.0801105" width="36" height="13"></rect>
+            </g>
+            <g id="2" transform="translate(143.143646, 99.919890)">
+                <rect id="Rectangle-63-Copy-5" fill="#00FFC0" x="1.48618785" y="0" width="136.740331" height="98.8799973" rx="2.25"></rect>
+                <use id="Combined-Shape" stroke="#FFFFFF" mask="url(#mask-4)" stroke-width="24" xlink:href="#path-3"></use>
+            </g>
+            <g id="1" transform="translate(2.958564, 99.919890)">
+                <rect id="Rectangle-75-Copy-3" fill="#FF0040" x="0" y="0" width="136.740331" height="98.8799973" rx="2.25"></rect>
+                <circle id="Oval-9" stroke="#FFFFFF" stroke-width="12" cx="68.0414365" cy="49.0801105" r="27"></circle>
+                <rect id="Rectangle-7-Copy-2" fill="#FFFFFF" x="100.041436" y="42.0801105" width="37.7000008" height="13"></rect>
+            </g>
+            <text id="mathnasium" fill="#003CEF" font-family="Futura-Medium, Futura" font-size="90" font-weight="400" letter-spacing="-6.05999994">
+                <tspan x="-1" y="86">mathnasiu</tspan>
+                <tspan x="356.667032" y="86">m</tspan>
+            </text>
+            <rect id="Rectangle" fill="#FFFFFF" x="140" y="96" width="5" height="109"></rect>
+            <rect id="Rectangle-Copy" fill="#FFFFFF" x="281" y="96" width="5" height="109"></rect>
+        </g>
+    </g>
+</svg>

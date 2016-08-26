@@ -5,6 +5,8 @@ var analogous_print_rotation = 0;
 var complementary_rotation = 0;
 var split_complementary_rotation = 0;
 var triadic_rotation = 0;
+var square_rotation = 0;
+var square_print = 0;
 
 jQuery.fn.rotate = function(degrees) {
     $(this).css({'-webkit-transform' : 'rotate('+ degrees +'deg)',
@@ -24,6 +26,12 @@ $('#tetradic').click(function() {
     tetradic_rotation += 15;
     $(this).rotate(tetradic_rotation);
 });
+
+$('#square').click(function() {
+    square_rotation += 15;
+    $(this).rotate(square_rotation);
+});
+
 
 $('#tetradic_print').click(function() {
     tetradic_print_rotation += 15;

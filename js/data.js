@@ -3,34 +3,34 @@ var data =
        menu: 
           [
               {
-              title: 'Step by Step Guide to Terrific Color Palettes - Part 1 of 4',
+              title: 'Steps to a Fail-Proof Color Palette, Part 1/4',
               subtitle: 'Interactive tool included.',
-              link: 'colorscheme1.html',
-              big_image: 'colorwheel/big1.svg',
-              recent: 'colorwheel/big1.svg',
-              thumb: 'colorwheel/big1.svg',
-              date: 'Aug 11, 2016',
+              link: 'colors1.html',
+              big_image: 'colorwheel/title.svg',
+              recent: 'colorwheel/title.svg',
+              thumb: 'colorwheel/thumb.svg',
+              date: 'Aug 22, 2016',
               blurb: 'Be it your webpage, logo or bedroom, you might be scared your color choices don\'t pass graphics muster. Here is a tool for a fail-proof color palette.'
             },
-            { title: 'Presidential Campaign Posters For Better or Worse',
-              subtitle: 'Graphical strategies to lure the vote.',
+            { title: 'Presidential Campaign Posters: Graphical Strategies to Get the Vote',
+              subtitle: 'Five ways to draw votes.',
               link: 'campaigns.html',
-              big_image: 'campaigns/coolidge.jpg',
-              recent: 'campaigns/coolidge.jpg',
-              thumb: 'campaigns/coolidge.jpg',
+              big_image: 'campaigns/nixon.png',
+              recent: 'campaigns/nixon.png',
+              thumb: 'campaigns/nixon.png',
               date: 'Aug 8, 2016',
-              blurb: 'Over the years, candidates for the highest office in the land have tried to reach voters with campaign posters that are eye-catching, personal and convincing.'
-            }, 
+              blurb: 'Five strategies to lure in the vote, and the results for better or worse.'
+           }, 
            {
-              title: 'How Old is the U.S. Constitution, Relatively Speaking? [Infographic]',
-              subtitle: 'Pretty old.',
+              title: 'Winner of the Longest-Running Constitution: the U.S.!',
+              subtitle: 'Infographic.',
               link: 'constitutions.html',
               big_image: 'constitutions/big.svg',
               thumb: 'constitutions/thumb.svg',
               recent: 'constitutions/thumb.svg',
               date: 'Jul 20, 2016',
-              blurb: 'Acting as our base of laws for 227 years, the Constitution is by far the longest-running'
-             },
+              blurb: 'Active for 227 years, the U.S. Constitution is the longest-running in the world, by a lot. By most countries\' standards, it\'s vintage. More than half of all sovereign nations...'
+           },
           {
               title: '5 Keys to Getting Smarter',
               subtitle: 'Illustrations of the steps to smart.',

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="650px" height="442px" viewBox="0 0 650 442" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>tic</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="650" height="441.824324"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="650" height="441.824324" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="3-colors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tic">
+            <g id="Group" transform="translate(203.000000, 27.000000)">
+                <g id="reset-btn" transform="translate(5.626463, 355.954192)">
+                    <rect id="reset" fill="#0F85DB" x="0" y="0" width="231.179506" height="35.1005533"></rect>
+                    <text id="Reset" font-family="HelveticaNeue, Helvetica Neue" font-size="16.9450947" font-weight="normal" fill="#FFFFFF">
+                        <tspan x="93.8032028" y="23.2621834">Reset</tspan>
+                    </text>
+                </g>
+                <g id="player-2" transform="translate(123.031762, 308.750000)">
+                    <rect id="player-two" fill="#85D710" x="-4.99300301e-14" y="0" width="114.379389" height="35.1005533"></rect>
+                    <text id="1" font-family="HelveticaNeue, Helvetica Neue" font-size="16.9450947" font-weight="normal" letter-spacing="0.0706045581" fill="#FFFFFF">
+                        <tspan x="52.65083" y="23.2621834">1</tspan>
+                    </text>
+                </g>
+                <g id="player-1" transform="translate(5.626463, 308.750000)">
+                    <rect id="player-one" fill="#DB3485" x="0" y="0" width="114.379389" height="35.1005533"></rect>
+                    <text id="0" font-family="HelveticaNeue, Helvetica Neue" font-size="16.9450947" font-weight="normal" letter-spacing="0.0706045581" fill="#FFFFFF">
+                        <tspan x="52.443656" y="23.2621834">0</tspan>
+                    </text>
+                </g>
+                <g id="board" transform="translate(0.179825, 60.625399)">
+                    <rect id="bottomleft" fill="#E9E9E9" x="163.399127" y="157.347308" width="78.673654" height="75.6477442"></rect>
+                    <rect id="bottommid" fill="#E9E9E9" x="81.6995637" y="157.347308" width="78.673654" height="75.6477442"></rect>
+                    <rect id="bottomright" fill="#DB3485" x="0" y="157.347308" width="78.673654" height="75.6477442"></rect>
+                    <rect id="midleft" fill="#E9E9E9" x="163.399127" y="78.673654" width="78.673654" height="75.6477442"></rect>
+                    <rect id="midmid" fill="#85D710" x="81.6995637" y="78.673654" width="78.673654" height="75.6477442"></rect>
+                    <rect id="midright" fill="#E9E9E9" x="0" y="78.673654" width="78.673654" height="75.6477442"></rect>
+                    <rect id="topleft" fill="#85D710" x="163.399127" y="0" width="78.673654" height="75.6477442"></rect>
+                    <rect id="topmid" fill="#DB3485" x="81.6995637" y="0" width="78.673654" height="75.6477442"></rect>
+                    <rect id="topright" fill="#E9E9E9" x="0" y="0" width="78.673654" height="75.6477442"></rect>
+                </g>
+                <text id="Tic-Tac-Toe" font-family="HelveticaNeue-Medium, Helvetica Neue" font-size="29.0487338" font-weight="400" letter-spacing="0.121036385" fill="#4A4A4A">
+                    <tspan x="44.9632901" y="28.7123856">Tic Tac Toe</tspan>
+                </text>
+                <path d="M35.5829698,37.9310758 L208.665009,37.9310758" id="Line" stroke="#E9E9E9" stroke-width="0.605181954" stroke-linecap="square"></path>
+                <rect id="Rectangle-3" fill="#FFFFFF" x="56.4617472" y="335.983188" width="12.708821" height="2.42072781"></rect>
+            </g>
+            <use id="Rectangle" stroke="#D8D3DA" mask="url(#mask-2)" stroke-width="1.75675676" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

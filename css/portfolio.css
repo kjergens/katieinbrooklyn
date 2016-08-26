@@ -2,7 +2,7 @@
   border-bottom: 0px; }
 
 /*
-    Portfolio menu (Data Viz, etc.)
+    Portfolio menu (Information Architecture, Data Visualisation, etc.)
 */
 #subnav_container {
   margin-top: -20px; }
@@ -32,13 +32,13 @@ figure {
   position: relative; }
 
 img {
-  max-width: 550px;
+  max-width: 650px;
   vertical-align: top;
   border: 1px solid #efefef; }
 
 .thumb {
-  max-width: 200px;
-  margin-right: 10px; }
+  max-width: 300px;
+  margin-right: 5px; }
 
 figcaption {
   background-color: #efefef;

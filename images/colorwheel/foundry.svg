@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="322px" height="149px" viewBox="0 0 322 149" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>foundry</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="3-colors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="foundry">
+            <circle id="Oval" fill="#8000B0" cx="175" cy="121" r="25"></circle>
+            <circle id="Oval-Copy" fill="#77CC00" cx="125" cy="121" r="25"></circle>
+            <circle id="Oval-Copy-2" fill="#FF6000" cx="225" cy="121" r="25"></circle>
+            <text id="Foundry" stroke="#FF6000" font-family="DINCondensed-Bold, DIN Condensed" font-size="100" font-weight="bold" fill="#FF6000">
+                <tspan x="36" y="87">Foundry</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
