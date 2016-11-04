@@ -2,6 +2,16 @@ var data =
     {
        menu: 
           [
+          {
+  title: 'Emma Watson\'s Dress in the new Beauty and the Beast is Just so Yellow',
+  subtitle: 'I think we can do better.',
+  link: 'emma.html',
+  big_image: 'emma/fbook.png',
+  recent: 'emma/fbook.png',
+  thumb: 'emma/fbook.png',
+  date: 'Nov 4, 2016',
+  blurb: ''
+},
               {
               title: 'Steps to a Fail-Proof Color Palette, Part 1/4',
               subtitle: 'Interactive tool included.',
