@@ -2,19 +2,19 @@ var data =
     {
        menu: 
           [
-          {
-  title: 'Emma Watson\'s Dress in the new Beauty and the Beast is Just so Yellow',
-  subtitle: 'I think we can do better.',
-  link: 'emma.html',
-  big_image: 'emma/fbook.png',
-  recent: 'emma/fbook.png',
-  thumb: 'emma/fbook.png',
-  date: 'Nov 4, 2016',
-  blurb: ''
-},
+            {
+              title: 'Emma Watson\'s Dress in the new Beauty and the Beast is Just so Yellow',
+              subtitle: 'I think we can do better.',
+              link: 'emma.html',
+              big_image: 'emma/fbook.png',
+              recent: 'emma/fbook.png',
+              thumb: 'emma/fbook.png',
+              date: 'Nov 4, 2016',
+              blurb: 'I tried to give it a better yellow.'
+            },
               {
-              title: 'Steps to a Fail-Proof Color Palette, Part 1/4',
-              subtitle: 'Interactive tool included.',
+              title: 'How to Make a Fail-Proof Color Palette, Part 1/4',
+              subtitle: 'Interactive tools included.',
               link: 'colors1.html',
               big_image: 'colorwheel/title.svg',
               recent: 'colorwheel/title.svg',
@@ -23,7 +23,7 @@ var data =
               blurb: 'Be it your webpage, logo or bedroom, you might be scared your color choices don\'t pass graphics muster. Here is a tool for a fail-proof color palette.'
             },
             { title: 'Presidential Campaign Posters: Graphical Strategies to Get the Vote',
-              subtitle: 'Five ways to draw votes.',
+              subtitle: '',
               link: 'campaigns.html',
               big_image: 'campaigns/nixon.png',
               recent: 'campaigns/nixon.png',
@@ -32,8 +32,8 @@ var data =
               blurb: 'Five strategies to lure in the vote, and the results for better or worse.'
            }, 
            {
-              title: 'Winner of the Longest-Running Constitution: the U.S.!',
-              subtitle: 'Infographic.',
+              title: 'The Oldest Constitution: U.S.A.!',
+              subtitle: 'Infographic comparing constitutions.',
               link: 'constitutions.html',
               big_image: 'constitutions/big.svg',
               thumb: 'constitutions/thumb.svg',
@@ -43,7 +43,7 @@ var data =
            },
           {
               title: '5 Keys to Getting Smarter',
-              subtitle: 'Illustrations of the steps to smart.',
+              subtitle: 'Illustrations on how to train your brain.',
               link: 'smart.html',
               big_image: 'smart/bigimage.png',
               thumb: 'smart/thumb.svg',
@@ -62,8 +62,8 @@ var data =
               blurb: 'See what a baby sees in the first year of life.'
               },
              {
-              title: 'A Giant Step Closer to Elusive Pure Blue',
-              subtitle: 'Move over cobalt.',
+              title: 'A Giant Step Closer to Pure Blue',
+              subtitle: 'Move over cobalt, there\'s a bluer blue in town.',
               link: 'blue.html',
               big_image: 'blue/pigments.png',
               thumb: 'blue/thumb.png',
@@ -176,8 +176,8 @@ var data =
               date: 'Jan 18, 2016'
             },
             {
-              title: 'Popular Games and Toys That Are Knock-Offs',
-              subtitle: 'See the originals.',
+              title: 'Beloved Games and Toys That Are Actually Knock-Offs',
+              subtitle: 'LEGO wasn\'t the first to do that.',
               link: 'games.html',
               thumb: 'games/thumb.png',
               date: 'Feb 7, 2016'
@@ -194,7 +194,7 @@ var data =
           [ 
           {
               title: '5 Keys to Getting Smarter',
-              subtitle: 'Illustrations of the steps to smart.',
+              subtitle: 'Illustrations on how to train your brain.',
               link: 'smart.html',
               big_image: 'smart/bigimage.png',
               thumb: 'smart/thumb.svg',
