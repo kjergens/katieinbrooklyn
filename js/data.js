@@ -4,11 +4,11 @@ var data =
           [
             {
               title: 'Emma Watson\'s Dress in the new Beauty and the Beast is Just so Yellow',
-              subtitle: 'I think we can do better.',
+              subtitle: '',
               link: 'emma.html',
               big_image: 'emma/fbook.png',
               recent: 'emma/fbook.png',
-              thumb: 'emma/fbook.png',
+              thumb: 'emma/thumb.png',
               date: 'Nov 4, 2016',
               blurb: 'I tried to give it a better yellow.'
             },
@@ -22,14 +22,14 @@ var data =
               date: 'Aug 22, 2016',
               blurb: 'Be it your webpage, logo or bedroom, you might be scared your color choices don\'t pass graphics muster. Here is a tool for a fail-proof color palette.'
             },
-            { title: 'Presidential Campaign Posters: Graphical Strategies to Get the Vote',
-              subtitle: '',
+            { title: 'Presidential Campaign Posters',
+              subtitle: 'Age-old strategies to win your vote.',
               link: 'campaigns.html',
               big_image: 'campaigns/nixon.png',
               recent: 'campaigns/nixon.png',
               thumb: 'campaigns/nixon.png',
               date: 'Aug 8, 2016',
-              blurb: 'Five strategies to lure in the vote, and the results for better or worse.'
+              blurb: 'Time and again candidates have used the same strategies to lure in the vote. Here are the results for better or worse.'
            }, 
            {
               title: 'The Oldest Constitution: U.S.A.!',
@@ -39,7 +39,7 @@ var data =
               thumb: 'constitutions/thumb.svg',
               recent: 'constitutions/thumb.svg',
               date: 'Jul 20, 2016',
-              blurb: 'Active for 227 years, the U.S. Constitution is the longest-running in the world, by a lot. By most countries\' standards, it\'s vintage. More than half of all sovereign nations...'
+              blurb: 'Active for 227 years, the U.S. Constitution is the longest-running in the world, by a lot. Over half of all sovereign nations...'
            },
           {
               title: '5 Keys to Getting Smarter',
@@ -63,13 +63,13 @@ var data =
               },
              {
               title: 'A Giant Step Closer to Pure Blue',
-              subtitle: 'Move over cobalt, there\'s a bluer blue in town.',
+              subtitle: 'We\'ve never seen a substance this blue before.',
               link: 'blue.html',
               big_image: 'blue/pigments.png',
               thumb: 'blue/thumb.png',
               recent: 'blue/recent.png',
               date: 'Jul 4, 2016',
-              blurb: 'Move over cerulean and cobalt. There\'s a new blue in town. It doesn\'t fade, it reflects infrared light, is non-toxic and everybody\'s into it.'
+              blurb: 'Scientists have created a substance closer to pure blue as we\'ve ever been. Also it is fade-proof, reflects infrared light, and is non-toxic.'
              },
              {
               title: 'Designing an Image: The Accountant',

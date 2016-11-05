@@ -27,9 +27,7 @@ var show_featured = function() {
     "<div class='title'>" + data.menu[0].title + "</div>" +
     "</a>" +
     "<div class='date'>" + data.menu[0].date + "<span id=\"latest\">Latest</span></div><br>" +
-    '<div id="twitter"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.katieinbrooklyn.com/blog/index.html">Tweet</a></div>' +
-    '<div class="fb-like" data-share="true" data-width="240" data-show-faces="false"></div>' +
-    '<div class="clearfix"></div>' +
+
     "<p>" + data.menu[0].blurb + 
    "<a href=\"" + data.menu[0].link + "\"> Read more.</a>" + "</p></div>";
 

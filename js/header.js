@@ -20,7 +20,6 @@ var nav = '<nav class="navbar navbar-default" > \
         <li><a href="contact.html">Contact</a></li> \
       </ul> \
     </div><!-- /.navbar-collapse --> \
-     <div class=\"row\" id="tag">Short articles about the things we see.</div> \
   </div><!-- /.container-fluid --> \
 </nav>';
 
