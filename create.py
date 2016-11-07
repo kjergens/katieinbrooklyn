@@ -8,7 +8,7 @@ cmdargs = str(sys.argv)
 imgdir = sys.argv[1]
 filename = sys.argv[1] + '.html'
 
-print 'Preparing ' + filename
+print 'Preparing ' + filename + '...',
 
 if os.path.isfile(filename):
 	# if file exists, open it and do some substitutions
@@ -30,3 +30,5 @@ f=open(filename, 'w')
 f.write(s)
 f.flush()
 f.close()
+
+print 'Done.'
