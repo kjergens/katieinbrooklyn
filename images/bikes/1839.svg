@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="865px" height="500px" viewBox="0 0 865 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+<svg width="865px" height="500px" viewBox="0 0 865 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #F6F3E5;">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
     <title>1839</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="77.2401486%" id="radialGradient-1">
-            <stop stop-color="#FFFFFF" offset="0%"></stop>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="149.205198%" id="radialGradient-1">
+            <stop stop-color="#F5F2EE" offset="0%"></stop>
             <stop stop-color="#EED5BB" offset="100%"></stop>
         </radialGradient>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
@@ -55,7 +55,7 @@
                     <path d="M134.718894,7.87506574 L134.718894,272.578392" id="Line" stroke="#1A1A1A" stroke-width="4" stroke-linecap="square"></path>
                     <path d="M199.048834,21.7719401 L68.1517531,253.947056" id="Line-Copy-4" stroke="#1A1A1A" stroke-width="4" stroke-linecap="square"></path>
                     <path d="M251.598758,63.8118786 L21.3345488,203.308039" id="Line-Copy-5" stroke="#1A1A1A" stroke-width="4" stroke-linecap="square"></path>
-                    <path d="M232.489695,35.148284 C232.489695,35.148284 261.631016,60.9455222 273.096453,85.3095743 C284.561891,109.673626 285.517344,135.470865 285.517344,135.470865 L232.489695,135.470861 L232.489695,35.148284 Z" id="Rectangle-79" fill="#88684A"></path>
+                    <path d="M232.489695,35.148284 C232.489695,35.148284 261.631016,60.9455222 273.096453,85.3095743 C284.561891,109.673626 285.517344,135.470865 285.517344,135.470865 L232.489695,135.470861 L232.489695,35.148284 Z" id="Rectangle-79" fill="#4A4A4A"></path>
                     <path d="M1.7477592,137.859498 L266.847782,137.859498" id="Line" stroke="#1A1A1A" stroke-width="4" stroke-linecap="square"></path>
                     <path d="M11.7800173,81.0100353 L254.465117,190.887147" id="Line-Copy-6" stroke="#1A1A1A" stroke-width="4" stroke-linecap="square"></path>
                     <path d="M59.5526747,29.4155653 L212.425179,243.437071" id="Line-Copy-7" stroke="#1A1A1A" stroke-width="4" stroke-linecap="square"></path>
@@ -72,18 +72,18 @@
                 </g>
                 <g id="body" transform="translate(133.763441, 16.242704)">
                     <polyline id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square" points="166.726575 164.815668 280.903226 51.59447 273.737327 0.477726575 283.769585 33.4408602"></polyline>
-                    <rect id="Rectangle-64-Copy" fill="#88684A" transform="translate(339.445933, 24.906880) rotate(-281.000000) translate(-339.445933, -24.906880) " x="331.324581" y="13.9191688" width="16.2427035" height="21.9754224" rx="4"></rect>
-                    <path d="M5.73271889,126.119818 C-18.1536098,89.3348694 50.6390147,116.087556 86.4685076,126.119816 C122.298,136.152075 154.250758,135.178793 194.434713,111.310292 C215.319898,98.9048913 256.539174,56.3717356 276.125964,44.9062978 C295.712753,33.4408601 340.141318,24.3640553 340.141318,24.3640553" id="Path-63" stroke="#88684A" stroke-width="20"></path>
+                    <rect id="Rectangle-64-Copy" fill="#4A4A4A" transform="translate(339.445933, 24.906880) rotate(-281.000000) translate(-339.445933, -24.906880) " x="331.324581" y="13.9191688" width="16.2427035" height="21.9754224" rx="4"></rect>
+                    <path d="M5.73271889,126.119818 C-18.1536098,89.3348694 50.6390147,116.087556 86.4685076,126.119816 C122.298,136.152075 154.250758,135.178793 194.434713,111.310292 C215.319898,98.9048913 256.539174,56.3717356 276.125964,44.9062978 C295.712753,33.4408601 340.141318,24.3640553 340.141318,24.3640553" id="Path-63" stroke="#4A4A4A" stroke-width="20"></path>
                     <path d="M157.172043,133.285714 C157.172043,133.285714 154.737281,147.169681 157.172043,153.35023 C158.877578,157.679666 169.592934,164.815668 169.592934,164.815668" id="Line" stroke="#574432" stroke-width="3" stroke-linecap="square"></path>
                 </g>
                 <g id="handle" transform="translate(369.760369, 13.376344)">
-                    <path d="M110.216194,162.992796 L55.4162826,47.7726575" id="Line" stroke="#88684A" stroke-width="8" stroke-linecap="square"></path>
+                    <path d="M110.216194,162.992796 L55.4162826,47.7726575" id="Line" stroke="#4A4A4A" stroke-width="8" stroke-linecap="square"></path>
                     <g id="Oval-10">
                         <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
                         <use fill="#1A1A1A" fill-rule="evenodd" xlink:href="#path-4"></use>
                     </g>
                     <path d="M49.2058372,35.8294931 C49.2058372,35.8294931 49.6670132,11.1853225 42.9953917,5.25499232 C38.2015754,0.99382228 14.8095238,5.25499232 14.8095238,5.25499232" id="Line" stroke="#1A1A1A" stroke-width="3" stroke-linecap="square"></path>
-                    <use id="Rectangle-64" stroke="#88684A" mask="url(#mask-7)" stroke-width="2" fill="#88684A" transform="translate(55.635713, 41.666783) rotate(-293.000000) translate(-55.635713, -41.666783) " xlink:href="#path-6"></use>
+                    <use id="Rectangle-64" stroke="#979797" mask="url(#mask-7)" stroke-width="2" fill="#4A4A4A" transform="translate(55.635713, 41.666783) rotate(-293.000000) translate(-55.635713, -41.666783) " xlink:href="#path-6"></use>
                     <rect id="Rectangle-51" fill="#88684A" x="0" y="0" width="38.218126" height="7.64362519" rx="3.8218126"></rect>
                 </g>
                 <g id="back-attacher" transform="translate(119.097294, 133.784894)">

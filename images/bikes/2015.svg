@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="865px" height="500px" viewBox="0 0 865 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+<svg width="865px" height="500px" viewBox="0 0 865 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #F6F3E5;">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
     <title>2015</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="77.2401486%" id="radialGradient-1">
-            <stop stop-color="#FFFFFF" offset="0%"></stop>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="149.205198%" id="radialGradient-1">
+            <stop stop-color="#F5F2EE" offset="0%"></stop>
             <stop stop-color="#EED5BB" offset="100%"></stop>
         </radialGradient>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
@@ -14,33 +14,28 @@
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-3">
             <feGaussianBlur stdDeviation="1.97782629" in="SourceGraphic"></feGaussianBlur>
         </filter>
-        <ellipse id="path-4" cx="101.481508" cy="102.135163" rx="90.5085837" ry="90.4927605"></ellipse>
-        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-9" y="-9" width="199.017167" height="198.985521">
-            <rect x="1.97292414" y="2.64240274" width="199.017167" height="198.985521" fill="white"></rect>
-            <use xlink:href="#path-4" fill="black"></use>
+        <ellipse id="path-4" cx="116.493571" cy="116.650006" rx="116.380347" ry="116.360001"></ellipse>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="232.760694" height="232.720001" fill="white">
+            <use xlink:href="#path-4"></use>
         </mask>
-        <ellipse id="path-6" cx="101.994371" cy="102.131336" rx="101.895239" ry="101.877425"></ellipse>
-        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="203.790479" height="203.754851" fill="white">
-            <use xlink:href="#path-6"></use>
+        <ellipse id="path-6" cx="115.640425" cy="117.506052" rx="98.5232765" ry="98.5060521"></ellipse>
+        <mask id="mask-7" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-6" y="-6" width="209.046553" height="209.012104">
+            <rect x="11.1171484" y="13" width="209.046553" height="209.012104" fill="white"></rect>
+            <use xlink:href="#path-6" fill="black"></use>
         </mask>
-        <ellipse id="path-8" cx="102.11871" cy="102.005278" rx="84.2600021" ry="84.2452714"></ellipse>
-        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-6" y="-6" width="180.520004" height="180.490543">
-            <rect x="11.8587079" y="11.7600067" width="180.520004" height="180.490543" fill="white"></rect>
-            <use xlink:href="#path-8" fill="black"></use>
+        <ellipse id="path-8" cx="114.993036" cy="112.150968" rx="108.879997" ry="108.860962"></ellipse>
+        <mask id="mask-9" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="217.759995" height="217.721925" fill="white">
+            <use xlink:href="#path-8"></use>
         </mask>
-        <ellipse id="path-10" cx="102.799024" cy="101.233617" rx="98.2810595" ry="98.2638775"></ellipse>
-        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="196.562119" height="196.527755" fill="white">
-            <use xlink:href="#path-10"></use>
+        <ellipse id="path-10" cx="114.992148" cy="111.153591" rx="107.875" ry="107.856141"></ellipse>
+        <mask id="mask-11" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-9" y="-9" width="233.75" height="233.712281">
+            <rect x="-1.88285156" y="-5.70254982" width="233.75" height="233.712281" fill="white"></rect>
+            <use xlink:href="#path-10" fill="black"></use>
         </mask>
-        <ellipse id="path-12" cx="102.798222" cy="100.33333" rx="97.3738938" ry="97.3568704"></ellipse>
-        <mask id="mask-13" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-9" y="-9" width="212.747788" height="212.713741">
-            <rect x="-3.57567132" y="-6.02354054" width="212.747788" height="212.713741" fill="white"></rect>
+        <ellipse id="path-12" cx="114.493772" cy="111.654777" rx="110.376624" ry="110.357327"></ellipse>
+        <mask id="mask-13" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-9" y="-9" width="238.753247" height="238.714654">
+            <rect x="-4.88285156" y="-7.70254982" width="238.753247" height="238.714654" fill="white"></rect>
             <use xlink:href="#path-12" fill="black"></use>
-        </mask>
-        <ellipse id="path-14" cx="102.348361" cy="100.785728" rx="99.6319966" ry="99.6145784"></ellipse>
-        <mask id="mask-15" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-9" y="-9" width="217.263993" height="217.229157">
-            <rect x="-6.28363592" y="-7.82885028" width="217.263993" height="217.229157" fill="white"></rect>
-            <use xlink:href="#path-14" fill="black"></use>
         </mask>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -48,143 +43,142 @@
             <g id="background" fill="url(#radialGradient-1)">
                 <rect x="0" y="0" width="865" height="500"></rect>
             </g>
-            <g transform="translate(166.000000, 89.000000)">
-                <ellipse id="front-shadow" fill="#BAB0B0" filter="url(#filter-2)" cx="120.534258" cy="334.432601" rx="120.534258" ry="4.8447747"></ellipse>
-                <ellipse id="back-shadow" fill="#BAB0B0" filter="url(#filter-3)" cx="434.115127" cy="334.432601" rx="120.534258" ry="4.8447747"></ellipse>
-                <circle id="Oval-171" stroke="#979797" fill="#D8D8D8" cx="418" cy="132" r="2"></circle>
-                <g id="frontwheel" transform="translate(345.591304, 133.200000)">
-                    <g id="spokes" transform="translate(16.993021, 15.584549)" stroke="#4A4A4A" stroke-linecap="square">
-                        <path d="M61.3969957,166.534335 L111.959227,2.00643777" id="Line"></path>
-                        <path d="M5.2167382,59.7918455 L170.54721,112.761803" id="Line"></path>
-                        <path d="M44.5429185,9.22961373 L127.208155,160.113734" id="Line"></path>
-                        <path d="M78.251073,0.401287554 L95.1051502,171.349785" id="Line"></path>
-                        <path d="M140.049356,19.6630901 L30.8991416,154.495708" id="Line"></path>
-                        <path d="M0.401287554,95.9077253 L172.954936,77.4484979" id="Line"></path>
-                        <path d="M21.2682403,30.0965665 L155.298283,140.049356" id="Line"></path>
-                        <path d="M163.324034,46.9506438 L9.22961373,124.800429" id="Line"></path>
+            <circle id="Oval-171" stroke="#979797" fill="#D8D8D8" cx="553" cy="203" r="2"></circle>
+            <polygon id="Rectangle-78" fill="#786E7B" transform="translate(550.823369, 112.287657) rotate(-13.000000) translate(-550.823369, -112.287657) " points="543.915845 111.802227 555.506645 107.429336 557.730894 112.776597 545.923926 117.145977"></polygon>
+            <g transform="translate(164.000000, 84.000000)">
+                <ellipse id="front-shadow" fill="#BAB0B0" filter="url(#filter-2)" cx="122.534258" cy="339.432601" rx="120.534258" ry="4.8447747"></ellipse>
+                <ellipse id="back-shadow" fill="#BAB0B0" filter="url(#filter-3)" cx="436.115127" cy="339.432601" rx="120.534258" ry="4.8447747"></ellipse>
+                <g id="frontwheel" transform="translate(320.591304, 111.200000)">
+                    <use id="tire" stroke="#000000" mask="url(#mask-5)" stroke-width="18" xlink:href="#path-4"></use>
+                    <use id="inner-tire" stroke="#88828A" mask="url(#mask-7)" stroke-width="12" xlink:href="#path-6"></use>
+                    <g id="spokes" transform="translate(15.408696, 20.800000)" stroke="#4A4A4A" stroke-linecap="square">
+                        <path d="M70.125,190.208333 L127.875,2.29166667" id="Line"></path>
+                        <path d="M5.95833333,68.2916667 L194.791667,128.791667" id="Line"></path>
+                        <path d="M50.875,10.5416667 L145.291667,182.875" id="Line"></path>
+                        <path d="M89.375,0.458333333 L108.625,195.708333" id="Line"></path>
+                        <path d="M159.958333,22.4583333 L35.2916667,176.458333" id="Line"></path>
+                        <path d="M0.458333333,109.541667 L197.541667,88.4583333" id="Line"></path>
+                        <path d="M24.2916667,34.375 L177.375,159.958333" id="Line"></path>
+                        <path d="M186.541667,53.625 L10.5416667,142.541667" id="Line"></path>
                     </g>
-                    <use id="tire-copy-2" stroke="#F1F1F1" mask="url(#mask-5)" stroke-width="18" xlink:href="#path-4"></use>
-                    <use id="tire" stroke="#000000" mask="url(#mask-7)" stroke-width="18" xlink:href="#path-6"></use>
-                    <use id="inner-tire" stroke="#88828A" mask="url(#mask-9)" stroke-width="12" xlink:href="#path-8"></use>
-                    <circle id="Oval-170" fill="#4A4A4A" cx="103.108901" cy="101.949356" r="6.56652361"></circle>
+                    <circle id="Oval-170" fill="#4A4A4A" cx="115.908696" cy="113.3" r="7.5"></circle>
                 </g>
-                <g id="backwheel" transform="translate(15.009995, 126.199997)">
-                    <g id="spokes-copy-4" transform="translate(101.915158, 101.283880) rotate(-337.500000) translate(-101.915158, -101.283880) translate(92.437282, -0.264793)" stroke="#4A4A4A">
-                        <polygon id="Triangle-3" points="8.54721052 138.246497 16.8705988 202.735803 0.223822209 202.735803"></polygon>
-                        <polygon id="Triangle-3-Copy" transform="translate(10.148444, 32.703490) scale(1, -1) translate(-10.148444, -32.703490) " points="10.148444 0.458837085 18.4718323 64.9481425 1.8250557 64.9481425"></polygon>
-                        <polygon id="Triangle-105" points="10.0919503 62.239617 15.0651862 89.3663581 5.11871448 89.3663581"></polygon>
-                        <polygon id="Triangle-105-Copy" transform="translate(8.382164, 128.383670) scale(-1, -1) translate(-8.382164, -128.383670) " points="8.38216373 114.820299 13.3553996 141.94704 3.40892787 141.94704"></polygon>
+                <g id="backwheel" transform="translate(0.006957, 113.200000)">
+                    <g id="spokes-copy-4" transform="translate(113.013852, 112.206651) rotate(-337.500000) translate(-113.013852, -112.206651) translate(102.513852, -0.293349)" stroke="#4A4A4A">
+                        <polygon id="Triangle-3" points="9.46896852 153.155433 18.6899771 224.599468 0.247959898 224.599468"></polygon>
+                        <polygon id="Triangle-3-Copy" transform="translate(11.242884, 36.230337) scale(1, -1) translate(-11.242884, -36.230337) " points="11.2428841 0.508319516 20.4638927 71.952354 2.02187543 71.952354"></polygon>
+                        <polygon id="Triangle-105" points="11.1802979 68.9517326 16.6898631 99.0039065 5.67073271 99.0039065"></polygon>
+                        <polygon id="Triangle-105-Copy" transform="translate(9.286123, 142.228968) scale(-1, -1) translate(-9.286123, -142.228968) " points="9.28612257 127.202881 14.7956878 157.255055 3.77655735 157.255055"></polygon>
                     </g>
-                    <g id="spokes-copy-8" transform="translate(101.483755, 101.464174) rotate(-315.000000) translate(-101.483755, -101.464174) translate(92.005879, -0.084499)" stroke="#4A4A4A">
-                        <polygon id="Triangle-3" points="8.86210058 137.827756 17.1854889 202.317062 0.538712266 202.317062"></polygon>
-                        <polygon id="Triangle-3-Copy" transform="translate(10.463334, 32.284749) scale(1, -1) translate(-10.463334, -32.284749) " points="10.4633341 0.0400960138 18.7867224 64.5294015 2.13994576 64.5294015"></polygon>
-                        <polygon id="Triangle-105" points="10.4068404 61.8208759 15.3800763 88.947617 5.43360454 88.947617"></polygon>
-                        <polygon id="Triangle-105-Copy" transform="translate(8.697054, 127.964929) scale(-1, -1) translate(-8.697054, -127.964929) " points="8.69705379 114.401558 13.6702896 141.528299 3.72381793 141.528299"></polygon>
+                    <g id="spokes-copy-8" transform="translate(112.535925, 112.406389) rotate(-315.000000) translate(-112.535925, -112.406389) translate(102.035925, -0.093611)" stroke="#4A4A4A">
+                        <polygon id="Triangle-3" points="9.81781731 152.691534 19.0388259 224.135568 0.596808687 224.135568"></polygon>
+                        <polygon id="Triangle-3-Copy" transform="translate(11.591733, 35.766437) scale(1, -1) translate(-11.591733, -35.766437) " points="11.5917328 0.0444200937 20.8127415 71.4884546 2.37072422 71.4884546"></polygon>
+                        <polygon id="Triangle-105" points="11.5291467 68.4878332 17.0387119 98.5400071 6.0195815 98.5400071"></polygon>
+                        <polygon id="Triangle-105-Copy" transform="translate(9.634971, 141.765068) scale(-1, -1) translate(-9.634971, -141.765068) " points="9.63497136 126.738981 15.1445366 156.791155 4.12540614 156.791155"></polygon>
                     </g>
-                    <g id="spokes-copy-9" transform="translate(101.890283, 101.542621) rotate(-292.500000) translate(-101.890283, -101.542621) translate(91.961079, -0.006051)" stroke="#4A4A4A">
-                        <polygon id="Triangle-3" points="9.03849487 138.098484 17.3618832 202.58779 0.715106557 202.58779"></polygon>
-                        <polygon id="Triangle-3-Copy" transform="translate(10.639728, 32.555477) scale(1, -1) translate(-10.639728, -32.555477) " points="10.6397284 0.310824351 18.9631167 64.8001298 2.31634005 64.8001298"></polygon>
-                        <polygon id="Triangle-105" points="10.5832347 62.0916043 15.5564706 89.2183453 5.60999883 89.2183453"></polygon>
-                        <polygon id="Triangle-105-Copy" transform="translate(8.873448, 128.235657) scale(-1, -1) translate(-8.873448, -128.235657) " points="8.87344808 114.672287 13.8466839 141.799028 3.90021222 141.799028"></polygon>
+                    <g id="spokes-copy-9" transform="translate(112.986294, 112.493296) rotate(-292.500000) translate(-112.986294, -112.493296) translate(101.986294, -0.006704)" stroke="#4A4A4A">
+                        <polygon id="Triangle-3" points="10.0132345 152.991458 19.2342431 224.435493 0.792225892 224.435493"></polygon>
+                        <polygon id="Triangle-3-Copy" transform="translate(11.787150, 36.066362) scale(1, -1) translate(-11.787150, -36.066362) " points="11.78715 0.344344624 21.0081587 71.7883791 2.56614143 71.7883791"></polygon>
+                        <polygon id="Triangle-105" points="11.7245639 68.7877577 17.2341291 98.8399316 6.21499871 98.8399316"></polygon>
+                        <polygon id="Triangle-105-Copy" transform="translate(9.830389, 142.064993) scale(-1, -1) translate(-9.830389, -142.064993) " points="9.83038856 127.038906 15.3399538 157.09108 4.32082334 157.09108"></polygon>
                     </g>
-                    <g id="spokes-copy-10" transform="translate(101.866829, 101.539616) rotate(-270.000000) translate(-101.866829, -101.539616) translate(91.937625, -0.009057)" stroke="#4A4A4A">
-                        <polygon id="Triangle-3" points="9.11914566 138.084801 17.442534 202.574107 0.79575735 202.574107"></polygon>
-                        <polygon id="Triangle-3-Copy" transform="translate(10.720379, 32.541794) scale(1, -1) translate(-10.720379, -32.541794) " points="10.7203792 0.297141098 19.0437675 64.7864466 2.39699084 64.7864466"></polygon>
-                        <polygon id="Triangle-105" points="10.6638855 62.077921 15.6371213 89.2046621 5.69064963 89.2046621"></polygon>
-                        <polygon id="Triangle-105-Copy" transform="translate(8.954099, 128.221974) scale(-1, -1) translate(-8.954099, -128.221974) " points="8.95409887 114.658603 13.9273347 141.785344 3.98086301 141.785344"></polygon>
+                    <g id="spokes-copy-10" transform="translate(112.960310, 112.489966) rotate(-270.000000) translate(-112.960310, -112.489966) translate(101.960310, -0.010034)" stroke="#4A4A4A">
+                        <polygon id="Triangle-3" points="10.1025829 152.976299 19.3235916 224.420334 0.881574319 224.420334"></polygon>
+                        <polygon id="Triangle-3-Copy" transform="translate(11.876498, 36.051203) scale(1, -1) translate(-11.876498, -36.051203) " points="11.8764985 0.329185726 21.0975071 71.7732202 2.65548985 71.7732202"></polygon>
+                        <polygon id="Triangle-105" points="11.8139124 68.7725988 17.3234776 98.8247727 6.30434713 98.8247727"></polygon>
+                        <polygon id="Triangle-105-Copy" transform="translate(9.919737, 142.049834) scale(-1, -1) translate(-9.919737, -142.049834) " points="9.91973699 127.023747 15.4293022 157.075921 4.41017177 157.075921"></polygon>
                     </g>
-                    <g id="spokes-copy-11" transform="translate(101.845757, 101.943563) rotate(-247.500000) translate(-101.845757, -101.943563) translate(92.345757, -0.056437)" stroke="#4A4A4A">
-                        <polygon id="Triangle-3" points="8.37494925 138.651193 16.6983376 203.140499 0.0515609366 203.140499"></polygon>
-                        <polygon id="Triangle-3-Copy" transform="translate(9.976183, 33.108186) scale(1, -1) translate(-9.976183, -33.108186) " points="9.97618274 0.863533097 18.2995711 65.3528386 1.65279443 65.3528386"></polygon>
-                        <polygon id="Triangle-105" points="9.91968907 62.644313 14.8929249 89.7710541 4.94645321 89.7710541"></polygon>
-                        <polygon id="Triangle-105-Copy" transform="translate(8.209902, 128.788366) scale(-1, -1) translate(-8.209902, -128.788366) " points="8.20990246 115.224995 13.1831383 142.351736 3.2366666 142.351736"></polygon>
+                    <g id="spokes-copy-11" transform="translate(112.946543, 112.914916) rotate(-247.500000) translate(-112.946543, -112.914916) translate(102.446543, -0.085084)" stroke="#4A4A4A">
+                        <polygon id="Triangle-3" points="9.27812912 153.603987 18.4991377 225.048021 0.0571204966 225.048021"></polygon>
+                        <polygon id="Triangle-3-Copy" transform="translate(11.052045, 36.678890) scale(1, -1) translate(-11.052045, -36.678890) " points="11.0520447 0.956873101 20.2730533 72.4009076 1.83103603 72.4009076"></polygon>
+                        <polygon id="Triangle-105" points="10.9894585 69.4002862 16.4990237 99.4524601 5.47989331 99.4524601"></polygon>
+                        <polygon id="Triangle-105-Copy" transform="translate(9.095283, 142.677521) scale(-1, -1) translate(-9.095283, -142.677521) " points="9.09528317 127.651434 14.6048484 157.703608 3.58571795 157.703608"></polygon>
                     </g>
-                    <g id="spokes-copy-12" transform="translate(102.146449, 101.713933) rotate(-225.000000) translate(-102.146449, -101.713933) translate(92.668573, 0.165260)" stroke="#4A4A4A">
-                        <polygon id="Triangle-3" points="8.86210058 138.341846 17.1854889 202.831152 0.538712266 202.831152"></polygon>
-                        <polygon id="Triangle-3-Copy" transform="translate(10.463334, 32.798839) scale(1, -1) translate(-10.463334, -32.798839) " points="10.4633341 0.554186182 18.7867224 65.0434916 2.13994576 65.0434916"></polygon>
-                        <polygon id="Triangle-105" points="10.4068404 62.3349661 15.3800763 89.4617072 5.43360454 89.4617072"></polygon>
-                        <polygon id="Triangle-105-Copy" transform="translate(8.697054, 128.479019) scale(-1, -1) translate(-8.697054, -128.479019) " points="8.69705379 114.915648 13.6702896 142.042389 3.72381793 142.042389"></polygon>
+                    <g id="spokes-copy-12" transform="translate(113.270086, 112.683083) rotate(-225.000000) translate(-113.270086, -112.683083) translate(102.770086, 0.183083)" stroke="#4A4A4A">
+                        <polygon id="Triangle-3" points="9.81781731 153.261065 19.0388259 224.705099 0.596808687 224.705099"></polygon>
+                        <polygon id="Triangle-3-Copy" transform="translate(11.591733, 36.335969) scale(1, -1) translate(-11.591733, -36.335969) " points="11.5917328 0.613951358 20.8127415 72.0579858 2.37072422 72.0579858"></polygon>
+                        <polygon id="Triangle-105" points="11.5291467 69.0573644 17.0387119 99.1095383 6.0195815 99.1095383"></polygon>
+                        <polygon id="Triangle-105-Copy" transform="translate(9.634971, 142.334599) scale(-1, -1) translate(-9.634971, -142.334599) " points="9.63497136 127.308512 15.1445366 157.360686 4.12540614 157.360686"></polygon>
                     </g>
-                    <g id="spokes-copy-13" transform="translate(101.815174, 101.782068) rotate(-202.500000) translate(-101.815174, -101.782068) translate(91.885970, 0.233395)" stroke="#4A4A4A">
-                        <polygon id="Triangle-3" points="9.13114313 138.164054 17.4545314 202.65336 0.807754817 202.65336"></polygon>
-                        <polygon id="Triangle-3-Copy" transform="translate(10.732377, 32.621047) scale(1, -1) translate(-10.732377, -32.621047) " points="10.7323766 0.376394038 19.0557649 64.8656995 2.40898831 64.8656995"></polygon>
-                        <polygon id="Triangle-105" points="10.675883 62.157174 15.6491188 89.283915 5.70264709 89.283915"></polygon>
-                        <polygon id="Triangle-105-Copy" transform="translate(8.966096, 128.301227) scale(-1, -1) translate(-8.966096, -128.301227) " points="8.96609634 114.737856 13.9393322 141.864597 3.99286048 141.864597"></polygon>
+                    <g id="spokes-copy-13" transform="translate(112.903084, 112.758565) rotate(-202.500000) translate(-112.903084, -112.758565) translate(101.903084, 0.258565)" stroke="#4A4A4A">
+                        <polygon id="Triangle-3" points="10.1158742 153.064099 19.3368829 224.508134 0.89486563 224.508134"></polygon>
+                        <polygon id="Triangle-3-Copy" transform="translate(11.889790, 36.139003) scale(1, -1) translate(-11.889790, -36.139003) " points="11.8897898 0.416985551 21.1107984 71.86102 2.66878116 71.86102"></polygon>
+                        <polygon id="Triangle-105" points="11.8272037 68.8603986 17.3367689 98.9125725 6.31763845 98.9125725"></polygon>
+                        <polygon id="Triangle-105-Copy" transform="translate(9.933028, 142.137634) scale(-1, -1) translate(-9.933028, -142.137634) " points="9.9330283 127.111547 15.4425935 157.163721 4.42346308 157.163721"></polygon>
                     </g>
-                    <g id="spokes-copy-14" transform="translate(101.707491, 101.733490) rotate(-180.000000) translate(-101.707491, -101.733490) translate(91.778287, 0.184818)" stroke="#4A4A4A">
-                        <polygon id="Triangle-3" points="9.11914566 138.084801 17.442534 202.574107 0.79575735 202.574107"></polygon>
-                        <polygon id="Triangle-3-Copy" transform="translate(10.720379, 32.541794) scale(1, -1) translate(-10.720379, -32.541794) " points="10.7203792 0.297141098 19.0437675 64.7864466 2.39699084 64.7864466"></polygon>
-                        <polygon id="Triangle-105" points="10.6638855 62.077921 15.6371213 89.2046621 5.69064963 89.2046621"></polygon>
-                        <polygon id="Triangle-105-Copy" transform="translate(8.954099, 126.416664) scale(-1, -1) translate(-8.954099, -126.416664) " points="8.95409887 112.853294 13.9273347 139.980035 3.98086301 139.980035"></polygon>
+                    <g id="spokes-copy-14" transform="translate(112.783789, 112.704749) rotate(-180.000000) translate(-112.783789, -112.704749) translate(101.783789, 0.204749)" stroke="#4A4A4A">
+                        <polygon id="Triangle-3" points="10.1025829 152.976299 19.3235916 224.420334 0.881574319 224.420334"></polygon>
+                        <polygon id="Triangle-3-Copy" transform="translate(11.876498, 36.051203) scale(1, -1) translate(-11.876498, -36.051203) " points="11.8764985 0.329185726 21.0975071 71.7732202 2.65548985 71.7732202"></polygon>
+                        <polygon id="Triangle-105" points="11.8139124 68.7725988 17.3234776 98.8247727 6.30434713 98.8247727"></polygon>
+                        <polygon id="Triangle-105-Copy" transform="translate(9.919737, 140.049834) scale(-1, -1) translate(-9.919737, -140.049834) " points="9.91973699 125.023747 15.4293022 155.075921 4.41017177 155.075921"></polygon>
                     </g>
-                    <use id="rim" stroke="#88828A" mask="url(#mask-11)" stroke-width="14" xlink:href="#path-10"></use>
-                    <use id="tire-copy-2" stroke="#F1F1F1" mask="url(#mask-13)" stroke-width="18" xlink:href="#path-12"></use>
-                    <use id="tire-copy" stroke="#000000" mask="url(#mask-15)" stroke-width="18" xlink:href="#path-14"></use>
+                    <use id="rim" stroke="#88828A" mask="url(#mask-9)" stroke-width="14" xlink:href="#path-8"></use>
+                    <use id="tire-copy-2" stroke="#F6F3E5" mask="url(#mask-11)" stroke-width="18" xlink:href="#path-10"></use>
+                    <use id="tire-copy" stroke="#000000" mask="url(#mask-13)" stroke-width="18" xlink:href="#path-12"></use>
                 </g>
-                <g id="body" transform="translate(113.191304, 56.102609)">
-                    <path d="M113.308696,44.3973913 L107.308696,16.3973913" id="Line" stroke="#979797" stroke-width="7" stroke-linecap="square"></path>
-                    <path d="M88.2930707,7.57903193 C88.2930707,7.57903193 89.8554779,15.0610646 95.2071332,18.5000009 C98.3333887,20.508911 102.129535,20.4989472 109.308696,18.5 C128.777446,13.0791712 132.015727,0.608328804 132.015727,0.608328804" id="Line" stroke="#4A4A4A" stroke-width="2" stroke-linecap="square"></path>
-                    <path d="M264.308696,17.3973913 L257.900646,0.919548427" id="Line" stroke="#979797" stroke-width="6" stroke-linecap="square"></path>
-                    <path d="M148.308696,186.850516 L109.808696,30.8973913" id="Line" stroke="#88684A" stroke-width="10" stroke-linecap="square"></path>
-                    <path d="M262.476359,34.2485664 C262.476359,34.2485664 199.565934,32.8207791 120.906352,62.2373876" id="Line" stroke="#88684A" stroke-width="11" stroke-linecap="square"></path>
-                    <path d="M115.308696,67.3973913 L1.30869565,176.397391" id="Line" stroke="#88684A" stroke-width="5" stroke-linecap="square"></path>
-                    <path d="M302.808696,115.897391 L260.808696,10.8973913" id="Line" stroke="#88684A" stroke-width="12" stroke-linecap="square"></path>
-                    <path d="M153.308696,179.635673 L275.808696,61.8973913" id="Line" stroke="#88684A" stroke-width="12" stroke-linecap="square"></path>
-                    <path d="M299.950289,122.466025 C303.161235,122.466025 310.083021,119.079032 310.083021,119.079032 C310.083021,119.079032 328.241108,160.478714 335.321018,173.672605 C343.147167,188.303079 331.583634,171.994327 331.583634,171.994327 C331.583634,171.994327 316.115527,143.686366 310.083022,134.758719 C305.000849,127.660556 299.950289,129.37786 299.950289,122.466025 Z" id="Path-244" fill="#88684A"></path>
+                <g id="body" transform="translate(115.191304, 54.102609)">
+                    <path d="M93.3086957,50.3973913 L84.3086957,25.3973913" id="Line" stroke="#979797" stroke-width="7" stroke-linecap="square"></path>
+                    <path d="M63.2930707,14.5790319 C63.2930707,14.5790319 64.8554779,22.0610646 70.2071332,25.5000009 C73.3333887,27.508911 77.1295345,27.4989472 84.3086956,25.5 C103.777446,20.0791712 107.015727,7.6083288 107.015727,7.6083288" id="Line" stroke="#4A4A4A" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M239.308696,24.3973913 L228.308696,0.397391304" id="Line" stroke="#979797" stroke-width="6" stroke-linecap="square"></path>
+                    <path d="M148.308696,193.850516 L90.1055707,41.2333288" id="Line" stroke="#4A4A4A" stroke-width="10" stroke-linecap="square"></path>
+                    <path d="M239.002055,34.2313757 C239.002055,34.2313757 169.765727,26.8055943 100.529399,58.1161413" id="Line" stroke="#4A4A4A" stroke-width="11" stroke-linecap="square"></path>
+                    <path d="M93.3086957,61.3973913 L0.906351902,168.545829" id="Line" stroke="#4A4A4A" stroke-width="5" stroke-linecap="square"></path>
+                    <path d="M284.656352,123.108328 L235.476664,17.2411413" id="Line" stroke="#4A4A4A" stroke-width="10" stroke-linecap="square"></path>
+                    <path d="M153.308696,186.635673 C153.308696,186.635673 204.648538,133.895438 248.082136,54.4677038" id="Line" stroke="#4A4A4A" stroke-width="12" stroke-linecap="square"></path>
+                    <path d="M290.991312,136.676688 C282.11143,127.122001 282.400493,130.882743 282.400493,130.882743 C282.400493,130.882743 280.874588,115.749417 282.203227,115.03704 C283.80395,114.178779 290.991313,124.56536 290.991313,124.56536 C290.991313,124.56536 315.383892,164.527762 322.470807,173.928641 C329.557721,183.32952 318.345807,173.928641 318.345807,173.928641 C318.345807,173.928641 299.871195,146.231376 290.991312,136.676688 Z" id="Path-244" fill="#4A4A4A"></path>
                 </g>
-                <path d="M114.050827,291.975619 C121.417334,299.384302 197.313696,270.220954 254.504918,261.780245 C279.017505,258.162493 279.806138,244.365032 279.806138,233.696598 C279.806138,218.166028 270.396533,203.255167 242.334624,207.332849 C214.272716,211.410531 92.6121638,222.986355 98.2562875,230.019739 C101.618375,234.20938 106.68432,284.566936 114.050827,291.975619 Z" id="chain" stroke="#625B64" stroke-width="3" transform="translate(188.936135, 249.910321) rotate(8.000000) translate(-188.936135, -249.910321) "></path>
-                <g id="left-pedal" transform="translate(209.374813, 244.022298) scale(1, -1) rotate(-17.000000) translate(-209.374813, -244.022298) translate(113.374813, 178.522298)">
-                    <rect id="pedal" fill="#88828A" transform="translate(164.468489, 96.636625) scale(1, -1) rotate(321.000000) translate(-164.468489, -96.636625) " x="135.418055" y="92.6296689" width="58.1008696" height="8.01391304"></rect>
-                    <rect id="footpad" fill="#3C1E1C" transform="translate(186.180276, 120.167311) scale(1, -1) rotate(-2.000000) translate(-186.180276, -120.167311) " x="181.69043" y="109.893068" width="8.97969136" height="20.5484853" rx="4.48984568"></rect>
-                    <path d="M143.400214,78.2079012 L1.39641766,53.8540131" id="Line" stroke="#88684A" stroke-width="7" stroke-linecap="square"></path>
-                    <path d="M142.873561,51.4588571 L147.882257,109.559727" id="Line" stroke="#4A4A4A" stroke-width="5" stroke-linecap="square"></path>
-                    <path d="M167.612401,59.1982962 L124.601562,100.519102" id="Line" stroke="#979797" stroke-width="5" stroke-linecap="square"></path>
-                    <path d="M121.013712,71.1394063 L172.451097,87.9129041" id="Line" stroke="#4A4A4A" stroke-width="5" stroke-linecap="square"></path>
-                    <g id="gear" transform="translate(6.220870, -0.000000)">
-                        <g id="Triangle-85-+-Triangle-85-Copy" transform="translate(133.034196, 56.032228)" fill="#4A4A4A">
+                <path d="M114.02094,296.975619 C121.833135,304.384302 202.321363,275.220954 262.972757,266.780245 C288.9684,263.162493 289.804746,249.365032 289.804746,238.696598 C289.804746,223.166028 279.825843,208.255167 250.066139,212.332849 C220.306434,216.410531 91.2851994,227.986355 97.2708027,235.019739 C100.836302,239.20938 106.208746,289.566936 114.02094,296.975619 Z" id="chain" stroke="#625B64" stroke-width="3" transform="translate(193.436944, 254.910321) rotate(8.000000) translate(-193.436944, -254.910321) "></path>
+                <g id="left-pedal" transform="translate(201.187427, 246.430547) scale(1, -1) rotate(-17.000000) translate(-201.187427, -246.430547) translate(94.687427, 180.430547)">
+                    <rect id="Rectangle-51-Copy" fill="#4A4A4A" transform="translate(185.468489, 97.636625) scale(1, -1) rotate(321.000000) translate(-185.468489, -97.636625) " x="156.418055" y="93.6296689" width="58.1008696" height="8.01391304"></rect>
+                    <rect id="Rectangle-52-Copy" fill="#3C1E1C" transform="translate(207.180276, 121.167311) scale(1, -1) rotate(-2.000000) translate(-207.180276, -121.167311) " x="202.69043" y="110.893068" width="8.97969136" height="20.5484853" rx="4.48984568"></rect>
+                    <path d="M164.400214,79.2079012 L1.11673603,57.1696404" id="Line" stroke="#4A4A4A" stroke-width="7" stroke-linecap="square"></path>
+                    <path d="M163.873561,52.4588571 L168.882257,110.559727" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M188.612401,60.1982962 L145.601562,101.519102" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M142.013712,72.1394063 L193.451097,88.9129041" id="Line" stroke="#979797" stroke-width="3" stroke-linecap="square"></path>
+                    <g id="gear" transform="translate(25.220870, -0.000000)">
+                        <g id="Triangle-85-+-Triangle-85-Copy" transform="translate(135.034196, 57.032228)" fill="#4A4A4A">
                             <polygon id="Triangle-85" transform="translate(9.193632, 4.325919) rotate(15.000000) translate(-9.193632, -4.325919) " points="9.19363231 1.82157081 13.2005888 6.83026647 5.18667579 6.83026647"></polygon>
                             <polygon id="Triangle-85-Copy" transform="translate(4.734896, 45.984405) scale(1, -1) translate(-4.734896, -45.984405) " points="4.73489615 43.4800571 8.74185268 48.4887527 0.727939632 48.4887527"></polygon>
                         </g>
-                        <g id="Triangle-85-+-Triangle-85-Copy-8" transform="translate(138.778368, 82.715578) rotate(-57.500000) translate(-138.778368, -82.715578) translate(133.278368, 59.715578)" fill="#4A4A4A">
+                        <g id="Triangle-85-+-Triangle-85-Copy-8" transform="translate(140.778368, 83.715578) rotate(-57.500000) translate(-140.778368, -83.715578) translate(135.278368, 60.715578)" fill="#4A4A4A">
                             <polygon id="Triangle-85" points="6.60225917 0.0125789747 10.6092157 5.02127463 2.59530265 5.02127463"></polygon>
                             <polygon id="Triangle-85-Copy" transform="translate(4.206651, 43.280509) scale(1, -1) translate(-4.206651, -43.280509) " points="4.20665116 40.776161 8.21360768 45.7848566 0.199694638 45.7848566"></polygon>
                         </g>
-                        <g id="Triangle-85-+-Triangle-85-Copy-10" transform="translate(139.492888, 84.010596) rotate(-79.500000) translate(-139.492888, -84.010596) translate(131.992888, 61.010596)" fill="#4A4A4A">
+                        <g id="Triangle-85-+-Triangle-85-Copy-10" transform="translate(141.492888, 85.010596) rotate(-79.500000) translate(-141.492888, -85.010596) translate(133.992888, 62.010596)" fill="#4A4A4A">
                             <polygon id="Triangle-85" points="10.6757087 0.140810105 14.6826652 5.14950576 6.66875215 5.14950576"></polygon>
                             <polygon id="Triangle-85-Copy" transform="translate(4.893081, 41.921669) scale(1, -1) rotate(-18.000000) translate(-4.893081, -41.921669) " points="4.89308113 39.4173209 8.90003765 44.4260165 0.886124607 44.4260165"></polygon>
                         </g>
-                        <g id="Triangle-85-+-Triangle-85-Copy-6" transform="translate(138.665534, 81.369342) rotate(-22.500000) translate(-138.665534, -81.369342) translate(131.165534, 56.869342)" fill="#4A4A4A">
+                        <g id="Triangle-85-+-Triangle-85-Copy-6" transform="translate(140.665534, 82.369342) rotate(-22.500000) translate(-140.665534, -82.369342) translate(133.165534, 57.869342)" fill="#4A4A4A">
                             <polygon id="Triangle-85" points="10.6620159 0.659781436 14.6689724 5.66847709 6.65505937 5.66847709"></polygon>
                             <polygon id="Triangle-85-Copy" transform="translate(4.635151, 45.578754) scale(1, -1) translate(-4.635151, -45.578754) " points="4.63515117 43.0744063 8.64210769 48.083102 0.628194644 48.083102"></polygon>
                         </g>
-                        <g id="Triangle-85-+-Triangle-85-Copy-9" transform="translate(140.537025, 82.809246) rotate(-280.500000) translate(-140.537025, -82.809246) translate(132.537025, 58.809246)" fill="#4A4A4A">
+                        <g id="Triangle-85-+-Triangle-85-Copy-9" transform="translate(142.537025, 83.809246) rotate(-280.500000) translate(-142.537025, -83.809246) translate(134.537025, 59.809246)" fill="#4A4A4A">
                             <polygon id="Triangle-85" points="4.01028334 0.725628418 8.01723986 5.73432407 0.00332682034 5.73432407"></polygon>
                             <polygon id="Triangle-85-Copy" transform="translate(11.163271, 44.624692) scale(1, -1) translate(-11.163271, -44.624692) " points="11.1632709 42.1203437 15.1702275 47.1290394 7.15631443 47.1290394"></polygon>
                         </g>
-                        <g id="Triangle-85-+-Triangle-85-Copy-5" transform="translate(139.994242, 81.546837) rotate(-337.500000) translate(-139.994242, -81.546837) translate(134.494242, 57.546837)" fill="#4A4A4A">
+                        <g id="Triangle-85-+-Triangle-85-Copy-5" transform="translate(141.994242, 82.546837) rotate(-337.500000) translate(-141.994242, -82.546837) translate(136.494242, 58.546837)" fill="#4A4A4A">
                             <polygon id="Triangle-85" points="6.47948559 0.981708193 10.4864421 5.99040384 2.47252907 5.99040384"></polygon>
                             <polygon id="Triangle-85-Copy" transform="translate(4.887046, 44.632774) scale(1, -1) translate(-4.887046, -44.632774) " points="4.88704647 42.128426 8.89400299 47.1371216 0.88008995 47.1371216"></polygon>
                         </g>
-                        <g id="Triangle-85-+-Triangle-85-Copy-4" transform="translate(138.327712, 82.161417) rotate(-45.000000) translate(-138.327712, -82.161417) translate(131.327712, 58.661417)" fill="#4A4A4A">
+                        <g id="Triangle-85-+-Triangle-85-Copy-4" transform="translate(140.327712, 83.161417) rotate(-45.000000) translate(-140.327712, -83.161417) translate(133.327712, 59.661417)" fill="#4A4A4A">
                             <polygon id="Triangle-85" points="9.14267482 0.669584894 13.1496313 5.67828055 5.1357183 5.67828055"></polygon>
                             <polygon id="Triangle-85-Copy" transform="translate(4.404879, 43.226024) scale(1, -1) rotate(-5.000000) translate(-4.404879, -43.226024) " points="4.4048793 40.7216759 8.41183583 45.7303715 0.397922782 45.7303715"></polygon>
                         </g>
-                        <g id="Triangle-85-+-Triangle-85-Copy-3" transform="translate(140.195089, 81.790647) rotate(-315.000000) translate(-140.195089, -81.790647) translate(134.195089, 57.790647)" fill="#4A4A4A">
+                        <g id="Triangle-85-+-Triangle-85-Copy-3" transform="translate(142.195089, 82.790647) rotate(-315.000000) translate(-142.195089, -82.790647) translate(136.195089, 58.790647)" fill="#4A4A4A">
                             <polygon id="Triangle-85" points="7.6573297 0.858869818 11.6642862 5.86756547 3.65037317 5.86756547"></polygon>
                             <polygon id="Triangle-85-Copy" transform="translate(4.749200, 44.711538) scale(1, -1) translate(-4.749200, -44.711538) " points="4.74920008 42.2071897 8.7561566 47.2158853 0.74224356 47.2158853"></polygon>
                         </g>
-                        <g id="Triangle-85-+-Triangle-85-Copy-2" transform="translate(140.193761, 82.509224) rotate(-270.000000) translate(-140.193761, -82.509224) translate(134.693761, 59.009224)" fill="#4A4A4A">
+                        <g id="Triangle-85-+-Triangle-85-Copy-2" transform="translate(142.193761, 83.509224) rotate(-270.000000) translate(-142.193761, -83.509224) translate(136.693761, 60.009224)" fill="#4A4A4A">
                             <polygon id="Triangle-85" points="4.66729235 0.354373323 8.67424887 5.36306897 0.660335823 5.36306897"></polygon>
                             <polygon id="Triangle-85-Copy" transform="translate(6.532654, 44.353839) scale(1, -1) translate(-6.532654, -44.353839) " points="6.53265355 41.8494909 10.5396101 46.8581865 2.52569703 46.8581865"></polygon>
                         </g>
-                        <path d="M139.627092,112.616454 C157.33094,112.616454 171.682744,98.26465 171.682744,80.5608021 C171.682744,62.8569543 157.33094,48.50515 139.627092,48.50515 C121.923244,48.50515 107.57144,62.8569543 107.57144,80.5608021 C107.57144,98.26465 121.923244,112.616454 139.627092,112.616454 Z M139.627092,106.60602 C154.011468,106.60602 165.672309,94.9451785 165.672309,80.5608021 C165.672309,66.1764258 154.011468,54.5155848 139.627092,54.5155848 C125.242716,54.5155848 113.581875,66.1764258 113.581875,80.5608021 C113.581875,94.9451785 125.242716,106.60602 139.627092,106.60602 Z" id="Oval-107" stroke="#4A4A4A" stroke-width="5"></path>
-                        <path d="M6.58474341,12.0873905 C9.89845191,12.0873905 12.5847434,9.40109899 12.5847434,6.08739049 C12.5847434,2.77368199 9.89845191,0.0873904881 6.58474341,0.0873904881 C3.27103491,0.0873904881 0.584743409,2.77368199 0.584743409,6.08739049 C0.584743409,9.40109899 3.27103491,12.0873905 6.58474341,12.0873905 Z M6.36440129,8.87057781 C8.02125554,8.87057781 9.36440129,7.52743205 9.36440129,5.87057781 C9.36440129,4.21372356 8.02125554,2.87057781 6.36440129,2.87057781 C4.70754704,2.87057781 3.36440129,4.21372356 3.36440129,5.87057781 C3.36440129,7.52743205 4.70754704,8.87057781 6.36440129,8.87057781 Z" id="Combined-Shape" fill="#4A4A4A"></path>
+                        <path d="M141.627092,113.616454 C159.33094,113.616454 173.682744,99.26465 173.682744,81.5608021 C173.682744,63.8569543 159.33094,49.50515 141.627092,49.50515 C123.923244,49.50515 109.57144,63.8569543 109.57144,81.5608021 C109.57144,99.26465 123.923244,113.616454 141.627092,113.616454 Z M141.627092,107.60602 C156.011468,107.60602 167.672309,95.9451785 167.672309,81.5608021 C167.672309,67.1764258 156.011468,55.5155848 141.627092,55.5155848 C127.242716,55.5155848 115.581875,67.1764258 115.581875,81.5608021 C115.581875,95.9451785 127.242716,107.60602 141.627092,107.60602 Z" id="Oval-107" stroke="#4A4A4A" stroke-width="7"></path>
+                        <path d="M6.6721339,12.5026471 C9.9858424,12.5026471 12.6721339,9.81635558 12.6721339,6.50264708 C12.6721339,3.18893858 9.9858424,0.502647079 6.6721339,0.502647079 C3.3584254,0.502647079 0.672133898,3.18893858 0.672133898,6.50264708 C0.672133898,9.81635558 3.3584254,12.5026471 6.6721339,12.5026471 Z M6.45179178,9.2858344 C8.10864603,9.2858344 9.45179178,7.94268865 9.45179178,6.2858344 C9.45179178,4.62898015 8.10864603,3.2858344 6.45179178,3.2858344 C4.79493753,3.2858344 3.45179178,4.62898015 3.45179178,6.2858344 C3.45179178,7.94268865 4.79493753,9.2858344 6.45179178,9.2858344 Z" id="Combined-Shape" fill="#4A4A4A"></path>
                     </g>
-                    <path d="M126.127667,63.5787945 L167.127667,99.5787945" id="Line" stroke="#4A4A4A" stroke-width="5" stroke-linecap="square"></path>
-                    <path d="M124.215058,62.9940511 L165.215058,98.9940511" id="Line-Copy" stroke="#4A4A4A" stroke-width="5" stroke-linecap="square" transform="translate(144.715058, 80.994051) scale(-1, 1) translate(-144.715058, -80.994051) "></path>
+                    <path d="M147.127667,64.5787945 L188.127667,100.578794" id="Line" stroke="#4A4A4A" stroke-width="5" stroke-linecap="square"></path>
+                    <path d="M145.215058,63.9940511 L186.215058,99.9940511" id="Line-Copy" stroke="#4A4A4A" stroke-width="5" stroke-linecap="square" transform="translate(165.715058, 81.994051) scale(-1, 1) translate(-165.715058, -81.994051) "></path>
                 </g>
-                <path d="M105.359375,235.736328 C105.359375,235.736328 117.48741,240.426376 118.96875,247.125 C120.45009,253.823624 113.082031,270.658203 113.082031,270.658203" id="Line" stroke="#4A4A4A" stroke-width="5" stroke-linecap="square"></path>
-                <g id="back-gear" transform="translate(93.985777, 204.293703)" fill="#4A4A4A">
+                <g id="gear-copy" transform="translate(89.985777, 200.293703)" fill="#4A4A4A">
                     <g id="Triangle-85-+-Triangle-85-Copy" transform="translate(18.006370, 3.037445)">
                         <polygon id="Triangle-85" points="4.702297 0.0466829799 8.70925352 5.05537863 0.69534048 5.05537863"></polygon>
                         <polygon id="Triangle-85-Copy" transform="translate(5.704036, 38.613640) scale(1, -1) translate(-5.704036, -38.613640) " points="5.70403613 36.1092917 9.71099265 41.1179873 1.69707961 41.1179873"></polygon>
@@ -223,24 +217,24 @@
                         <polygon id="Triangle-85-Copy" transform="translate(4.258977, 37.499409) scale(1, -1) translate(-4.258977, -37.499409) " points="4.25897721 34.9950607 8.26593373 40.0037563 0.252020686 40.0037563"></polygon>
                     </g>
                 </g>
-                <g id="right-pedal" transform="translate(206.384348, 237.429565)">
-                    <path d="M58.1156522,5.07043478 L16.1156522,41.0704348" id="Line" stroke="#88828A" stroke-width="7" stroke-linecap="square"></path>
-                    <rect id="Rectangle-52" fill="#3C1E1C" transform="translate(10.983217, 43.588737) rotate(-78.000000) translate(-10.983217, -43.588737) " x="6.49337151" y="33.3144939" width="8.97969136" height="20.5484853" rx="4.48984568"></rect>
-                    <ellipse id="Oval-10" fill="#4A4A4A" cx="56.1526795" cy="6.05596838" rx="6.0570273" ry="6.05596838"></ellipse>
+                <g id="right-pedal" transform="translate(202.384348, 243.429565)">
+                    <rect id="Rectangle-51" fill="#4A4A4A" x="10.0720006" y="20.3942819" width="58.1008696" height="8.01391304"></rect>
+                    <rect id="Rectangle-52" fill="#3C1E1C" transform="translate(10.983217, 41.588737) rotate(-78.000000) translate(-10.983217, -41.588737) " x="6.49337151" y="31.3144939" width="8.97969136" height="20.5484853" rx="4.48984568"></rect>
+                    <ellipse id="Oval-10" fill="#4A4A4A" cx="61.1526795" cy="6.05596838" rx="6.0570273" ry="6.05596838"></ellipse>
                 </g>
-                <g id="back-attacher" transform="translate(116.305454, 228.073770) rotate(-5.000000) translate(-116.305454, -228.073770) translate(99.305454, 211.073770)">
+                <g id="back-attacher" transform="translate(112.305454, 224.073770) rotate(-5.000000) translate(-112.305454, -224.073770) translate(95.305454, 207.073770)">
                     <ellipse id="Oval-73" fill="#3C1E1C" cx="16.9618857" cy="16.9101311" rx="16.5286957" ry="16.5286957"></ellipse>
                     <ellipse id="Oval-10" fill="#4A4A4A" cx="16.9235666" cy="18.4120473" rx="4.55666274" ry="5.01354759"></ellipse>
                 </g>
-                <g id="saddle" transform="translate(319.737650, 83.254610) scale(-1, -1) rotate(-343.000000) translate(-319.737650, -83.254610) translate(173.237650, 41.754610)" fill="#3C1E1C">
-                    <path d="M258.366718,41.6854969 C249.64059,43.0588629 209.723964,50.4644006 202.993002,51.2157717 C198.008843,51.7721488 200.18284,45.5838981 208.472893,41.6854969 C212.436905,39.8214184 216.987684,38.6757557 221.98185,38.6757557 C244.756271,38.6757557 250.325454,24.9408565 268.321393,24.9408565 C286.317332,24.9408565 294.846254,32.0352111 289.605191,38.6757561 C286.641308,42.4310612 279.080592,38.4254332 258.366718,41.6854969 Z" id="Rectangle-3" transform="translate(245.738412, 38.095856) rotate(-7.000000) translate(-245.738412, -38.095856) "></path>
+                <g id="handle" transform="translate(340.591304, 31.106087)" stroke="#4A4A4A" stroke-width="5" stroke-linecap="square">
+                    <path d="M0.542608696,19.5026087 L39.7876,1.51500674" id="Line"></path>
                 </g>
-                <path d="M418.189453,130.919925 C430.970016,106.450378 380.032094,6.0440629 396.464844,52.6171875 C401.552734,67.0371088 409.539062,123.839845 370.462891,161.000001 C331.386719,198.160157 266.5,242.496094 266.5,242.496094" id="Path-243" stroke="#979797"></path>
-                <rect id="Rectangle-76" fill="#786E7B" transform="translate(421.098472, 143.625911) rotate(-18.000000) translate(-421.098472, -143.625911) " x="416.098472" y="133.125911" width="10" height="21" rx="2"></rect>
-                <g id="handle" transform="translate(369.591304, 37.106087)">
-                    <path d="M0.538700535,18.5039137 L22.7887005,6.51390816" id="Line" stroke="#4A4A4A" stroke-width="6" stroke-linecap="square"></path>
-                    <path d="M18.5918571,9.31601271 C17.6464663,6.80021138 18.9123024,3.99404804 21.4277995,3.04502003 L23.9231515,2.10359222 C26.4347901,1.15601993 29.3054319,2.39419679 30.3377604,4.87599156 L28.8282395,1.24699075 C29.8592916,3.72571692 28.6519868,6.49122116 26.1302423,7.42443786 L23.4530385,8.41518506 C20.9319237,9.34816873 18.1232587,8.0690146 17.1763748,5.54924015 L18.5918571,9.31601271 Z" id="Rectangle-78" fill="#786E7B"></path>
+                <g id="saddle" transform="translate(313.609059, 85.769450) scale(-1, -1) rotate(-343.000000) translate(-313.609059, -85.769450) translate(158.609059, 44.269450)" fill="#3C1E1C">
+                    <path d="M277.860385,33.1023824 C269.798083,34.3712718 232.918051,41.213445 226.699136,41.9076568 C222.094139,42.4217083 224.102753,36.7042189 231.762154,33.1023824 C235.42461,31.3801107 239.629196,30.3216025 244.243438,30.3216025 C265.285331,30.3216025 270.430848,17.6315638 287.057774,17.6315638 C303.684701,17.6315639 311.564799,24.1862267 306.722441,30.3216028 C303.984031,33.7912291 296.998484,30.0903229 277.860385,33.1023824 Z" id="Rectangle-3" transform="translate(266.192758, 29.785818) rotate(-7.000000) translate(-266.192758, -29.785818) "></path>
                 </g>
+                <path d="M107.359375,240.736328 C107.359375,240.736328 119.48741,245.426376 120.96875,252.125 C122.45009,258.823624 115.082031,275.658203 115.082031,275.658203" id="Line" stroke="#4A4A4A" stroke-width="5" stroke-linecap="square"></path>
+                <path d="M389.494141,118.554693 C402.274704,94.0851457 391.179688,-11.9335928 384.511719,39.1914059 C377.84375,90.3164046 381.593751,96.4453181 363.976563,118.554691 C346.359376,140.664064 280.234375,238.83984 280.234375,238.83984" id="Path-243" stroke="#979797"></path>
+                <rect id="Rectangle-76" fill="#786E7B" transform="translate(393.098472, 129.625911) rotate(-24.000000) translate(-393.098472, -129.625911) " x="388.098472" y="119.125911" width="10" height="21" rx="2"></rect>
             </g>
         </g>
     </g>

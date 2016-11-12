@@ -27,14 +27,14 @@ img {
 }
 
 figcaption, .figcaption {
-    background-color: #e9e9e9;
-    padding: 10px 15px;
-    zfont-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
-    text-align: left;
-    font-size: 14px;
-    color: #5a5a5a;
+  background-color: #fafaf6;
+  padding: 8px;
+  color: #5a5a6a;
+  font-weight: lighter;
   display: table-caption;
   caption-side: bottom;
+  text-align: left;
+  font-size: 12.5px;
 }
 
 figure {
@@ -67,36 +67,36 @@ figure {
   border: 0px;
   border-radius: 0px;
   padding-bottom: 1px; 
-  border-bottom: 30px solid #009ACD; 
+  border-bottom: 1px solid #eee; #009ACD; 
 }
 
 #site_title {
   float: left;
   font-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 800;
   letter-spacing: -2px;
   color: #CD3300;
   position: relative;
-  top: 22px; 
+  top: 12px; 
 }
 
 #tagline {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 400;
   color: #555;
   letter-spacing: 0px;
   display: block;
   position: relative;
-  top: -3px;
+  top: -2px;
 }
 
 
 .navbar-header img {
   display:inline; 
-  height: 55px;
+  height: 38px;
   border: 0px;
-  margin: 15px 20px 15px 0px;
+  margin: 12px 12px 15px 10px;
   float: left;
 }
 
@@ -110,13 +110,13 @@ ul#menu li a:hover{
 
 ul#menu li a { 
   font-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
-  font-size: 13.5px;
+  font-size: 12px;
   font-weight: bold;
   color: #CD3300;
   letter-spacing: -1px;
   text-align: center;
   border-top: 5px solid white;
-  padding-top: 20px;
+  padding-top: 10px;
 } 
 
 ul#menu li.active>a,

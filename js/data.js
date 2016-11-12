@@ -13,7 +13,7 @@ var data =
               blurb: 'I tried to give it a better yellow.'
             },
               {
-              title: 'How to Make a Fail-Proof Color Palette, Part 1/4',
+              title: 'How to Make a Fail-Proof Color Palette',
               subtitle: 'Interactive tools included.',
               link: 'colors1.html',
               big_image: 'colorwheel/title.svg',
@@ -26,8 +26,8 @@ var data =
               subtitle: 'Age-old strategies to win your vote.',
               link: 'campaigns.html',
               big_image: 'campaigns/nixon.png',
-              recent: 'campaigns/nixon.png',
-              thumb: 'campaigns/nixon.png',
+              recent: 'campaigns/jcrecent.png',
+              thumb: 'campaigns/jcthumb.png',
               date: 'Aug 8, 2016',
               blurb: 'Time and again candidates have used the same strategies to lure in the vote. Here are the results for better or worse.'
            }, 
@@ -62,8 +62,8 @@ var data =
               blurb: 'See what a baby sees in the first year of life.'
               },
              {
-              title: 'A Giant Step Closer to Pure Blue',
-              subtitle: 'We\'ve never seen a substance this blue before.',
+              title: 'A Substance So Blue',
+              subtitle: 'How scientists created the purest blue yet.',
               link: 'blue.html',
               big_image: 'blue/pigments.png',
               thumb: 'blue/thumb.png',
@@ -82,18 +82,18 @@ var data =
               blurb: 'Early accountants were regarded as heros, doing God\'s work. What changed?'
               },
             {
-              title: 'Worth Its Weight in Gold',
-              subtitle: 'Why imperial purple is so expensive.',
+              title: 'A Purple Worth Its Weight in Gold',
+              subtitle: 'Why imperial purple dye is so damn expensive.',
               link: 'tyrian.html',
               big_image: 'tyrian/eII.jpg',
-              thumb: 'tyrian/thumb.png',
+              thumb: 'tyrian/crown.png',
               recent: 'tyrian/recent.png',
               date: 'Apr 1, 2016',
               blurb: 'Imperial purple holds the record as the world\'s most expensive dye thanks to a very slimy ingredient.'
             },
             {
               title: '200 Years of the Bicycle',
-              subtitle: 'Explore bike designs from 1810 to 2015.',
+              subtitle: 'How we got to the modern bike',
               link: 'bikes.html',
               thumb: 'bikes/thumb.svg',
               recent: 'bikes/recent.png',
@@ -110,9 +110,9 @@ var data =
             },
             {
               title: 'Designing an Image: The Pilot',
-              subtitle: 'From Rough Rider to Officer.',
+              subtitle: 'From Rough Rider to Officer and Gentleman.',
               link: 'pilots.html',
-              thumb: 'pilots/thumb.png',
+              thumb: 'pilots/panamdad.png',
               date: 'Mar 9, 2016',
               blurb: '"When they played poker they played all night. When they smoked they...'
             },
@@ -141,8 +141,8 @@ var data =
               date: 'Jan 27, 2016'
             },
             {
-              title: 'Is My Blue Your Blue?',
-              subtitle: 'That could depend on our language.',
+              title: 'Is My Green Your Green?',
+              subtitle: 'Language experiments show we might see colors differently.',
               link: 'himba.html',
               thumb: 'himba/thumb.png',
               date: 'Jan 20, 2016'
@@ -155,8 +155,8 @@ var data =
               date: 'Jan 30, 2016'
             },
             {
-              title: 'Color Wheel for Coffee',
-              subtitle: 'A visual aid for describing taste.',
+              title: 'Taste of Coffee Color Wheel',
+              subtitle: 'Find the perfect word for your cup of joe.',
               link: 'coffee.html',
               thumb: 'coffee/thumb.png',
               date: 'Jan 26, 2016'
@@ -240,15 +240,15 @@ var data =
               date: 'Jan 27, 2016'
             },
             {
-              title: 'Is My Blue Your Blue?',
-              subtitle: 'That could depend on our language.',
+              title: 'Is My Green Your Green?',
+              subtitle: 'Experiments show different cultures might see colors differently.',
               link: 'himba.html',
               thumb: 'himba/thumb.png',
               date: 'Jan 20, 2016'
             },
             {
               title: '200 Years of the Bicycle',
-              subtitle: 'Explore bike designs from 1810 to 2015.',
+              subtitle: 'How we got to the modern bike.',
               link: 'bikes.html',
               thumb: 'bikes/thumb.svg',
               date: 'Mar 28, 2016',
@@ -256,5 +256,4 @@ var data =
             }
           ]
     };
-
 
