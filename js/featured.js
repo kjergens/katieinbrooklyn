@@ -23,12 +23,11 @@ var show_featured = function() {
     //
     var markup = "<div id=\"main\">" +
     "<a href=\"" + data.menu[0].link + "\">" +
+     "<span class='title'>" + data.menu[0].title + "</span><span id=\"latest\">Latest</span>" +
    "<figure><img src=\"images/" + data.menu[0].big_image + "\"></figure>" +
-    "<div class='title'>" + data.menu[0].title + "</div>" +
-    "</a>" +
-    "<div class='date'>" + data.menu[0].date + "<span id=\"latest\">Latest</span></div><br>" +
 
-    "<p>" + data.menu[0].blurb + 
+    "</a><br>" +
+    "<p><span class='date'>" + data.menu[0].date + "</span>" + data.menu[0].blurb + 
    "<a href=\"" + data.menu[0].link + "\"> Read more.</a>" + "</p></div>";
 
     //
