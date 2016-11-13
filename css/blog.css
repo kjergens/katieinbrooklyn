@@ -80,10 +80,11 @@ figure {
 }
 
 .menu_item {
-  border-bottom: 1px solid #ebebeb;
-  margin: 5px 0px;
-  padding: 10px 0px;
-  width: 290px;
+  background-color: #efefef;
+  border-bottom: 1px solid #dfdfdf;
+  zmargin: 1px 0px;
+  padding: 6px;
+  zwidth: 290px;
   max-height: 105px;
   overflow: hidden;
 }
@@ -96,15 +97,15 @@ figure {
 .thumb_container {
   float: left;
   overflow: hidden;
-  width: 100px;
-  height: 85px;
+  width: 110px;
+  zheight: 85px;
 }
 
 
 .article_title_container {
   padding: 0px 3px 3px 8px;
   float: left;
-  max-width: 158px;
+  max-width: 188px;
 }
 
 .article_title {

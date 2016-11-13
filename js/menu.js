@@ -33,30 +33,12 @@ var addMenuItem = function (itemData) {
 };
 
 
-var buildMenu = function() {
-    // menu container
-    $("#right_menu").append("<div id=\"menu_container\"></div>"); // wrap the menus in a container
-
-    // recent menu
-    $("#menu_container").append("<div id=\"sidemenu\"></div>");
-    var $menu = $("#sidemenu");
-
-    $menu.append("<div class=\"menu_heading\">More articles</div>");
-
-    shuffle(data.menu);
-
-    // loop through data and build menu
-    for (var i = 0; i<4; i++) {
-         $menu.append(addMenuItem(data.menu[i]));
-    }  
-};
-
+// this is automatically loaded when the page loads
 $(function () {
 
     // menu container
     $("#right_menu").append("<div id=\"menu_container\"></div>"); // wrap the menus in a container
 
-    // recent menu
     $("#menu_container").append("<div id=\"sidemenu\"></div>");
     var $menu = $("#sidemenu");
 
@@ -65,7 +47,7 @@ $(function () {
     shuffle(data.menu);
 
     // loop through data and build menu
-    for (var i = 0; i<4; i++) {
+    for (var i = 0; i<5; i++) {
          $menu.append(addMenuItem(data.menu[i]));
     }  
 

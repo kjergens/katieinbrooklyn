@@ -14,7 +14,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
-  font-weight: 600;
+  font-weight: 590;
   letter-spacing: -1px;
 }
 
@@ -139,13 +139,12 @@ ul#menu li.active>a,
 
 /*  Footer */
 #footer_container, #foot {
-  margin-top: 150px;
+  margin-top: 50px;
   border-top: 1px solid #ccc;
   background-color: #efefef;
-  font: bold 100% 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
-  height: 300px;
+  zheight: 300px;
   letter-spacing: -1px;
-  padding: 26px 0 10px 0;
+  padding: 26px 0 60px;
   text-align: center; 
 }  
 
