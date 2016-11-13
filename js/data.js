@@ -16,9 +16,9 @@ var data =
               title: 'How to Make a Fail-Proof Color Palette',
               subtitle: 'Interactive tools included.',
               link: 'colors1.html',
-              big_image: 'colorwheel/title.svg',
-              recent: 'colorwheel/title.svg',
-              thumb: 'colorwheel/thumb.svg',
+              big_image: 'colorwheel/recent.svg',
+              recent: 'colorwheel/recent.svg',
+              thumb: 'colorwheel/recent.svg',
               date: 'Aug 22, 2016',
               blurb: 'Be it your webpage, logo or bedroom, you might be scared your color choices don\'t pass graphics muster. Here is a tool for a fail-proof color palette.'
             },
@@ -92,8 +92,8 @@ var data =
               blurb: 'Imperial purple holds the record as the world\'s most expensive dye thanks to a very slimy ingredient.'
             },
             {
-              title: '200 Years of the Bicycle',
-              subtitle: 'How we got to the modern bike',
+              title: 'How We Got to the Modern Bike',
+              subtitle: 'See how bike design changed with the times.',
               link: 'bikes.html',
               thumb: 'bikes/thumb.svg',
               recent: 'bikes/recent.png',
@@ -247,8 +247,8 @@ var data =
               date: 'Jan 20, 2016'
             },
             {
-              title: '200 Years of the Bicycle',
-              subtitle: 'How we got to the modern bike.',
+              title: 'How We Got To The Modern Bike',
+              subtitle: 'See how bike design changed with the times.',
               link: 'bikes.html',
               thumb: 'bikes/thumb.svg',
               date: 'Mar 28, 2016',
