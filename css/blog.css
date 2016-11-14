@@ -76,6 +76,7 @@ figure {
   font-size: 14px;
   font-weight: bold;
   padding: 2px 4px 0px 0px;
+  min-width: 290px;
   border-bottom: 7px solid #CD3300;
 }
 
@@ -84,7 +85,7 @@ figure {
   border-bottom: 1px solid #dfdfdf;
   zmargin: 1px 0px;
   padding: 6px;
-  zwidth: 290px;
+  min-width: 290px;
   max-height: 105px;
   overflow: hidden;
 }
@@ -105,7 +106,7 @@ figure {
 .article_title_container {
   padding: 0px 3px 3px 8px;
   float: left;
-  max-width: 188px;
+  max-width: 158px;
 }
 
 .article_title {
