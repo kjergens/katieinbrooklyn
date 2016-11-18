@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="600px" height="640px" viewBox="0 0 600 640" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFC61C;">
-    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
-    <title>600x640</title>
+<svg width="600px" height="700px" viewBox="0 0 600 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFC61C;">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>seeknovelty copy</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Seek-Novelty" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="600x640">
+        <g id="seeknovelty-copy">
             <text id="SEEK-NOVELTY" font-family="Anton" font-size="78" font-weight="normal" fill="#FF1C54">
-                <tspan x="103.348145" y="540">SEEK NOVELTY</tspan>
+                <tspan x="103.348145" y="570">SEEK NOVELTY</tspan>
             </text>
-            <g id="Group" transform="translate(91.000000, 90.000000)">
+            <g id="Group" transform="translate(91.000000, 135.000000)">
                 <path d="M5.74687625,191.336723 C-12.8760459,191.336723 10.6753931,250.466242 179.661358,250.466242" id="rim" fill="#FF1C54"></path>
                 <path d="M10.514774,175.23713 C10.514774,175.23713 11.5077782,86.6939351 38.7234491,71.4471855 C42.0799341,55.8582453 65.8294503,33.8617491 78.5651229,33.8617487 C83.4149514,21.3327977 131.81478,3.34172103 160.846961,11.0625193 C154.512545,-1.97273283 225.489483,-23.8354446 314.297213,91.6245199 C328.240798,112.015546 312.971247,227.930572 354.225581,205.976719 C382.220003,189.503557 450.363099,221.134459 402.29434,240.365679 C354.225581,259.596899 338.017271,301.719944 176.913908,246.863344 C-46.3911992,228.318024 10.514774,175.23713 10.514774,175.23713 Z" id="hat" stroke="#FFC61C" stroke-width="2.2" fill="#FF1C54"></path>
                 <g id="headlight" transform="translate(296.791667, 85.960784)">

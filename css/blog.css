@@ -12,6 +12,14 @@
   font-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
 }
 
+.subtitle {
+  font-size: 30px;
+  letter-spacing: -3px;
+  line-height: 1.1em;
+  font-weight: bold;
+  font-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
+}
+
 .byline {
   border-top: 1px solid #ebebeb;
   border-bottom: 1px solid #ebebeb;

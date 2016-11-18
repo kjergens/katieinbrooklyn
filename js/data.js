@@ -2,6 +2,16 @@ var data =
     {
        menu: 
           [
+          {
+              title: 'How to Make Beautiful Color Palettes (a 4-Part Series)',
+              subtitle: 'Interactive tools included.',
+              link: 'colors1.html',
+              big_image: 'colorwheel/pouring.svg',
+              recent: 'colorwheel/pouring.svg',
+              thumb: 'colorwheel/pouring.svg',
+              date: 'Nov 13, 2016',
+              blurb: 'Be it your webpage, logo or bedroom, you might be scared your color choices don\'t pass graphics muster. Here is a tool for a fail-proof color palette.'
+            },
             {
               title: 'Emma Watson\'s Dress in the new Beauty and the Beast is Just so Yellow',
               subtitle: '',
@@ -12,16 +22,7 @@ var data =
               date: 'Nov 4, 2016',
               blurb: 'I tried to give it a better yellow.'
             },
-              {
-              title: 'How to Make a Fail-Proof Color Palette',
-              subtitle: 'Interactive tools included.',
-              link: 'colors1.html',
-              big_image: 'colorwheel/recent.svg',
-              recent: 'colorwheel/recent.svg',
-              thumb: 'colorwheel/recent.svg',
-              date: 'Aug 22, 2016',
-              blurb: 'Be it your webpage, logo or bedroom, you might be scared your color choices don\'t pass graphics muster. Here is a tool for a fail-proof color palette.'
-            },
+              
             { title: 'Presidential Campaign Posters',
               subtitle: 'Age-old strategies to win your vote.',
               link: 'campaigns.html',
@@ -46,8 +47,8 @@ var data =
               subtitle: 'Illustrations on how to train your brain.',
               link: 'smart.html',
               big_image: 'smart/bigimage.png',
-              thumb: 'smart/thumb.svg',
-              recent: 'smart/recent.svg',
+              thumb: 'smart/thinkcreatively.svg',
+              recent: 'smart/thinkcreatively.svg',
               date: 'Jul 16, 2016',
               blurb: 'Scientific American recently published a study on how to increase your intelligence. It concluded that there are five keys to increasing fluidity ... '
               },
@@ -82,8 +83,8 @@ var data =
               blurb: 'Early accountants were regarded as heros, doing God\'s work. What changed?'
               },
             {
-              title: 'A Purple Worth Its Weight in Gold',
-              subtitle: 'Why imperial purple dye is so damn expensive.',
+              title: 'Purple Snails and Royal Robes',
+              subtitle: 'Why purple dye is so damn expensive.',
               link: 'tyrian.html',
               big_image: 'tyrian/eII.jpg',
               thumb: 'tyrian/crown.png',
