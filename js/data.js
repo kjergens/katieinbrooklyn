@@ -3,7 +3,7 @@ var data =
        menu: 
           [
           {
-              title: 'How to Make Beautiful Color Palettes (a 4-Part Series)',
+              title: 'How to Make Beautiful Color Combinations (a 4-part series)',
               subtitle: 'Interactive tools included.',
               link: 'colors1.html',
               big_image: 'colorwheel/pouring.svg',
@@ -198,7 +198,7 @@ var data =
               subtitle: 'Illustrations on how to train your brain.',
               link: 'smart.html',
               big_image: 'smart/bigimage.png',
-              thumb: 'smart/thumb.svg',
+              thumb: 'smart/thinkcreatively.svg',
               date: 'Jul 16, 2016',
               blurb: 'Scientific American recently published a study on how to increase your intelligence. It concluded that there are five keys to increasing fluidity ... '
               },
