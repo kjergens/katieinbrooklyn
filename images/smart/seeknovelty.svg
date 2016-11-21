@@ -3,10 +3,21 @@
     <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
     <title>seeknovelty copy</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <style type="text/css">
+
+             #seektext {
+                font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
+                font-size: 58px;
+                font-weight: bold;
+                letter-spacing: -4px;
+            }
+
+        </style>
+    </defs>
     <g id="Seek-Novelty" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="seeknovelty-copy">
-            <text id="SEEK-NOVELTY" font-family="Anton" font-size="78" font-weight="normal" fill="#FF1C54">
+            <text class="advice_text" id="seektext" fill="#FF1C54">
                 <tspan x="103.348145" y="570">SEEK NOVELTY</tspan>
             </text>
             <g id="Group" transform="translate(91.000000, 135.000000)">

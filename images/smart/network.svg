@@ -3,10 +3,21 @@
     <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
     <title>network</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <style type="text/css">
+
+            #networktext {
+                font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
+                font-size: 58px;
+                font-weight: bold;
+                letter-spacing: -4px;
+            }
+        </style>
+
+    </defs>
     <g id="Network" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="network">
-            <text id="NETWORK" font-family="Anton" font-size="78" font-weight="normal" line-spacing="69" fill="#FF1C54">
+            <text id="networktext" fill="#FF1C54">
                 <tspan x="164" y="570">NETWORK</tspan>
             </text>
             <g id="Group" transform="translate(64.000000, 148.000000)">

@@ -3,7 +3,17 @@
     <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
     <title>thinkcreatively</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <style type="text/css">
+             #thinktext {
+                font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
+                font-size: 58px;
+                font-weight: bold;
+                letter-spacing: -3px;
+            }
+        </style>
+
+    </defs>
     <g id="Think-Creatively" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="thinkcreatively">
             <g id="poster" transform="translate(144.000000, 66.000000)">
@@ -115,7 +125,7 @@
                     </g>
                 </g>
             </g>
-            <text id="THINK-CREATIVELY" font-family="Anton" font-size="78" font-weight="normal" fill="#FF1C54">
+            <text id="thinktext" fill="#FF1C54">
                 <tspan x="47.2045898" y="570">THINK CREATIVELY</tspan>
             </text>
         </g>

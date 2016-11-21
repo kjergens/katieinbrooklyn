@@ -24,10 +24,22 @@
         <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="144.894721" height="61.4887085" fill="white">
             <use xlink:href="#path-9"></use>
         </mask>
+
+        <style type="text/css">
+
+             #challengetext {
+                font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
+                font-size: 55px;
+                font-weight: bold;
+                letter-spacing: -3px;
+            }
+
+        </style>
+
     </defs>
     <g id="Challenge-Yourself" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="challengeyourself">
-            <text id="CHALLENGE-" font-family="Anton" font-size="78" font-weight="normal" line-spacing="69" fill="#FFC61C">
+            <text id="challengetext" fill="#FFC61C">
                 <tspan x="134.083496" y="498.289062">CHALLENGE </tspan>
                 <tspan x="154.192871" y="567.289062">YOURSELF</tspan>
             </text>

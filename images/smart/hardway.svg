@@ -3,10 +3,20 @@
     <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
     <title>hardWay</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <style>
+             #hardwaytext {
+                font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
+                font-size: 55px;
+                font-weight: bold;
+                letter-spacing: -3px;
+            }
+        </style>
+
+    </defs>
     <g id="Do-Things-the-Hard-Way" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="hardWay" fill="#FFC61C">
-            <text id="DO-THINGS-THE" font-family="Anton" font-size="72" font-weight="normal" line-spacing="69">
+            <text id="hardwaytext">
                 <tspan x="110" y="543">DO THINGS THE</tspan>
                 <tspan x="169.712891" y="612">HARD WAY</tspan>
             </text>
