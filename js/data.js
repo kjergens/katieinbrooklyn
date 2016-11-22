@@ -3,7 +3,7 @@ var data =
        menu: 
           [
           {
-              title: 'How to Make Beautiful Color Combinations (a 4-part series)',
+              title: 'How to Make Beautiful Color Combinations',
               subtitle: 'Interactive tools included.',
               link: 'colors1.html',
               big_image: 'colorwheel/pouring.svg',
@@ -47,10 +47,10 @@ var data =
               subtitle: 'Illustrations on how to train your brain.',
               link: 'smart.html',
               big_image: 'smart/bigimage.png',
-              thumb: 'smart/thinkcreatively.svg',
-              recent: 'smart/thinkcreatively.svg',
+              thumb: 'smart/challengeyourself.svg',
+              recent: 'smart/challengeyourself.svg',
               date: 'Jul 16, 2016',
-              blurb: 'Scientific American recently published a study on how to increase your intelligence. It concluded that there are five keys to increasing fluidity ... '
+              blurb: 'Scientific American published a study on how to increase your intelligence. There are five keys to increasing fluidity ... '
               },
             {
               title: 'What Do Babies See?',
@@ -142,7 +142,7 @@ var data =
               date: 'Jan 27, 2016'
             },
             {
-              title: 'Is My Green Your Green?',
+              title: 'Is Your Blue My Blue?',
               subtitle: 'Language experiments show we might see colors differently.',
               link: 'himba.html',
               thumb: 'himba/thumb.png',
@@ -197,63 +197,49 @@ var data =
               title: '5 Keys to Getting Smarter',
               subtitle: 'Illustrations on how to train your brain.',
               link: 'smart.html',
-              big_image: 'smart/bigimage.png',
-              thumb: 'smart/thinkcreatively.svg',
-              date: 'Jul 16, 2016',
-              blurb: 'Scientific American recently published a study on how to increase your intelligence. It concluded that there are five keys to increasing fluidity ... '
+              thumb: 'smart/challengeyourself.svg'
               },
              {
               title: 'What Do Babies See?',
               subtitle: 'The first year of life is a busy time for a baby\'s vision.',
               link: 'babies.html',
-              big_image: 'babies/baby.png',
-              thumb: 'babies/thumb.svg',
-              date: 'Jul 9, 2016',
-              blurb: 'See what a baby sees in the first year of life.'
+              thumb: 'babies/thumb.svg'
               },
             {
               title: 'Think Shakespeare\'s Room was Drab?',
               subtitle: 'Think again.',
               link: 'shakes.html',
               thumb: 'shakes/thumb.png',
-              date: 'Feb 11, 2016'
             }, 
              {
               title: 'Quiz: Can You Guess the Titles of These \'80s Teen Romance Novels?',
               subtitle: '',
               link: 'bookcovers.html',
-              thumb: 'bookcovers/thumb.png',
-              date: 'Feb 27, 2016',
-              blurb: "They are incredible."
+              thumb: 'bookcovers/thumb.png'
             },
             {
               title: 'If the Ancient Greeks Are to Be Believed...',
               subtitle: 'They saw things differently.',
               link: 'greece.html',
-              thumb: 'greece/thumb.png',
-              date: 'Jan 18, 2016'
+              thumb: 'greece/thumb.png'
             },
              {
               title: 'Who Needs A Spreadsheet When You Have Dye And Some Rope?',
               subtitle: '',
               link: 'quipu.html',
-              thumb: 'quipu/thumb.png',
-              date: 'Jan 27, 2016'
+              thumb: 'quipu/thumb.png'
             },
             {
-              title: 'Is My Green Your Green?',
+              title: 'Is Your Blue My Blue?',
               subtitle: 'Experiments show different cultures might see colors differently.',
               link: 'himba.html',
-              thumb: 'himba/thumb.png',
-              date: 'Jan 20, 2016'
+              thumb: 'himba/thumb.png'
             },
             {
               title: 'How We Got To The Modern Bike',
               subtitle: 'See how bike design changed with the times.',
               link: 'bikes.html',
-              thumb: 'bikes/thumb.svg',
-              date: 'Mar 28, 2016',
-              blurb: 'See how bike design changed with the times.'
+              thumb: 'bikes/thumb.svg'
             }
           ]
     };
