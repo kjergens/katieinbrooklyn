@@ -28,8 +28,8 @@
         <style type="text/css">
 
              #challengetext {
-                font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
-                font-size: 55px;
+                font-family: 'LucidaGrande-Bold', 'Lucida Grande', 'Helvetica Neue', 'Helvetica', 'Arial';
+                font-size: 68px;
                 font-weight: bold;
                 letter-spacing: -3px;
             }
@@ -40,8 +40,8 @@
     <g id="Challenge-Yourself" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="challengeyourself">
             <text id="challengetext" fill="#FFC61C">
-                <tspan x="134.083496" y="498.289062">CHALLENGE </tspan>
-                <tspan x="154.192871" y="567.289062">YOURSELF</tspan>
+                <tspan x="95" y="498.289062">CHALLENGE </tspan>
+                <tspan x="128" y="567.289062">YOURSELF</tspan>
             </text>
             <g id="book" transform="translate(129.000000, 107.000000)">
                 <path d="M326.386707,35.3222655 C327.386707,25.1191422 191.039063,-3.30859385 177.310553,1.07641267 C163.582042,5.4614192 26.6070566,95.479345 7.01562481,101.742186 C-12.575807,108.005027 14.5664065,233.992165 29.4999999,251.476555 C44.4335934,268.960945 162.027347,292.218748 171.902134,287.798052 C201.834114,274.398251 341.759754,176.699216 341.759754,169.23242 C346.316395,158.384763 326.386707,160.246091 326.386707,160.246091 L318.449207,42.9824221 C318.449207,42.9824221 321.798816,42.9824234 326.386707,35.3222655 Z" stroke="#FFC61C" stroke-width="2" fill="#FFC61C"></path>

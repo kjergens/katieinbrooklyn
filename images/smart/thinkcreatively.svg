@@ -6,10 +6,10 @@
     <defs>
         <style type="text/css">
              #thinktext {
-                font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
-                font-size: 58px;
+                font-family: 'LucidaGrande-Bold', 'Lucida Grande', 'Helvetica Neue', 'Helvetica', 'Arial';
+                font-size: 68px;
                 font-weight: bold;
-                letter-spacing: -3px;
+                letter-spacing: -5px;
             }
         </style>
 
@@ -126,7 +126,8 @@
                 </g>
             </g>
             <text id="thinktext" fill="#FF1C54">
-                <tspan x="47.2045898" y="570">THINK CREATIVELY</tspan>
+                <tspan x="200" y="550">THINK</tspan>
+                <tspan x="107" y="610">CREATIVELY</tspan>
             </text>
         </g>
     </g>

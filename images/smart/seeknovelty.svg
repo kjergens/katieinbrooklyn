@@ -7,10 +7,10 @@
         <style type="text/css">
 
              #seektext {
-                font-family: 'Helvetica Neue', 'Helvetica', 'Arial';
-                font-size: 58px;
+                font-family: 'LucidaGrande-Bold', 'Lucida Grande', 'Helvetica Neue', 'Helvetica', 'Arial';
+                font-size: 68px;
                 font-weight: bold;
-                letter-spacing: -4px;
+                letter-spacing: -5px;
             }
 
         </style>
@@ -18,7 +18,7 @@
     <g id="Seek-Novelty" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="seeknovelty-copy">
             <text class="advice_text" id="seektext" fill="#FF1C54">
-                <tspan x="103.348145" y="570">SEEK NOVELTY</tspan>
+                <tspan x="68" y="550">SEEK NOVELTY</tspan>
             </text>
             <g id="Group" transform="translate(91.000000, 135.000000)">
                 <path d="M5.74687625,191.336723 C-12.8760459,191.336723 10.6753931,250.466242 179.661358,250.466242" id="rim" fill="#FF1C54"></path>
