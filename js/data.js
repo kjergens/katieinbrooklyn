@@ -3,8 +3,8 @@ var data =
        menu: 
           [
           {
-              title: 'How to Make Beautiful Color Combinations',
-              subtitle: 'Interactive tools included.',
+              title: 'Choose Perfect Color Combinations',
+              subtitle: 'Step-by-step guide. Interactive tools included.',
               link: 'colors1.html',
               big_image: 'colorwheel/pouring.svg',
               recent: 'colorwheel/pouring.svg',

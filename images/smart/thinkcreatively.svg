@@ -4,12 +4,15 @@
     <title>thinkcreatively</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <style type="text/css">
-             #thinktext {
-                font-family: 'LucidaGrande-Bold', 'Lucida Grande', 'Helvetica Neue', 'Helvetica', 'Arial';
-                font-size: 68px;
-                font-weight: bold;
-                letter-spacing: -5px;
+        <style>
+        @import url('https://fonts.googleapis.com/css?family=Oswald:700');
+
+
+         .advice_text {
+                font-family: "Oswald", "LucidaGrande-Bold", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 76px;
+                font-weight: 700;
+                letter-spacing: -2px;
             }
         </style>
 
@@ -125,9 +128,8 @@
                     </g>
                 </g>
             </g>
-            <text id="thinktext" fill="#FF1C54">
-                <tspan x="200" y="550">THINK</tspan>
-                <tspan x="107" y="610">CREATIVELY</tspan>
+            <text class="advice_text" id="thinktext" fill="#FF1C54">
+                <tspan x="38" y="570">THINK CREATIVELY</tspan>
             </text>
         </g>
     </g>

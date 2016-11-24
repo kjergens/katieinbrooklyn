@@ -5,20 +5,22 @@
     <desc>Created with Sketch.</desc>
     <defs>
         <style>
-             #hardwaytext {
-                font-family: 'LucidaGrande-Bold', 'Lucida Grande', 'Helvetica Neue', 'Helvetica', 'Arial';
-                font-size: 64px;
-                font-weight: bold;
-                letter-spacing: -4px;
+            @import url('https://fonts.googleapis.com/css?family=Oswald:700');
+
+             .advice_text {
+                font-family: "Oswald", "LucidaGrande-Bold", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 76px;
+                font-weight: 700;
+                letter-spacing: -2px;
             }
         </style>
 
     </defs>
     <g id="Do-Things-the-Hard-Way" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="hardWay" fill="#FFC61C">
-            <text id="hardwaytext">
-                <tspan x="60" y="533">DO THINGS THE</tspan>
-                <tspan x="130" y="602">HARD WAY</tspan>
+            <text class="advice_text" id="hardwaytext">
+                <tspan x="81" y="515">DO THINGS THE</tspan>
+                <tspan x="148" y="590">HARD WAY</tspan>
             </text>
             <g id="mountain-shapes" transform="translate(50.000000, 81.000000)">
                 <polygon id="Path-459" points="183.5 262 135.5 209.5 131.546875 180.980469 188.5 257"></polygon>
