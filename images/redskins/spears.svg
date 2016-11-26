@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="583px" height="320px" viewBox="0 0 583 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #571C1E;">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>spears</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="spears">
+            <g id="spear-logo" transform="translate(143.000000, 67.000000)">
+                <path d="M166.634766,55.3945313 L160.394531,63.3603516 C160.394531,63.3603516 162.897461,75.8369141 161.436523,81.3652344 C150.094727,107.804688 127.604492,130.205078 127.604492,130.205078 C127.604492,130.205078 106.9375,152.332031 91.8417969,149.015625 C83.453125,128.84082 91.5458984,127.563477 96.4257812,112.735352 C110.079102,92.1337891 111.402732,84.5743283 130.816406,65.9199219 C138.744529,58.3018674 151.109375,60.1904297 151.109375,60.1904297 L157.328125,56.2832031 L166.634766,55.3945313 Z" id="Path-9" stroke="#4A1019" stroke-width="2" fill="#FFFFFF"></path>
+                <path d="M164.804687,55.4472656 L160.734375,63.8574219 L161.428711,80.8857422 C161.428711,80.8857422 143.470377,117.033479 128.211914,127.854492 C125.046875,119.986328 120.679687,109.78418 120.679687,109.78418 L97.7705078,113.444336 C97.7705078,113.444336 111.192519,85.7253835 131.113281,66.6328125 C139.380019,58.7097585 151.37207,61.0732422 151.37207,61.0732422 L158.939453,56.4023438 L164.804687,55.4472656 Z" id="Path-8" fill="#C1A000"></path>
+                <polygon id="Path-6" fill="#FFFFFF" points="1.31640625 98.2431641 2.06640625 104.538086 135.563477 56.1181641 133.078125 51.6005859"></polygon>
+                <polygon id="Path-2" stroke="#4A1019" stroke-width="2" fill="#C1A000" points="0.2890625 95.9785156 167.056641 36.6621094 189.523438 0.646484375 295.912109 1.03515625 213.802734 62.3945312 171.912109 51.1914062 1.2421875 111.306641 1.43554688 103.341797 135.222656 56.4414062 132.767578 52.2177734 0.696289062 100.306641"></polygon>
+                <polyline id="Path-3" stroke="#4A1019" points="168.079102 37.3427734 183.25 38.7529297 173.231445 49.5273438"></polyline>
+                <polygon id="Path-4" stroke="#C1A000" fill="#FFFFFF" points="184.15332 38.1064453 287.538086 3.42382812 191.469727 4.57324219 169.589844 35.6962891"></polygon>
+                <polygon id="Path-5" stroke="#FFFFFF" fill="#C1A000" points="175.082031 49.2080078 185.023438 38.5517578 288.863281 2.76074219 212.796875 58.7294922"></polygon>
+                <path d="M93.5,146.5 L149.5,70.5" id="Line" stroke="#4A1019" stroke-linecap="square"></path>
+                <path d="M141.5,113.5 L137.5,103.5" id="Line" stroke="#4A1019" stroke-linecap="square"></path>
+                <path d="M151.5,98.5 L147.5,88.5" id="Line-Copy" stroke="#4A1019" stroke-linecap="square"></path>
+                <path d="M119.5,93.5 L109.5,93.5" id="Line-Copy" stroke="#4A1019" stroke-linecap="square" transform="translate(114.500000, 93.500000) scale(1, -1) translate(-114.500000, -93.500000) "></path>
+                <path d="M129.5,79.5 L119.5,79.5" id="Line-Copy" stroke="#4A1019" stroke-linecap="square" transform="translate(124.500000, 79.500000) scale(1, -1) translate(-124.500000, -79.500000) "></path>
+            </g>
+            <text id="SPEARS" stroke="#B88B0F" stroke-width="2.5" font-family="Pythagoras" font-size="72" font-weight="normal" letter-spacing="0.0500000007" fill="#571C1E">
+                <tspan x="147" y="259">SPEAR</tspan>
+                <tspan x="391.762" y="259">S</tspan>
+            </text>
+            <text id="Washington-Copy" stroke="#C29410" stroke-width="2" font-family="Pythagoras" font-size="38" font-weight="normal" letter-spacing="-1.64294124" fill="#571C1E">
+                <tspan x="164" y="197">WASHINGTON</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
