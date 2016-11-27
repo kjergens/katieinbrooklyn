@@ -6,14 +6,14 @@ var data =
               title: 'Possible New Logos for the Washington Redskins',
               subtitle: '',
               link: 'redskins.html',
-              big_image: 'redskins/braves.png',
+              big_image: 'redskins/faceb00k.png',
               recent: 'redskins/braves.png',
-              thumb: 'redskins/thumb.png',
+              thumb: 'redskins/bravesthumb.png',
               date: 'Nov 26, 2016',
-              blurb: 'A lot of people are unhappy that the Washington Redskins hanging \
+              blurb: 'The Washington Redskins are hanging \
               on to their name despite protests and \
-              lawsuits by Native American groups. But not enough fans support changing \
-              the name to convince the owners to do anything about it.'
+              lawsuits by Native American groups. Not enough fans support changing \
+              the name to convince the owners... '
             },
           {
               title: 'Choose Perfect Color Combinations',
@@ -59,7 +59,7 @@ var data =
               title: '5 Keys to Getting Smarter',
               subtitle: 'Illustrations on how to train your brain.',
               link: 'smart.html',
-              thumb: 'smart/thumb.png',
+              thumb: 'smart/thumb.svg',
               recent: 'smart/recent.png',
               date: 'Jul 16, 2016',
               blurb: 'Scientific American published a study on how to increase your intelligence. There are five keys to increasing fluidity ... '
@@ -209,7 +209,7 @@ var data =
               title: '5 Keys to Getting Smarter',
               subtitle: 'Illustrations on how to train your brain.',
               link: 'smart.html',
-              thumb: 'smart/thumb.png'
+              thumb: 'smart/thumb.svg'
               },
              {
               title: 'What Do Babies See?',
