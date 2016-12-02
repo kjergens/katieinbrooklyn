@@ -1,10 +1,6 @@
-figure {
-  position: relative;
-  right: 45px;
-}
 
 img {
-  max-width: 775px;
+  max-width: 200%;
 }
 
 .thumb_container img {

@@ -3,10 +3,10 @@ var data =
        menu: 
           [
           {
-              title: 'Possible New Logos for the Washington Redskins',
+              title: 'Possible New (and Old) Logos for the Washington Redskins',
               subtitle: '',
               link: 'redskins.html',
-              big_image: 'redskins/faceb00k.png',
+              big_image: 'redskins/featured.png',
               recent: 'redskins/braves.png',
               thumb: 'redskins/bravesthumb.png',
               date: 'Nov 26, 2016',

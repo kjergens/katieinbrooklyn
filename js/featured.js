@@ -21,14 +21,16 @@ var show_featured = function() {
     //
     // Main article
     //
-    var markup = "<div id=\"main\">" +
-    "<a href=\"" + data.menu[0].link + "\">" +
-     "<br><span id=\"latest\">Latest</span><br><br><span class='title'>" + data.menu[0].title + "</span>" +
-   "<figure><img src=\"images/" + data.menu[0].big_image + "\"></figure>" +
-
+    var markup = "<a href=\"" + data.menu[0].link + "\">" +
+        "<img class=\"featured_img\" src=\"images/" + data.menu[0].recent + "\"></figure>" +
+     "<br><span class='featured_title'>" + data.menu[0].title + "</span>" +
     "</a>" +
-    "<p><span class='date'>" + data.menu[0].date + "</span>" + data.menu[0].blurb + 
-   "<a href=\"" + data.menu[0].link + "\"> Read more.</a>" + "</p></div>";
+    "<span class='date'>" + data.menu[0].date + "</span><span id=\"latest\">Latest</span><br><br>" +
+   
+    "<div class=\"clearfix\"></div>" +
+     
+    "<p>" + data.menu[0].blurb + 
+   "<a href=\"" + data.menu[0].link + "\"> Read more.</a>" + "</p>";
 
     //
     // Recent articles.
