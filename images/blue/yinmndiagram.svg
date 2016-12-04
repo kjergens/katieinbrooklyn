@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="544px" height="541px" viewBox="0 0 544 541" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>yinmndiagram</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="yinmndiagram">
+            <g id="YInMn" transform="translate(82.000000, 14.000000)">
+                <g id="bottombond" transform="translate(202.766423, 350.919708) scale(-1, -1) translate(-202.766423, -350.919708) translate(75.766423, 309.919708)">
+                    <path d="M1.76642336,21.919708 L143.766418,63.9197083" id="1" stroke="#525C5A" stroke-width="6" stroke-linecap="square" opacity="0.497084888"></path>
+                    <path d="M0.266423358,19.419708 L141.266423,60.419708" id="1-copy-2" stroke="#525C5A" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M33.7664234,61.9197083 L116.766423,23.919708" id="2" stroke="#525C5A" stroke-width="6" stroke-linecap="square" opacity="0.497084888"></path>
+                    <path d="M36.2664234,57.419708 L116.266423,20.419708" id="2-copy-2" stroke="#525C5A" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M75.0875912,78.9197083 L71.7664234,2.91970803" id="3" stroke="#525C5A" stroke-width="6" stroke-linecap="square" opacity="0.497084888"></path>
+                    <path d="M72.2664234,81.419708 L69.2664234,3.41970803" id="3-copy-2" stroke="#525C5A" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M182.766423,81.9197083 L191.426427,0.791052998" id="3" stroke="#525C5A" stroke-width="6" stroke-linecap="square" opacity="0.49504431"></path>
+                    <path d="M181.766423,78.9197083 L190.112072,0.774089849" id="3-copy" stroke="#525C5A" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M141.766423,65.9197078 L241.766423,24.919708" id="2" stroke="#525C5A" stroke-width="6" stroke-linecap="square" opacity="0.49504431"></path>
+                    <path d="M140.766423,63.9197078 L243.266423,22.419708" id="2-copy" stroke="#525C5A" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M119.218978,22.919708 L251.766423,65.919708" id="1" stroke="#525C5A" stroke-width="6" stroke-linecap="square" opacity="0.49504431"></path>
+                    <path d="M121.266423,20.419708 L252.766424,64.9197083" id="1-copy" stroke="#525C5A" stroke-width="3" stroke-linecap="square"></path>
+                    <g id="shiny-big-ball" transform="translate(59.000000, 28.000000)">
+                        <g>
+                            <g>
+                                <circle id="leftball" fill="#F0CF25" cx="12.620438" cy="12.2773723" r="11.6788321"></circle>
+                                <circle id="leftball-copy" fill="#FFFFFF" opacity="0.5" cx="12.6216057" cy="13.27854" r="7.67999983"></circle>
+                                <circle id="leftball-copy-2" fill="#F0CF25" cx="11.6216057" cy="12.27854" r="7.67999983"></circle>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="shiny-big-ball" transform="translate(174.000000, 31.000000)">
+                        <g>
+                            <g>
+                                <circle id="leftball" fill="#F0CF25" cx="12.620438" cy="12.2773723" r="11.6788321"></circle>
+                                <circle id="leftball-copy" fill="#FFFFFF" opacity="0.5" cx="12.6216057" cy="13.27854" r="7.67999983"></circle>
+                                <circle id="leftball-copy-2" fill="#F0CF25" cx="11.6216057" cy="12.27854" r="7.67999983"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="bottom" transform="translate(10.000000, 360.000000)">
+                    <g id="molecule" transform="translate(246.000000, 1.000000)">
+                        <g id="Group" transform="translate(0.795620, 0.277372)">
+                            <g id="Group-3" transform="translate(6.678832, 10.759124)">
+                                <circle id="Oval-1-Copy-5" fill="#A9C5B0" cx="76.6934307" cy="38.9270073" r="7.29927007"></circle>
+                                <path d="M70.5255474,52.9635036 L75.5255474,41.9635036" id="z-line" stroke="#000000" stroke-width="4" stroke-linecap="square"></path>
+                                <path d="M67.0255474,1.46350365 L67.0255474,117.571215" id="midvertical" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M68.0255474,58.4635036 L117.025547,67.4635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M62.0255474,58.4635036 L9.02554745,66.4635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="66.1941608" cy="60.0992729" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="67" cy="61" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="66" cy="60" r="5"></circle>
+                                <path d="M64.9158672,1.28541758 C66.4536958,-0.296274096 67.8248233,0.208343341 68.2205461,2.371346 L123.617344,67.1075466 L67.7003521,118.922488 L0.919102133,67.1075466 L64.9158672,1.28541758 Z" id="Triangle-1-Copy-10" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="shiny-ball" transform="translate(0.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(122.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 121.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 0.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="molecule" transform="translate(124.000000, 1.000000)">
+                        <g id="Group" transform="translate(0.795620, 0.277372)">
+                            <g id="Group-3" transform="translate(6.678832, 10.759124)">
+                                <circle id="Oval-1-Copy-5" fill="#A9C5B0" cx="76.6934307" cy="38.9270073" r="7.29927007"></circle>
+                                <path d="M70.5255474,52.9635036 L75.5255474,41.9635036" id="z-line" stroke="#000000" stroke-width="4" stroke-linecap="square"></path>
+                                <path d="M67.0255474,1.46350365 L67.0255474,117.571215" id="midvertical" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M68.0255474,58.4635036 L117.025547,67.4635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M62.0255474,58.4635036 L9.02554745,66.4635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="66.1941608" cy="60.0992729" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="67" cy="61" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="66" cy="60" r="5"></circle>
+                                <path d="M64.9158672,1.28541758 C66.4536958,-0.296274096 67.8248233,0.208343341 68.2205461,2.371346 L123.617344,67.1075466 L67.7003521,118.922488 L0.919102133,67.1075466 L64.9158672,1.28541758 Z" id="Triangle-1-Copy-10" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="shiny-ball" transform="translate(0.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(122.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 121.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 0.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="molecule">
+                        <g id="Group" transform="translate(0.795620, 0.277372)">
+                            <g id="Group-3" transform="translate(6.678832, 10.759124)">
+                                <circle id="Oval-1-Copy-5" fill="#A9C5B0" cx="76.6934307" cy="38.9270073" r="7.29927007"></circle>
+                                <path d="M70.5255474,52.9635036 L75.5255474,41.9635036" id="z-line" stroke="#000000" stroke-width="4" stroke-linecap="square"></path>
+                                <path d="M67.0255474,1.46350365 L67.0255474,117.571215" id="midvertical" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M68.0255474,58.4635036 L117.025547,67.4635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M62.0255474,58.4635036 L9.02554745,66.4635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="66.1941608" cy="60.0992729" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="67" cy="61" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="66" cy="60" r="5"></circle>
+                                <path d="M64.9158672,1.28541758 C66.4536958,-0.296274096 67.8248233,0.208343341 68.2205461,2.371346 L123.617344,67.1075466 L67.7003521,118.922488 L0.919102133,67.1075466 L64.9158672,1.28541758 Z" id="Triangle-1-Copy-10" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="shiny-ball" transform="translate(0.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(122.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 121.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 0.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="molecule" transform="translate(174.000000, 24.000000)">
+                        <g id="Group" transform="translate(0.795620, 0.277372)">
+                            <g id="Group-3" transform="translate(6.678832, 10.759124)">
+                                <circle id="Oval-1-Copy-5" fill="#A9C5B0" cx="76.6934307" cy="38.9270073" r="7.29927007"></circle>
+                                <path d="M70.5255474,52.9635036 L75.5255474,41.9635036" id="z-line" stroke="#000000" stroke-width="4" stroke-linecap="square"></path>
+                                <path d="M67.0255474,1.46350365 L67.0255474,117.571215" id="midvertical" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M68.0255474,58.4635036 L117.025547,67.4635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M62.0255474,58.4635036 L9.02554745,66.4635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="66.1941608" cy="60.0992729" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="67" cy="61" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="66" cy="60" r="5"></circle>
+                                <path d="M64.9158672,1.28541758 C66.4536958,-0.296274096 67.8248233,0.208343341 68.2205461,2.371346 L123.617344,67.1075466 L67.7003521,118.922488 L0.919102133,67.1075466 L64.9158672,1.28541758 Z" id="Triangle-1-Copy-10" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="shiny-ball" transform="translate(0.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(122.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 121.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 0.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="molecule" transform="translate(52.000000, 24.000000)">
+                        <g id="Group" transform="translate(0.795620, 0.277372)">
+                            <g id="Group-3" transform="translate(6.678832, 10.759124)">
+                                <circle id="Oval-1-Copy-5" fill="#A9C5B0" cx="76.6934307" cy="38.9270073" r="7.29927007"></circle>
+                                <path d="M70.5255474,52.9635036 L75.5255474,41.9635036" id="z-line" stroke="#000000" stroke-width="4" stroke-linecap="square"></path>
+                                <path d="M67.0255474,1.46350365 L67.0255474,117.571215" id="midvertical" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M68.0255474,58.4635036 L117.025547,67.4635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M62.0255474,58.4635036 L9.02554745,66.4635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="66.1941608" cy="60.0992729" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="67" cy="61" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="66" cy="60" r="5"></circle>
+                                <path d="M64.9158672,1.28541758 C66.4536958,-0.296274096 67.8248233,0.208343341 68.2205461,2.371346 L123.617344,67.1075466 L67.7003521,118.922488 L0.919102133,67.1075466 L64.9158672,1.28541758 Z" id="Triangle-1-Copy-10" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="shiny-ball" transform="translate(0.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(122.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 121.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 0.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="topbonds" transform="translate(74.912409, 129.145985)">
+                    <path d="M126.087591,2.85401458 L220.087591,83.8540146" id="rightdownright" stroke="#525C5A" stroke-width="6" stroke-linecap="square" opacity="0.499125466"></path>
+                    <path d="M120.087591,0.854014575 L216.587591,83.3540146" id="rightdownright-copy" stroke="#525C5A" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M173.087591,24.8540146 L179.087591,66.8540154" id="rightforwad" stroke="#525C5A" stroke-width="6" stroke-linecap="square" opacity="0.499125466"></path>
+                    <path d="M173.087591,24.8540146 L179.087591,66.8540154" id="rightforwad-copy" stroke="#525C5A" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M114.087591,81.8540146 L246.087591,0.854014598" id="rightdownleft" stroke="#525C5A" stroke-width="6" stroke-linecap="square" opacity="0.499125466"></path>
+                    <path d="M114.087591,83.8540146 L245.087585,3.85401458" id="leftdownleft-copy-2" stroke="#525C5A" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M49.0875912,19.8540146 L71.0875912,58.8540146" id="leftforward" stroke="#525C5A" stroke-width="6" stroke-linecap="square" opacity="0.49661847"></path>
+                    <path d="M52.0875912,23.8540146 L74.0875912,60.8540146" id="leftforward-copy" stroke="#525C5A" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M5.18310587,78.9194776 L121.121013,0.823397505" id="leftdownleft" stroke="#525C5A" stroke-width="6" stroke-linecap="square" opacity="0.504897388"></path>
+                    <path d="M6.16563049,79.8836268 L122.103538,1.78754668" id="leftdownleft-copy" stroke="#525C5A" stroke-width="2" stroke-linecap="square"></path>
+                    <path d="M2.08759125,0.854014575 L108.087591,79.8540146" id="leftdownright" stroke="#525C5A" stroke-width="6" stroke-linecap="square" opacity="0.504897388"></path>
+                    <path d="M1.08759125,2.85401458 L110.587591,83.3540146" id="leftdownright-copy" stroke="#525C5A" stroke-width="3" stroke-linecap="square"></path>
+                    <g id="shiny-big-ball" transform="translate(163.854015, 32.773723)">
+                        <g>
+                            <g>
+                                <circle id="leftball" fill="#F0CF25" cx="12.620438" cy="12.2773723" r="11.6788321"></circle>
+                                <circle id="leftball-copy" fill="#FFFFFF" opacity="0.5" cx="12.6216057" cy="13.27854" r="7.67999983"></circle>
+                                <circle id="leftball-copy-2" fill="#F0CF25" cx="11.6216057" cy="12.27854" r="7.67999983"></circle>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="shiny-big-ball" transform="translate(47.854015, 31.773723)">
+                        <g>
+                            <g>
+                                <circle id="leftball" fill="#F0CF25" cx="12.620438" cy="12.2773723" r="11.6788321"></circle>
+                                <circle id="leftball-copy" fill="#FFFFFF" opacity="0.5" cx="12.6216057" cy="13.27854" r="7.67999983"></circle>
+                                <circle id="leftball-copy-2" fill="#F0CF25" cx="11.6216057" cy="12.27854" r="7.67999983"></circle>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="middle" transform="translate(15.759124, 179.781022)">
+                    <g id="molecule2" transform="translate(177.000000, 3.000000)">
+                        <g id="molecule-copy-5" transform="translate(0.240876, 2.218978)">
+                            <g id="Group-3" transform="translate(8.474453, 11.036496)">
+                                <path d="M54.5,117.463504 L54.5,2.24452554" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M55.7846715,61.2445255 L107.784672,55.2445255" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M55.2846722,59.7445257 L0.525547445,52.9635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="54.9532849" cy="57.8802948" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="55.7591241" cy="58.7810219" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="54.7591241" cy="57.7810219" r="5"></circle>
+                                <path d="M41.5255474,73.9635036 L47.5255474,65.9635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <path d="M89.9472197,2.15684106 C91.3913314,0.485976085 92.8715331,0.899133919 93.2521387,3.07277847 L105.876468,75.1705349 L41.4298443,58.2923763 L89.9472197,2.15684106 Z" id="Triangle-1-Copy" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(73.653156, 38.150392) scale(-1, 1) translate(-73.653156, -38.150392) "></path>
+                                <path d="M91.2641594,59.7212962 C92.6988077,58.0432799 94.2937697,58.4248141 94.823156,60.5595614 L104.380375,99.0989946 L42.7189068,116.501567 L91.2641594,59.7212962 Z" id="Triangle-1-Copy-2" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(73.549641, 87.587890) scale(-1, -1) translate(-73.549641, -87.587890) "></path>
+                                <path d="M48.3233301,56.8374326 C49.7252997,55.1257358 50.3916852,55.4585234 49.8069727,57.5981932 L40.6915631,90.9547002 L4.2622106,110.632663 L48.3233301,56.8374326 Z" id="Triangle-1-Copy-7" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(27.140621, 83.188594) scale(1, -1) translate(-27.140621, -83.188594) "></path>
+                                <path d="M49.94353,3.16670774 C51.5075258,1.60649549 52.5055293,2.11769283 52.1740718,4.29903116 L41.4044537,75.1744411 L1.46304745,51.5299099 L49.94353,3.16670774 Z" id="Triangle-1-Copy-6" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="balls" transform="translate(0.795620, 0.277372)">
+                                <g id="shiny-ball" transform="translate(54.000000, 119.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(108.000000, 59.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(0.000000, 56.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(39.000000, 75.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(54.000000, 0.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="molecule2" transform="translate(69.000000, 0.000000)">
+                        <g id="molecule-copy-5" transform="translate(0.240876, 2.218978)">
+                            <g id="Group-3" transform="translate(8.474453, 11.036496)">
+                                <path d="M54.5,117.463504 L54.5,2.24452554" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M55.7846715,61.2445255 L107.784672,55.2445255" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M55.2846722,59.7445257 L0.525547445,52.9635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="54.9532849" cy="57.8802948" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="55.7591241" cy="58.7810219" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="54.7591241" cy="57.7810219" r="5"></circle>
+                                <path d="M41.5255474,73.9635036 L47.5255474,65.9635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <path d="M89.9472197,2.15684106 C91.3913314,0.485976085 92.8715331,0.899133919 93.2521387,3.07277847 L105.876468,75.1705349 L41.4298443,58.2923763 L89.9472197,2.15684106 Z" id="Triangle-1-Copy" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(73.653156, 38.150392) scale(-1, 1) translate(-73.653156, -38.150392) "></path>
+                                <path d="M91.2641594,59.7212962 C92.6988077,58.0432799 94.2937697,58.4248141 94.823156,60.5595614 L104.380375,99.0989946 L42.7189068,116.501567 L91.2641594,59.7212962 Z" id="Triangle-1-Copy-2" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(73.549641, 87.587890) scale(-1, -1) translate(-73.549641, -87.587890) "></path>
+                                <path d="M48.3233301,56.8374326 C49.7252997,55.1257358 50.3916852,55.4585234 49.8069727,57.5981932 L40.6915631,90.9547002 L4.2622106,110.632663 L48.3233301,56.8374326 Z" id="Triangle-1-Copy-7" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(27.140621, 83.188594) scale(1, -1) translate(-27.140621, -83.188594) "></path>
+                                <path d="M49.94353,3.16670774 C51.5075258,1.60649549 52.5055293,2.11769283 52.1740718,4.29903116 L41.4044537,75.1744411 L1.46304745,51.5299099 L49.94353,3.16670774 Z" id="Triangle-1-Copy-6" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="balls" transform="translate(0.795620, 0.277372)">
+                                <g id="shiny-ball" transform="translate(54.000000, 119.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(108.000000, 59.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(0.000000, 56.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(39.000000, 75.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(54.000000, 0.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="molecule2" transform="translate(216.000000, 23.000000)">
+                        <g id="molecule-copy-5" transform="translate(0.240876, 2.218978)">
+                            <g id="Group-3" transform="translate(8.474453, 11.036496)">
+                                <path d="M54.5,117.463504 L54.5,2.24452554" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M55.7846715,61.2445255 L107.784672,55.2445255" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M55.2846722,59.7445257 L0.525547445,52.9635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="54.9532849" cy="57.8802948" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="55.7591241" cy="58.7810219" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="54.7591241" cy="57.7810219" r="5"></circle>
+                                <path d="M41.5255474,73.9635036 L47.5255474,65.9635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <path d="M89.9472197,2.15684106 C91.3913314,0.485976085 92.8715331,0.899133919 93.2521387,3.07277847 L105.876468,75.1705349 L41.4298443,58.2923763 L89.9472197,2.15684106 Z" id="Triangle-1-Copy" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(73.653156, 38.150392) scale(-1, 1) translate(-73.653156, -38.150392) "></path>
+                                <path d="M91.2641594,59.7212962 C92.6988077,58.0432799 94.2937697,58.4248141 94.823156,60.5595614 L104.380375,99.0989946 L42.7189068,116.501567 L91.2641594,59.7212962 Z" id="Triangle-1-Copy-2" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(73.549641, 87.587890) scale(-1, -1) translate(-73.549641, -87.587890) "></path>
+                                <path d="M48.3233301,56.8374326 C49.7252997,55.1257358 50.3916852,55.4585234 49.8069727,57.5981932 L40.6915631,90.9547002 L4.2622106,110.632663 L48.3233301,56.8374326 Z" id="Triangle-1-Copy-7" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(27.140621, 83.188594) scale(1, -1) translate(-27.140621, -83.188594) "></path>
+                                <path d="M49.94353,3.16670774 C51.5075258,1.60649549 52.5055293,2.11769283 52.1740718,4.29903116 L41.4044537,75.1744411 L1.46304745,51.5299099 L49.94353,3.16670774 Z" id="Triangle-1-Copy-6" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="balls" transform="translate(0.795620, 0.277372)">
+                                <g id="shiny-ball" transform="translate(54.000000, 119.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(108.000000, 59.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(0.000000, 56.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(39.000000, 75.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(54.000000, 0.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="molecule2" transform="translate(108.000000, 20.000000)">
+                        <g id="molecule-copy-5" transform="translate(0.240876, 2.218978)">
+                            <g id="Group-3" transform="translate(8.474453, 11.036496)">
+                                <path d="M54.5,117.463504 L54.5,2.24452554" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M55.7846715,61.2445255 L107.784672,55.2445255" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M55.2846722,59.7445257 L0.525547445,52.9635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="54.9532849" cy="57.8802948" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="55.7591241" cy="58.7810219" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="54.7591241" cy="57.7810219" r="5"></circle>
+                                <path d="M41.5255474,73.9635036 L47.5255474,65.9635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <path d="M89.9472197,2.15684106 C91.3913314,0.485976085 92.8715331,0.899133919 93.2521387,3.07277847 L105.876468,75.1705349 L41.4298443,58.2923763 L89.9472197,2.15684106 Z" id="Triangle-1-Copy" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(73.653156, 38.150392) scale(-1, 1) translate(-73.653156, -38.150392) "></path>
+                                <path d="M91.2641594,59.7212962 C92.6988077,58.0432799 94.2937697,58.4248141 94.823156,60.5595614 L104.380375,99.0989946 L42.7189068,116.501567 L91.2641594,59.7212962 Z" id="Triangle-1-Copy-2" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(73.549641, 87.587890) scale(-1, -1) translate(-73.549641, -87.587890) "></path>
+                                <path d="M48.3233301,56.8374326 C49.7252997,55.1257358 50.3916852,55.4585234 49.8069727,57.5981932 L40.6915631,90.9547002 L4.2622106,110.632663 L48.3233301,56.8374326 Z" id="Triangle-1-Copy-7" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(27.140621, 83.188594) scale(1, -1) translate(-27.140621, -83.188594) "></path>
+                                <path d="M49.94353,3.16670774 C51.5075258,1.60649549 52.5055293,2.11769283 52.1740718,4.29903116 L41.4044537,75.1744411 L1.46304745,51.5299099 L49.94353,3.16670774 Z" id="Triangle-1-Copy-6" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="balls" transform="translate(0.795620, 0.277372)">
+                                <g id="shiny-ball" transform="translate(54.000000, 119.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(108.000000, 59.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(0.000000, 56.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(39.000000, 75.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(54.000000, 0.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="molecule2" transform="translate(0.000000, 17.000000)">
+                        <g id="molecule-copy-5" transform="translate(0.240876, 2.218978)">
+                            <g id="Group-3" transform="translate(8.474453, 11.036496)">
+                                <path d="M54.5,117.463504 L54.5,2.24452554" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M55.7846715,61.2445255 L107.784672,55.2445255" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M55.2846722,59.7445257 L0.525547445,52.9635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="54.9532849" cy="57.8802948" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="55.7591241" cy="58.7810219" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="54.7591241" cy="57.7810219" r="5"></circle>
+                                <path d="M41.5255474,73.9635036 L47.5255474,65.9635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <path d="M89.9472197,2.15684106 C91.3913314,0.485976085 92.8715331,0.899133919 93.2521387,3.07277847 L105.876468,75.1705349 L41.4298443,58.2923763 L89.9472197,2.15684106 Z" id="Triangle-1-Copy" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(73.653156, 38.150392) scale(-1, 1) translate(-73.653156, -38.150392) "></path>
+                                <path d="M91.2641594,59.7212962 C92.6988077,58.0432799 94.2937697,58.4248141 94.823156,60.5595614 L104.380375,99.0989946 L42.7189068,116.501567 L91.2641594,59.7212962 Z" id="Triangle-1-Copy-2" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(73.549641, 87.587890) scale(-1, -1) translate(-73.549641, -87.587890) "></path>
+                                <path d="M48.3233301,56.8374326 C49.7252997,55.1257358 50.3916852,55.4585234 49.8069727,57.5981932 L40.6915631,90.9547002 L4.2622106,110.632663 L48.3233301,56.8374326 Z" id="Triangle-1-Copy-7" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2" transform="translate(27.140621, 83.188594) scale(1, -1) translate(-27.140621, -83.188594) "></path>
+                                <path d="M49.94353,3.16670774 C51.5075258,1.60649549 52.5055293,2.11769283 52.1740718,4.29903116 L41.4044537,75.1744411 L1.46304745,51.5299099 L49.94353,3.16670774 Z" id="Triangle-1-Copy-6" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="balls" transform="translate(0.795620, 0.277372)">
+                                <g id="shiny-ball" transform="translate(54.000000, 119.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(108.000000, 59.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(0.000000, 56.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(39.000000, 75.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                                <g id="shiny-ball" transform="translate(54.000000, 0.000000)">
+                                    <g>
+                                        <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                        <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                        <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="top">
+                    <g id="molecule" transform="translate(246.000000, 1.000000)">
+                        <g id="Group" transform="translate(0.795620, 0.277372)">
+                            <g id="Group-3" transform="translate(6.678832, 10.759124)">
+                                <circle id="Oval-1-Copy-5" fill="#A9C5B0" cx="76.6934307" cy="38.9270073" r="7.29927007"></circle>
+                                <path d="M70.5255474,52.9635036 L75.5255474,41.9635036" id="z-line" stroke="#000000" stroke-width="4" stroke-linecap="square"></path>
+                                <path d="M67.0255474,1.46350365 L67.0255474,117.571215" id="midvertical" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M68.0255474,58.4635036 L117.025547,67.4635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M62.0255474,58.4635036 L9.02554745,66.4635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="66.1941608" cy="60.0992729" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="67" cy="61" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="66" cy="60" r="5"></circle>
+                                <path d="M64.9158672,1.28541758 C66.4536958,-0.296274096 67.8248233,0.208343341 68.2205461,2.371346 L123.617344,67.1075466 L67.7003521,118.922488 L0.919102133,67.1075466 L64.9158672,1.28541758 Z" id="Triangle-1-Copy-10" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="shiny-ball" transform="translate(0.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(122.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 121.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 0.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="molecule" transform="translate(124.000000, 1.000000)">
+                        <g id="Group" transform="translate(0.795620, 0.277372)">
+                            <g id="Group-3" transform="translate(6.678832, 10.759124)">
+                                <circle id="Oval-1-Copy-5" fill="#A9C5B0" cx="76.6934307" cy="38.9270073" r="7.29927007"></circle>
+                                <path d="M70.5255474,52.9635036 L75.5255474,41.9635036" id="z-line" stroke="#000000" stroke-width="4" stroke-linecap="square"></path>
+                                <path d="M67.0255474,1.46350365 L67.0255474,117.571215" id="midvertical" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M68.0255474,58.4635036 L117.025547,67.4635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M62.0255474,58.4635036 L9.02554745,66.4635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="66.1941608" cy="60.0992729" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="67" cy="61" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="66" cy="60" r="5"></circle>
+                                <path d="M64.9158672,1.28541758 C66.4536958,-0.296274096 67.8248233,0.208343341 68.2205461,2.371346 L123.617344,67.1075466 L67.7003521,118.922488 L0.919102133,67.1075466 L64.9158672,1.28541758 Z" id="Triangle-1-Copy-10" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="shiny-ball" transform="translate(0.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(122.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 121.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 0.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="molecule">
+                        <g id="Group" transform="translate(0.795620, 0.277372)">
+                            <g id="Group-3" transform="translate(6.678832, 10.759124)">
+                                <circle id="Oval-1-Copy-5" fill="#A9C5B0" cx="76.6934307" cy="38.9270073" r="7.29927007"></circle>
+                                <path d="M70.5255474,52.9635036 L75.5255474,41.9635036" id="z-line" stroke="#000000" stroke-width="4" stroke-linecap="square"></path>
+                                <path d="M67.0255474,1.46350365 L67.0255474,117.571215" id="midvertical" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M68.0255474,58.4635036 L117.025547,67.4635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M62.0255474,58.4635036 L9.02554745,66.4635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="66.1941608" cy="60.0992729" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="67" cy="61" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="66" cy="60" r="5"></circle>
+                                <path d="M64.9158672,1.28541758 C66.4536958,-0.296274096 67.8248233,0.208343341 68.2205461,2.371346 L123.617344,67.1075466 L67.7003521,118.922488 L0.919102133,67.1075466 L64.9158672,1.28541758 Z" id="Triangle-1-Copy-10" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="shiny-ball" transform="translate(0.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(122.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 121.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 0.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="molecule" transform="translate(174.000000, 24.000000)">
+                        <g id="Group" transform="translate(0.795620, 0.277372)">
+                            <g id="Group-3" transform="translate(6.678832, 10.759124)">
+                                <circle id="Oval-1-Copy-5" fill="#A9C5B0" cx="76.6934307" cy="38.9270073" r="7.29927007"></circle>
+                                <path d="M70.5255474,52.9635036 L75.5255474,41.9635036" id="z-line" stroke="#000000" stroke-width="4" stroke-linecap="square"></path>
+                                <path d="M67.0255474,1.46350365 L67.0255474,117.571215" id="midvertical" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M68.0255474,58.4635036 L117.025547,67.4635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M62.0255474,58.4635036 L9.02554745,66.4635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="66.1941608" cy="60.0992729" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="67" cy="61" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="66" cy="60" r="5"></circle>
+                                <path d="M64.9158672,1.28541758 C66.4536958,-0.296274096 67.8248233,0.208343341 68.2205461,2.371346 L123.617344,67.1075466 L67.7003521,118.922488 L0.919102133,67.1075466 L64.9158672,1.28541758 Z" id="Triangle-1-Copy-10" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="shiny-ball" transform="translate(0.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(122.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 121.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 0.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="molecule" transform="translate(52.000000, 24.000000)">
+                        <g id="Group" transform="translate(0.795620, 0.277372)">
+                            <g id="Group-3" transform="translate(6.678832, 10.759124)">
+                                <circle id="Oval-1-Copy-5" fill="#A9C5B0" cx="76.6934307" cy="38.9270073" r="7.29927007"></circle>
+                                <path d="M70.5255474,52.9635036 L75.5255474,41.9635036" id="z-line" stroke="#000000" stroke-width="4" stroke-linecap="square"></path>
+                                <path d="M67.0255474,1.46350365 L67.0255474,117.571215" id="midvertical" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M68.0255474,58.4635036 L117.025547,67.4635036" id="Line" stroke="#000000" stroke-width="5" stroke-linecap="square"></path>
+                                <path d="M62.0255474,58.4635036 L9.02554745,66.4635036" id="Line" stroke="#000000" stroke-width="6" stroke-linecap="square"></path>
+                                <circle id="Oval-1-Copy-4" fill="#000000" cx="66.1941608" cy="60.0992729" r="9.80000019"></circle>
+                                <circle id="Oval-1-Copy-6" fill="#FFFFFF" cx="67" cy="61" r="5"></circle>
+                                <circle id="Oval-1-Copy-7" fill="#000000" cx="66" cy="60" r="5"></circle>
+                                <path d="M64.9158672,1.28541758 C66.4536958,-0.296274096 67.8248233,0.208343341 68.2205461,2.371346 L123.617344,67.1075466 L67.7003521,118.922488 L0.919102133,67.1075466 L64.9158672,1.28541758 Z" id="Triangle-1-Copy-10" stroke="#4990E2" stroke-width="3" fill-opacity="0.65" fill="#4990E2"></path>
+                            </g>
+                            <g id="shiny-ball" transform="translate(0.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(122.240876, 71.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 121.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                            <g id="shiny-ball" transform="translate(66.240876, 0.218978)">
+                                <g>
+                                    <circle id="Oval-1-Copy" fill="#81C191" cx="7.29927007" cy="7.29927007" r="7.29927007"></circle>
+                                    <circle id="Oval-1-Copy-7" fill="#FFFFFF" opacity="0.759911381" cx="7.80000019" cy="7.80000019" r="4.80000019"></circle>
+                                    <circle id="Oval-1-Copy-8" fill="#81C191" cx="6.80000019" cy="6.80000019" r="4.80000019"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

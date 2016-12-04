@@ -78,9 +78,7 @@ var data =
               title: 'A Giant Step Closer to Elusive Pure Blue',
               subtitle: 'How scientists created the purest blue yet.',
               link: 'blue.html',
-              big_image: 'blue/pigments.png',
-              thumb: 'blue/light_diagram.png',
-              recent: 'blue/light_diagram.png',
+              thumb: 'blue/yinmndiagram.svg',
               date: 'Jul 4, 2016',
               blurb: 'Scientists have created a substance closer to pure blue as we\'ve ever been. Also it is fade-proof, reflects infrared light, and is non-toxic.'
              },

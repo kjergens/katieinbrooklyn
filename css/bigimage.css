@@ -1,3 +1,8 @@
+figure {
+  position: relative;
+  left: -30px;
+}
+
 
 img {
   max-width: 200%;
