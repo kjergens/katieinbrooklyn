@@ -31,15 +31,18 @@ Question 1
 			document.getElementById("blackout1").style.opacity = 0;
 			document.getElementById("result1_container").style.opacity = 1;
 
+			document.getElementById("correct1").style.background = "#b2d8b2";
+			document.getElementById("correct1").style.color = "#338933";
+
 			if (this.classList.contains("correct")) {
 				score++;
-				document.getElementById("correct1").style.background = "#b2d8b2";
 				document.getElementById("correct1").style.border = "6px solid #66b266";
 				document.getElementById("result1").innerHTML += "<h3>Correct!</h3>";
 			}
 			else {
-				document.getElementById("correct1").style.border = "6px solid #3a3a3a";
-				this.style.background = "#9a9a9a";
+				this.style.background = "#ee9999";
+				this.style.color = "#994444";
+				this.style.border = "6px solid #bb6666";
 				document.getElementById("result1").innerHTML += "<h3>Incorrect</h3>";
 			}
 			document.getElementById("score1").innerHTML += "<h4>Score: " + score + " out of " + answered + "</h4>";
@@ -58,15 +61,18 @@ Question 2
 			document.getElementById("blackout2").style.opacity = 0;
 			document.getElementById("result2_container").style.opacity = 1;
 
+			document.getElementById("correct2").style.background = "#b2d8b2";
+			document.getElementById("correct2").style.color = "#338933";
+
 			if (this.classList.contains("correct")) {
 				score++;
-				document.getElementById("correct2").style.background = "#b2d8b2";
 				document.getElementById("correct2").style.border = "6px solid #66b266";
 				document.getElementById("result2").innerHTML += "<h3>Correct!</h3>";
 			}
 			else {
-				document.getElementById("correct2").style.border = "6px solid #3a3a3a";
-				this.style.background = "#9a9a9a";
+				this.style.background = "#ee9999";
+				this.style.color = "#994444";
+				this.style.border = "6px solid #bb6666";
 				document.getElementById("result2").innerHTML += "<h3>Incorrect</h3>";
 			}
 			document.getElementById("score2").innerHTML += "<h4>Score: " + score + " out of " + answered + "</h4>";
@@ -85,15 +91,19 @@ Question 3 - 12 changes to make
 			document.getElementById("blackout3").style.opacity = 0;
 			document.getElementById("result3_container").style.opacity = 1;
 
+			document.getElementById("correct3").style.background = "#b2d8b2";
+			document.getElementById("correct3").style.color = "#338933";
+
 			if (this.classList.contains("correct")) {
 				score++;
-				document.getElementById("correct3").style.background = "#b2d8b2";
+				
 				document.getElementById("correct3").style.border = "6px solid #66b266";
 				document.getElementById("result3").innerHTML += "<h3>Correct!</h3>";
 			}
 			else {
-				document.getElementById("correct3").style.border = "6px solid #3a3a3a";
-				this.style.background = "#9a9a9a";
+				this.style.background = "#ee9999";
+				this.style.color = "#994444";
+				this.style.border = "6px solid #bb6666";
 				document.getElementById("result3").innerHTML += "<h3>Incorrect</h3>";
 			}
 			document.getElementById("score3").innerHTML += "<h4>Score: " + score + " out of " + answered + "</h4>";
@@ -111,15 +121,18 @@ Question 4 - 12 changes to make
 			document.getElementById("blackout4").style.opacity = 0;
 			document.getElementById("result4_container").style.opacity = 1;
 
+			document.getElementById("correct4").style.background = "#b2d8b2";
+			document.getElementById("correct4").style.color = "#338933";
+
 			if (this.classList.contains("correct")) {
 				score++;
-				document.getElementById("correct4").style.background = "#b2d8b2";
 				document.getElementById("correct4").style.border = "6px solid #66b266";
 				document.getElementById("result4").innerHTML += "<h3>Correct!</h3>";
 			}
 			else {
-				document.getElementById("correct4").style.border = "6px solid #3a3a3a";
-				this.style.background = "#9a9a9a";
+				this.style.background = "#ee9999";
+				this.style.color = "#994444";
+				this.style.border = "6px solid #bb6666";
 				document.getElementById("result4").innerHTML += "<h3>Incorrect</h3>";
 			}
 			document.getElementById("score4").innerHTML += "<h4>Score: " + score + " out of " + answered + "</h4>";
@@ -137,15 +150,18 @@ Question 5 - 12 changes to make
 			document.getElementById("blackout5").style.opacity = 0;
 			document.getElementById("result5_container").style.opacity = 1;
 
+			document.getElementById("correct5").style.background = "#b2d8b2";
+			document.getElementById("correct5").style.color = "#338933";
+				
 			if (this.classList.contains("correct")) {
 				score++;
-				document.getElementById("correct5").style.background = "#b2d8b2";
 				document.getElementById("correct5").style.border = "6px solid #66b266";
 				document.getElementById("result5").innerHTML += "<h3>Correct!</h3>";
 			}
 			else {
-				document.getElementById("correct5").style.border = "6px solid #3a3a3a";
-				this.style.background = "#9a9a9a";
+				this.style.background = "#ee9999";
+				this.style.color = "#994444";
+				this.style.border = "6px solid #bb6666";
 				document.getElementById("result5").innerHTML += "<h3>Incorrect</h3>";
 			}
 			document.getElementById("score5").innerHTML += "<h4>Score: " + score + " out of " + answered + "</h4>";
@@ -163,15 +179,18 @@ Question 6 - 12 changes to make
 			document.getElementById("blackout6").style.opacity = 0;
 			document.getElementById("result6_container").style.opacity = 1;
 
+			document.getElementById("correct6").style.background = "#b2d8b2";
+			document.getElementById("correct6").style.color = "#338933";
+				
 			if (this.classList.contains("correct")) {
 				score++;
-				document.getElementById("correct6").style.background = "#b2d8b2";
 				document.getElementById("correct6").style.border = "6px solid #66b266";
 				document.getElementById("result6").innerHTML += "<h3>Correct!</h3>";
 			}
 			else {
-				document.getElementById("correct6").style.border = "6px solid #3a3a3a";
-				this.style.background = "#9a9a9a";
+				this.style.background = "#ee9999";
+				this.style.color = "#994444";
+				this.style.border = "6px solid #bb6666";
 				document.getElementById("result6").innerHTML += "<h3>Incorrect</h3>";
 			}
 			document.getElementById("score6").innerHTML += "<h4>Score: " + score + " out of  " + answered + "</h4>";
@@ -181,27 +200,33 @@ Question 6 - 12 changes to make
 	/*
 Question 7 - 12 changes to make
 */
-	$(".option_last").click(function() {
+	$(".option7").click(function() {
 
 		if (!question_last_answered) {
 			question_last_answered = true;
 			answered++;
-			document.getElementById("blackout_last").style.opacity = 0;
-			document.getElementById("result_last_container").style.opacity = 1;
+			document.getElementById("blackout7").style.opacity = 0;
+			document.getElementById("result7_container").style.opacity = 1;
+
+			document.getElementById("correct7").style.background = "#b2d8b2";
+			document.getElementById("correct7").style.color = "#338933";
 
 			if (this.classList.contains("correct")) {
 				score++;
-				document.getElementById("correct_last").style.background = "#b2d8b2";
-				document.getElementById("correct_last").style.border = "6px solid #66b266";
-				document.getElementById("result_last").innerHTML += "<h3>Correct!</h3>";
+				document.getElementById("correct7").style.border = "6px solid #66b266";
+				document.getElementById("result7").innerHTML += "<h3>Correct!</h3>";
 			}
 			else {
-				document.getElementById("correct_last").style.border = "6px solid #3a3a3a";
-				this.style.background = "#9a9a9a";
-				document.getElementById("result_last").innerHTML += "<h3>Incorrect</h3>";
+				this.style.background = "#ee9999";
+				this.style.color = "#994444";
+				this.style.border = "6px solid #bb6666";
+				document.getElementById("result7").innerHTML += "<h3>Incorrect</h3>";
 			}
 		
-			document.getElementById("score_last").innerHTML += "<br><h1>Total: " + score + " out of " + answered + "</h1>";
+			document.getElementById("score7").innerHTML += "<h4>Score: " + score + " out of " + answered + "</h4>";
+
+			document.getElementById("score_final").style.opacity = 1;
+			document.getElementById("score_final").innerHTML += "<h1>Total: " + score + " out of " + answered + "</h1>";
 
 		}
 	});

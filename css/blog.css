@@ -62,17 +62,12 @@ figure {
 
 .article {
   max-width: 580px;
-  margin-left: -15px;
 }
 
 /*
    Right menu
 */
 
-#right_menu {
-  left: 30px;
-  
-}
 
 .menu_heading {
   font-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
@@ -86,11 +81,11 @@ figure {
 .menu_item {
   background-color: #efefef;
   border-bottom: 1px solid #dfdfdf;
-  zmargin: 1px 0px;
   padding: 6px;
   min-width: 290px;
   max-height: 105px;
   overflow: hidden;
+  text-align: left;
 }
 
 .menu_item:hover {
@@ -98,18 +93,16 @@ figure {
 }
 
 
-.thumb_container {
+.thumb_container img {
   float: left;
   overflow: hidden;
   width: 110px;
-  zheight: 85px;
+  margin-right: 10px;
 }
 
 
 .article_title_container {
-  padding: 0px 3px 3px 8px;
-  float: left;
-  max-width: 158px;
+  padding-right: 10px;
 }
 
 .article_title {
@@ -132,21 +125,7 @@ figure {
 @media (max-width: 992px) {     /* Get rid of the excess padding when the */
   #right_menu {
     padding-left: 0px;
-    left: 0px;
   }
-
-  .menu_item {                   /* menu is below the article */
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-top: 20px;
-    width: 100%;
-  }
-
-  .article_title_container {
-    width: 300px;
-    max-width: none;
-  }
-
 }
 
 
