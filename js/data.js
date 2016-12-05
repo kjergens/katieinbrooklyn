@@ -3,6 +3,15 @@ var data =
        menu: 
           [
           {
+              title: 'A Giant Step Closer to Elusive Pure Blue',
+              subtitle: 'How scientists created the purest blue yet.',
+              link: 'blue.html',
+              recent: 'blue/recent.png',
+              thumb: 'blue/recent.png',
+              date: 'Dec 4, 2016',
+              blurb: 'Scientists have stumbled upon the purest blue known to man. It reflects infrared rays, doesn\'t fade and, unlike similar pigments like cobalt, is non-toxic and non-carcinogenic.'
+          },
+          {
               title: 'Possible New (and Old) Logos for the Washington Redskins',
               subtitle: '',
               link: 'redskins.html',
@@ -74,14 +83,6 @@ var data =
               date: 'Jul 9, 2016',
               blurb: 'See what a baby sees in the first year of life.'
               },
-             {
-              title: 'A Giant Step Closer to Elusive Pure Blue',
-              subtitle: 'How scientists created the purest blue yet.',
-              link: 'blue.html',
-              thumb: 'blue/yinmndiagram.svg',
-              date: 'Jul 4, 2016',
-              blurb: 'Scientists have created a substance closer to pure blue as we\'ve ever been. Also it is fade-proof, reflects infrared light, and is non-toxic.'
-             },
              {
               title: 'Designing an Image: The Accountant',
               subtitle: 'From apprentice to professional.',
