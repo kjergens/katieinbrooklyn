@@ -19,10 +19,8 @@ var data =
               recent: 'redskins/braves.png',
               thumb: 'redskins/bravesthumb.png',
               date: 'Nov 26, 2016',
-              blurb: 'The Washington Redskins are hanging \
-              on to their name despite protests and \
-              lawsuits by Native American groups. Not enough fans support changing \
-              the name to convince the owners... '
+              blurb: 'Fans don\'t support changing \
+              the controversial name. Here are ideas to persuade them. '
             },
           {
               title: 'Choose Perfect Color Combinations',
@@ -32,7 +30,7 @@ var data =
               recent: 'colorwheel/pouring.svg',
               thumb: 'colorwheel/pouring.svg',
               date: 'Nov 13, 2016',
-              blurb: 'Be it your webpage, logo or bedroom, you might be scared your color choices don\'t pass graphics muster. Here is a tool for a fail-proof color palette.'
+              blurb: 'Here is a tool for a fail-proof color palette.'
             },
             {
               title: 'Emma Watson\'s Dress in the new Beauty and the Beast is Just so Yellow',
@@ -52,7 +50,7 @@ var data =
               recent: 'campaigns/jcrecent.png',
               thumb: 'campaigns/jcthumb.png',
               date: 'Aug 8, 2016',
-              blurb: 'Time and again candidates have used the same strategies to lure in the vote. Here are the results for better or worse.'
+              blurb: 'Candidates have used the same strategies to lure in the vote. Here are the results for better or worse.'
            }, 
            {
               title: 'The Oldest Constitution: U.S.A.!',
@@ -71,7 +69,7 @@ var data =
               thumb: 'smart/thumb.svg',
               recent: 'smart/recent.png',
               date: 'Jul 16, 2016',
-              blurb: 'Scientific American published a study on how to increase your intelligence. There are five keys to increasing fluidity ... '
+              blurb: 'Scientific American published a study on how to increase your intelligence. ' 
               },
             {
               title: 'What Do Babies See?',
@@ -204,47 +202,23 @@ var data =
           ],
       popular: 
           [ 
-          {
-              title: '5 Keys to Getting Smarter',
-              subtitle: 'Illustrations on how to train your brain.',
-              link: 'smart.html',
-              thumb: 'smart/thumb.svg'
-              },
-             {
-              title: 'What Do Babies See?',
-              subtitle: 'The first year of life is a busy time for a baby\'s vision.',
-              link: 'babies.html',
-              thumb: 'babies/thumb.svg'
-              },
             {
               title: 'Think Shakespeare\'s Room was Drab?',
               subtitle: 'Think again.',
               link: 'shakes.html',
               thumb: 'shakes/thumb.png',
             }, 
-             {
-              title: 'Quiz: Can You Guess the Titles of These \'80s Teen Romance Novels?',
-              subtitle: '',
-              link: 'bookcovers.html',
-              thumb: 'bookcovers/thumb.png'
-            },
             {
-              title: 'If the Ancient Greeks Are to Be Believed...',
-              subtitle: 'They saw things differently.',
-              link: 'greece.html',
-              thumb: 'greece/thumb.png'
+              title: '5 Keys to Getting Smarter',
+              subtitle: 'Illustrations on how to train your brain.',
+              link: 'smart.html',
+              thumb: 'smart/thumb.svg'
             },
              {
-              title: 'Who Needs A Spreadsheet When You Have Dye And Some Rope?',
-              subtitle: '',
-              link: 'quipu.html',
-              thumb: 'quipu/thumb.png'
-            },
-            {
-              title: 'Is Your Blue My Blue?',
-              subtitle: 'Experiments show different cultures might see colors differently.',
-              link: 'himba.html',
-              thumb: 'himba/thumb.png'
+              title: 'What Do Babies See?',
+              subtitle: 'The first year of life is a busy time for a baby\'s vision.',
+              link: 'babies.html',
+              thumb: 'babies/thumb.svg'
             },
             {
               title: 'How We Got To The Modern Bike',

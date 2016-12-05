@@ -52,7 +52,6 @@ figure {
 */
 .recent_header {
 	border-bottom: 8px solid #CD3300;
-	padding-top: 20px;
 	padding-bottom: 5px;
 	letter-spacing: -2px;
 	font-weight: 600;
@@ -60,15 +59,22 @@ figure {
 
 
 
-.recent h4 {
-	font-weight: 600;
+.recent h3 {
+	font-weight: 400;
+	margin: 10px 0px 10px;
+	letter-spacing: -1px;
+}
+
+.date {
+	float: none;
+	margin-top: 5px;
 }
 
 .recent {               /* each recent article */
 	background-color: white;
 	float: left;
 	width: 49.5%;
-	height: 420px;
+	height: 440px;
 	overflow: hidden;
 	padding: 20px; 	
 	margin: 3px 1px;
@@ -76,6 +82,7 @@ figure {
 
 .recent p {
 	font-size: 16px;  
+	display: inline;
 }
 
 .recent img {

@@ -25,7 +25,7 @@ var show_featured = function() {
         "<img class=\"featured_img\" src=\"images/" + data.menu[0].recent + "\"></figure>" +
      "<br><span class='featured_title'>" + data.menu[0].title + "</span>" +
     "</a>" +
-    "<span class='date'>" + data.menu[0].date + "</span><span id=\"latest\">Latest</span><br><br>" +
+    "<span class='date'>" + data.menu[0].date + "</span><span id=\"latest\">Latest</span><br>" +
    
    // "<div class=\"clearfix\"></div>" +
      
@@ -46,11 +46,11 @@ var show_featured = function() {
         recent += "<a href=\"" + data.menu[i].link + "\">" +
         "<div class='recent'>" +
         "<img src=\"images/" + data.menu[i].recent + "\">" +
-        " <h4>" + data.menu[i].title +  "</h4></a>" +
-        "<div class=\"date\">" + data.menu[i].date + "</div>" +
+          " <h3>" + data.menu[i].title +  "</h3></a>" +
         "<p>" + data.menu[i].blurb + 
         "<a href=\"" + data.menu[i].link + "\"> Read more.</a>" + "</p>" +
-        "</a></div>";
+        "</a>" +
+         "<div class=\"date\">" + data.menu[i].date + "</div></div>";
     }
 
     recent += "<div class=\"clearfix\"></div>"; // clear the floats
@@ -92,9 +92,9 @@ $(function () {
     var $popularmenu = $("#popular");
 
     $popularmenu.append("<div class=\"menu_heading\">Most popular</div>");
-    shuffle(data.popular);
+    //shuffle(data.popular);
     // loop through data and build menu
-    for (var i = 0; i<4; i++) {
+    for (var i = 0; i<data.popular.length; i++) {
          $popularmenu.append(get_menu_item(data.popular[i]));
     } 
 
@@ -108,7 +108,13 @@ $(function () {
 
     // loop through data and build menu
     for (var i = 7; i<data.menu.length; i++) {
+        // skip items that are already in Most popular 
+        if(data.menu[i].link != "babies.html" && 
+           data.menu[i].link != "shakes.html" && 
+            data.menu[i].link != "smart.html" && 
+            data.menu[i].link != "bikes.html" ) {
          $menu.append(get_menu_item(data.menu[i]));
+        }
     }  
 
 });
