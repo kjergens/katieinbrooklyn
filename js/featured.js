@@ -90,7 +90,7 @@ var show_popular = function() {
 
     // loop through data and build menu
     for (var i = 0; i<data.popular.length; i++) {
-         $popularmenu.append(get_menu_item(data.popular[i]));
+         $popularmenu.append(get_menu_item_numbered(data.popular[i]));
     } 
 };
 
@@ -142,6 +142,28 @@ var get_menu_item = function (itemData) {
     return item;
 };
 
+/********************************************
+
+    Construct a single menu item with numbers
+
+*******************************************/
+var get_menu_item_numbered = function (itemData) {
+    var item = $("<div class=\"menu_item\">")  
+        .append(
+          "<a href=\"" + itemData.link + "\">" +
+            "<div class=\"thumb_container\">" + 
+            "<div class=\"rank\">" + itemData.rank + "</div>" +
+            "<img src=\"images/" + itemData.thumb +
+             "\"></div>" +
+             " <div class=\"article_title_container\">" + 
+            " <div class=\"article_title\">" + 
+            itemData.title + 
+            "<div class=\"article_subtitle\">" +
+            itemData.subtitle + "</div>" +
+            "</div></div></a>");
+    item = item.append("</div><div class=\"clearfix\"></div>");
+    return item;
+};
 
 /*****************************
 

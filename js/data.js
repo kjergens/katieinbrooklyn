@@ -207,24 +207,28 @@ var data =
               subtitle: 'Think again.',
               link: 'shakes.html',
               thumb: 'shakes/thumb.png',
+              rank: 1
             }, 
             {
               title: '5 Keys to Getting Smarter',
               subtitle: 'Illustrations on how to train your brain.',
               link: 'smart.html',
-              thumb: 'smart/thumb.svg'
+              thumb: 'smart/thumb.svg',
+              rank: 2
             },
              {
               title: 'What Do Babies See?',
               subtitle: 'The first year of life is a busy time for a baby\'s vision.',
               link: 'babies.html',
-              thumb: 'babies/thumb.svg'
+              thumb: 'babies/thumb.svg',
+              rank: 3
             },
             {
               title: 'How We Got To The Modern Bike',
               subtitle: 'See how bike design changed with the times.',
               link: 'bikes.html',
-              thumb: 'bikes/thumb.svg'
+              thumb: 'bikes/thumb.svg',
+              rank: 4
             }
           ]
     };
