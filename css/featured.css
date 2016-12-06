@@ -89,7 +89,7 @@ figure {
 	width: 100%;
 }
 
-#main:hover,
+#featured_articles:hover,
 .recent:hover {
 	opacity: .9;
 }

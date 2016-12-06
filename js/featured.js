@@ -1,47 +1,52 @@
-function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
+/********************************************
 
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
+    Main function
 
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
+*******************************************/
+$(function () {
 
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
-}
+    show_featured();
+    show_recent();
+    show_side_menus();
+
+});
 
 
-// build index page 
+/*****************************
+    
+    Featured article
+
+******************************/
 var show_featured = function() {
-    //
-    // Main article
-    //
+
     var markup = "<a href=\"" + data.menu[0].link + "\">" +
         "<img class=\"featured_img\" src=\"images/" + data.menu[0].recent + "\"></figure>" +
      "<br><span class='featured_title'>" + data.menu[0].title + "</span>" +
     "</a>" +
-    "<span class='date'>" + data.menu[0].date + "</span><span id=\"latest\">Latest</span><br>" +
-   
-   // "<div class=\"clearfix\"></div>" +
-     
     "<p>" + data.menu[0].blurb + 
    "<a href=\"" + data.menu[0].link + "\"> Read more.</a>" + "</p>" +
+   "<span class='date'>" + data.menu[0].date + "</span><span id=\"latest\">Latest</span><br>" +
    "<div class=\"clearfix\"></div>";
 
-    //
-    // Recent articles.
-    //
-    markup += "<h3 class=\"recent_header\">Recent articles</h3>";
-    markup += '<div id="recent_container"></div>';
+
+    $("#featured_articles").append(markup);
+};
+
+/*************************
+
+    Recent articles
+
+***************************/
+var show_recent = function() {
+
+    var recent_container = "<h3 class=\"recent_header\">Recent articles</h3>";
+    recent_container += '<div id="recent_container"></div>';
+
+     $("#featured_articles").append(recent_container);
 
     var recent = '';
 
-    // recent articles
+    // loop through articles
     for (var i=1; i<=6; i++) {
         recent += "<a href=\"" + data.menu[i].link + "\">" +
         "<div class='recent'>" +
@@ -55,14 +60,72 @@ var show_featured = function() {
 
     recent += "<div class=\"clearfix\"></div>"; // clear the floats
 
-
-
-    $("#featured_articles").append(markup);
-    $("#recent_container").append(recent); /* fill in recent articles */
+    $("#recent_container").append(recent); 
 
 };
 
-// build side menu, excluding main articles
+/************************
+
+   Show side menus
+
+***************************/
+var show_side_menus = function () {
+     // menu container
+    $("#right_menu").append("<div id=\"menu_container\"></div>"); // wrap the menus in a container
+    show_popular();
+    show_archive();
+}
+
+/****************************
+
+    Popular items
+
+******************************/
+var show_popular = function() {
+
+    $("#menu_container").append("<div id=\"popular\"></div>");
+    var $popularmenu = $("#popular");
+
+    $popularmenu.append("<div class=\"menu_heading\">Most popular</div>");
+
+    // loop through data and build menu
+    for (var i = 0; i<data.popular.length; i++) {
+         $popularmenu.append(get_menu_item(data.popular[i]));
+    } 
+};
+
+
+/*****************************
+
+    Archive items
+
+******************************/
+var show_archive = function() {
+
+    // recent menu
+    $("#menu_container").append("<div id=\"sidemenu\"></div>");
+    var $menu = $("#sidemenu");
+
+    $menu.append("<br><br><div class=\"menu_heading\">More articles</div>");
+
+    // loop through data and build menu
+    for (var i = 7; i<data.menu.length; i++) {
+        // skip items that are already in Most popular 
+        if(data.menu[i].link != "babies.html" && 
+           data.menu[i].link != "shakes.html" && 
+            data.menu[i].link != "smart.html" && 
+            data.menu[i].link != "bikes.html" ) {
+         $menu.append(get_menu_item(data.menu[i]));
+        }
+    } 
+}
+
+
+/********************************************
+
+    Construct a single menu item
+
+*******************************************/
 var get_menu_item = function (itemData) {
     var item = $("<div class=\"menu_item\">")  
         .append("<a href=\"" + itemData.link + "\">" +
@@ -79,43 +142,26 @@ var get_menu_item = function (itemData) {
     return item;
 };
 
-$(function () {
 
-    //display featured articles in main body
-    show_featured();
+/*****************************
 
-        // menu container
-    $("#right_menu").append("<div id=\"menu_container\"></div>"); // wrap the menus in a container
+    Shuffle an array of items
 
-    // popular menu
-    $("#menu_container").append("<div id=\"popular\"></div>");
-    var $popularmenu = $("#popular");
+******************************/
+function shuffle(array) {
+  var currentIndex = array.length, temporaryValue, randomIndex;
 
-    $popularmenu.append("<div class=\"menu_heading\">Most popular</div>");
-    //shuffle(data.popular);
-    // loop through data and build menu
-    for (var i = 0; i<data.popular.length; i++) {
-         $popularmenu.append(get_menu_item(data.popular[i]));
-    } 
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
 
-    // recent menu
-    $("#menu_container").append("<div id=\"sidemenu\"></div>");
-    var $menu = $("#sidemenu");
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
 
-    $menu.append("<br><br><div class=\"menu_heading\">More articles</div>");
-
-    //shuffle(data.menu);
-
-    // loop through data and build menu
-    for (var i = 7; i<data.menu.length; i++) {
-        // skip items that are already in Most popular 
-        if(data.menu[i].link != "babies.html" && 
-           data.menu[i].link != "shakes.html" && 
-            data.menu[i].link != "smart.html" && 
-            data.menu[i].link != "bikes.html" ) {
-         $menu.append(get_menu_item(data.menu[i]));
-        }
-    }  
-
-});
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+}
 
