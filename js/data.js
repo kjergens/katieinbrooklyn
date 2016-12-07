@@ -7,7 +7,7 @@ var data =
               subtitle: 'How scientists created the purest blue yet.',
               link: 'blue.html',
               recent: 'blue/recent.png',
-              thumb: 'blue/recent.png',
+              thumb: 'blue/thumb.png',
               date: 'Dec 4, 2016',
               blurb: 'Scientists have stumbled upon the purest blue known to man. It reflects infrared rays, doesn\'t fade and, unlike similar pigments like cobalt, is non-toxic and non-carcinogenic.'
           },
