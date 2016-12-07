@@ -1,13 +1,18 @@
 figure {
   position: relative;
-  left: -30px;
+  left: -20px;
+  display: table;
+  max-width: 190%;
+}
+
+figure img {
+	zdisplay: block;
+	max-width: 190%;
 }
 
 
-img {
-  max-width: 200%;
-}
-
-.thumb_container img {
-	max-width: 100%;
+figcaption {
+	display: table-caption;
+	zcaption-side: bottom;
+	max-width: 190%;
 }
