@@ -114,6 +114,7 @@ var show_archive = function() {
         if(data.menu[i].link != "babies.html" && 
            data.menu[i].link != "shakes.html" && 
             data.menu[i].link != "smart.html" && 
+            data.menu[i].link != "constitutions.html" && 
             data.menu[i].link != "bikes.html" ) {
          $menu.append(get_menu_item(data.menu[i]));
         }

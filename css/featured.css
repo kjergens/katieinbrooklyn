@@ -97,14 +97,15 @@ figure {
 /* popular menu */
 
 .rank {
-	position: absolute;
-	zleft: 100px;
+	position: relative;
+	left: -126px;
+	top: -7px;
 	display: inline;
 	zfloat: left;
 	background-color: rgb(205, 51, 0);
 	zopacity: 1;
 	color: #fff;
-	padding: 0px 5px 2px;
+	padding: 1px 6px 2px;
 	font-size: 16px;
 	font-family: "Merriweather Sans", "Open Sans", sans-serif;
 }
