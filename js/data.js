@@ -210,25 +210,32 @@ var data =
               rank: 1
             }, 
             {
+              title: 'A Giant Step Closer to Elusive Pure Blue',
+              subtitle: 'How scientists created the purest blue yet.',
+              link: 'blue.html',
+              thumb: 'blue/thumb.png',
+              rank: 2
+            },
+            {
               title: '5 Keys to Getting Smarter',
               subtitle: 'Illustrations on how to train your brain.',
               link: 'smart.html',
               thumb: 'smart/thumb.svg',
-              rank: 2
+              rank: 3
             },
              {
               title: 'What Do Babies See?',
               subtitle: 'The first year of life is a busy time for a baby\'s vision.',
               link: 'babies.html',
               thumb: 'babies/thumb.svg',
-              rank: 3
+              rank: 4
             },
             {
               title: 'How We Got To The Modern Bike',
               subtitle: 'See how bike design changed with the times.',
               link: 'bikes.html',
               thumb: 'bikes/thumb.svg',
-              rank: 4
+              rank: 5
             }
           ]
     };
