@@ -97,13 +97,10 @@ figure {
 /* popular menu */
 
 .rank {
-	position: relative;
-	left: -126px;
-	top: -7px;
+	position: absolute;
 	display: inline;
-	zfloat: left;
-	background-color: rgb(205, 51, 0);
-	zopacity: 1;
+	background-color: #222; rgb(205, 51, 0);
+	opacity: .8;
 	color: #fff;
 	padding: 1px 6px 2px;
 	font-size: 16px;
