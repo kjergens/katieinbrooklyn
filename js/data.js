@@ -235,15 +235,6 @@ var data =
               subtitle: 'See how bike design changed with the times.',
               link: 'bikes.html',
               thumb: 'bikes/thumb.svg',
-<<<<<<< HEAD
-              rank: 4
-            },
-            {
-              title: 'The Oldest Constitution: U.S.A.!',
-              subtitle: 'Infographic comparing constitutions.',
-              thumb: 'constitutions/thumb.svg',
-=======
->>>>>>> 3ff9d24cda83d0cda29d0a2c51d767ae541078b9
               rank: 5
             }
           ]
