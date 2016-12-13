@@ -25,7 +25,6 @@ figure {
 }
 
 .featured_img, .featured_title {
-	margin-top: 20px;
 	float: left;
 }
 
@@ -76,7 +75,7 @@ figure {
 	width: 49.5%;
 	height: 440px;
 	overflow: hidden;
-	padding: 20px; 	
+	padding: 0px 15px; 	
 	margin: 3px 1px;
 }
 
@@ -94,13 +93,14 @@ figure {
 	opacity: .9;
 }
 
-/* popular menu */
+/* 
+	Popular menu 
+*/
 
 .rank {
 	position: absolute;
 	display: inline;
-	background-color: #222; rgb(205, 51, 0);
-	opacity: .8;
+	background-color: rgb(205, 51, 0);
 	color: #fff;
 	padding: 1px 6px 2px;
 	font-size: 16px;

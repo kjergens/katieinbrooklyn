@@ -11,15 +11,19 @@
 }
 
 .date {
-  float: none;
+  float: left;
   margin-bottom: 10px;
 }
 
 #twitter, .fb-like  {
-  float: none;
+  float: left;
 }
 
-#twitter {
-  position: relative;
-  top: 5px;
+.social:after {
+  content: "\A";
+  white-space: pre;
 }
+
+
+
+

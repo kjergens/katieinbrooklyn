@@ -79,9 +79,9 @@ figure {
 }
 
 .menu_item {
-  background-color: #efefef;
+  zbackground-color: #efefef;
   border-bottom: 1px solid #dfdfdf;
-  padding: 6px;
+  padding: 3px 0px;
   min-width: 290px;
   max-height: 105px;
   overflow: hidden;
@@ -102,7 +102,7 @@ figure {
 
 
 .article_title_container {
-  padding-right: 10px;
+  padding: 10px;
 }
 
 .article_title {
