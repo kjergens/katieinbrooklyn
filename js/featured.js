@@ -40,27 +40,43 @@ var show_featured = function() {
 var show_recent = function() {
 
     var recent_container = "<h3 class=\"recent_header\">Recent articles</h3>";
-    recent_container += '<div id="recent_container"></div>';
+    recent_container += '<div id="recent_container"><div id="leftrecent"></div><div id="rightrecent"></div><div class="clearfix"></div></div>';
 
      $("#featured_articles").append(recent_container);
 
-    var recent = '';
-
-    // loop through articles
-    for (var i=1; i<=6; i++) {
-        recent += "<a href=\"" + data.menu[i].link + "\">" +
+    // left hand column
+    var leftrecent = '';
+    for (var i=1; i<=6; i+=2) {
+        leftrecent += "<a href=\"" + data.menu[i].link + "\">" +
         "<div class='recent'>" +
+        "<h4>" + data.menu[i].title +  "</h4>" +
+        "<div class=\"date\">" + data.menu[i].date + "</div>" +
         "<img src=\"images/" + data.menu[i].recent + "\">" +
-          " <h3>" + data.menu[i].title +  "</h3></a>" +
+        "</a>" +
         "<p>" + data.menu[i].blurb + 
         "<a href=\"" + data.menu[i].link + "\"> Read more.</a>" + "</p>" +
         "</a>" +
-         "<div class=\"date\">" + data.menu[i].date + "</div></div>";
+         "</div>";
     }
 
-    recent += "<div class=\"clearfix\"></div>"; // clear the floats
+    $("#leftrecent").append(leftrecent);
 
-    $("#recent_container").append(recent); 
+    // right hand column
+    var rightrecent = '';
+    for (var i=2; i<=6; i+=2) {
+        rightrecent += "<a href=\"" + data.menu[i].link + "\">" +
+        "<div class='recent'>" +
+        "<h4>" + data.menu[i].title +  "</h4>" +
+        "<div class=\"date\">" + data.menu[i].date + "</div>" +
+        "<img src=\"images/" + data.menu[i].recent + "\">" +
+        "</a>" +
+        "<p>" + data.menu[i].blurb + 
+        "<a href=\"" + data.menu[i].link + "\"> Read more.</a>" + "</p>" +
+        "</a>" +
+         "</div>";
+    }
+    
+    $("#rightrecent").append(rightrecent);
 
 };
 
@@ -145,7 +161,7 @@ var get_menu_item = function (itemData) {
 
 /********************************************
 
-    Construct a single menu item with numbers
+    Construct a single menu item with ranking numbers
 
 *******************************************/
 var get_menu_item_numbered = function (itemData) {
@@ -153,10 +169,10 @@ var get_menu_item_numbered = function (itemData) {
         .append(
           "<a href=\"" + itemData.link + "\">" +
             "<div class=\"thumb_container\">" + 
-            "<div class=\"rank\">" + itemData.rank + "</div>" +
             "<img src=\"images/" + itemData.thumb +
              "\"></div>" +
              " <div class=\"article_title_container\">" + 
+             "<div class=\"rank\">" + itemData.rank + "</div>" +
             " <div class=\"article_title\">" + 
             itemData.title + 
             "<div class=\"article_subtitle\">" +
