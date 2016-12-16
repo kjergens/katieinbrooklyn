@@ -25,16 +25,16 @@ figure {
 }
 
 .featured_img, .featured_title {
-	float: left;
+	zfloat: left;
 }
 
 .featured_img {
-	width: 30%;
-	padding-right: 20px; 
+	zwidth: 30%;
+	zpadding-right: 20px; 
 }
 
 .featured_title {
-	width: 70%;
+	zwidth: 70%;
 	line-height: 1.1em;
 	text-decoration: none;
 	color: #414f55; 
@@ -42,7 +42,7 @@ figure {
 	font-weight: bold;
 	font-family: "Merriweather Sans", "Open Sans", sans-serif;
 	letter-spacing: -3px;
-	margin-bottom: 10px;
+	zmargin-bottom: 10px;
 }
 
 
