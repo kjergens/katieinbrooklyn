@@ -1,18 +1,10 @@
 figure {
   position: relative;
-  left: -20px;
+  left: -30px;
   display: table;
-  max-width: 190%;
 }
 
 figure img {
-	zdisplay: block;
-	max-width: 190%;
+	max-width: 160%;
 }
 
-
-figcaption {
-	display: table-caption;
-	zcaption-side: bottom;
-	max-width: 190%;
-}

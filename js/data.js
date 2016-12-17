@@ -2,17 +2,17 @@ var data =
     {
        menu: 
           [
-          {
-            //title: 'Where You Could Move To Make Your Vote Worth More',
-            title: 'See Whose Vote Counts Most',
-            subtitle: 'It\'s not just the coasts that suffer.',
-            link: 'electoral.html',
-            big_image: 'evote/evote_med.png',
-            recent: 'evote/evote_med.png',
-            thumb: 'evote/evote_med.png',
-            date: 'Dec 16, 2016',
-            blurb: ''
-          },
+          // {
+          //   //title: 'Where You Could Move To Make Your Vote Worth More',
+          //   title: 'See Whose Vote Counts Most',
+          //   subtitle: 'It\'s not just the coasts that suffer.',
+          //   link: 'electoral.html',
+          //   big_image: 'evote/evote_med.png',
+          //   recent: 'evote/evote_med.png',
+          //   thumb: 'evote/evote_med.png',
+          //   date: 'Dec 16, 2016',
+          //   blurb: ''
+          // },
           {
               title: 'A Giant Step Closer to Elusive Pure Blue',
               subtitle: 'How scientists created the purest blue yet.',

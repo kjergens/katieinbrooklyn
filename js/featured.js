@@ -20,13 +20,13 @@ $(function () {
 var show_featured = function() {
 
     var markup = "<a href=\"" + data.menu[0].link + "\">" +
-    "<span id=\"latest\">Latest</span>" +
+    "<span id=\"latest\">Latest</span><br><br>" +
     "<div class='featured_title'>" + data.menu[0].title + "</div>" +
      "<div class='date'>" + data.menu[0].date + "</div>" +
         "<img class=\"featured_img\" src=\"images/" + data.menu[0].recent + "\"></figure>" +
     "</a>" +
     "<p>" + data.menu[0].blurb + 
-   "<a href=\"" + data.menu[0].link + "\"> Read more.</a>" + "</p>" +
+   "<a href=\"" + data.menu[0].link + "\"> Read more...</a>" + "</p>" +
   "<div class=\"clearfix\"></div>";
 
 

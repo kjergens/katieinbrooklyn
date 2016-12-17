@@ -22,19 +22,11 @@ figure {
 	background-color: #CD3300;
 	border-radius: 2px;
 	padding: 2px 4px;
+	margin-bottom: 20px;
 }
 
-.featured_img, .featured_title {
-	zfloat: left;
-}
-
-.featured_img {
-	zwidth: 30%;
-	zpadding-right: 20px; 
-}
 
 .featured_title {
-	zwidth: 70%;
 	line-height: 1.1em;
 	text-decoration: none;
 	color: #414f55; 
@@ -60,7 +52,6 @@ figure {
 .date {
 	float: none;
 	margin-bottom: 8px;
-	margin-top: -5px;
 }
 
 .recent {               /* each recent article */
