@@ -3,7 +3,6 @@
 */
 
 a>.featured_title:hover {
-	
 	text-decoration: underline;
 }
 
@@ -58,7 +57,8 @@ figure {
 	background-color: white;
 	overflow: hidden;
 	padding: 0px 15px; 	
-	margin: 0px 1px 30px;
+	margin: 10px 1px 20px;
+	border-bottom: 1px dashed #efefef;
 }
 
 .recent p {

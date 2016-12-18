@@ -234,18 +234,18 @@ var data =
               thumb: 'smart/thumb.svg',
               rank: 3
             },
+            {
+              title: 'See Whose Vote Counts Most',
+              subtitle: 'It\'s not just the coasts that suffer.',
+              link: 'electoral.html',
+              thumb: 'evote/evote_med.png',
+              rank: 4
+            },
              {
               title: 'What Do Babies See?',
               subtitle: 'The first year of life is a busy time for a baby\'s vision.',
               link: 'babies.html',
               thumb: 'babies/thumb.svg',
-              rank: 4
-            },
-            {
-              title: 'How We Got To The Modern Bike',
-              subtitle: 'See how bike design changed with the times.',
-              link: 'bikes.html',
-              thumb: 'bikes/thumb.svg',
               rank: 5
             }
           ]
