@@ -2,17 +2,17 @@ var data =
     {
        menu: 
           [
-          // {
-          //   //title: 'Where You Could Move To Make Your Vote Worth More',
-          //   title: 'See Whose Vote Counts Most',
-          //   subtitle: 'It\'s not just the coasts that suffer.',
-          //   link: 'electoral.html',
-          //   big_image: 'evote/evote_med.png',
-          //   recent: 'evote/evote_med.png',
-          //   thumb: 'evote/evote_med.png',
-          //   date: 'Dec 16, 2016',
-          //   blurb: ''
-          // },
+          {
+            //title: 'Where You Could Move To Make Your Vote Worth More',
+            title: 'See Whose Vote Counts Most',
+            subtitle: 'It\'s not just the coasts that suffer.',
+            link: 'electoral.html',
+            big_image: 'evote/evote_med.png',
+            recent: 'evote/recent.png',
+            thumb: 'evote/evote_med.png',
+            date: 'Dec 17, 2016',
+            blurb: "A New Yorker's vote has 28% the weight of a Wyomingite, according to the election system. Numbers like this have people questioning the relevance of the electoral college. The amount of votes each state is granted hasn't kept pace with shifting populations."
+          },
           {
               title: 'A Giant Step Closer to Elusive Pure Blue',
               subtitle: 'How scientists created the purest blue yet.',
