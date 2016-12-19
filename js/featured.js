@@ -141,7 +141,7 @@ var show_archive = function() {
 
 /********************************************
 
-    Construct a single menu item
+    A single menu item
 
 *******************************************/
 var get_menu_item = function (itemData) {
@@ -162,7 +162,7 @@ var get_menu_item = function (itemData) {
 
 /********************************************
 
-    Construct a single menu item with ranking numbers
+    A single menu item with ranking numbers
 
 *******************************************/
 var get_menu_item_numbered = function (itemData) {
@@ -173,7 +173,7 @@ var get_menu_item_numbered = function (itemData) {
             "<img src=\"images/" + itemData.thumb +
              "\"></div>" +
              " <div class=\"article_title_container\">" + 
-             "<div class=\"rank\">" + itemData.rank + "</div>" +
+             "<div class=\"rank\">" + itemData.rank + ".</div>" +
             " <div class=\"article_title\">" + 
             itemData.title + 
             "<div class=\"article_subtitle\">" +

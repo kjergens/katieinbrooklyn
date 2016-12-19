@@ -5,7 +5,7 @@ var data =
           {
             //title: 'Where You Could Move To Make Your Vote Worth More',
             title: 'See Whose Vote Counts Most',
-            subtitle: 'It\'s not just the coasts that suffer.',
+            subtitle: "When it comes to the electoral college it\'s not just the coasts that suffer.",
             link: 'electoral.html',
             big_image: 'evote/evote_red.png',
             recent: 'evote/evote_red.png',
@@ -35,13 +35,13 @@ var data =
             },
           {
               title: 'Choose Perfect Color Combinations',
-              subtitle: 'Step-by-step guide. Interactive tools included.',
+              subtitle: 'Easy step-by-step guide for winning color palettes. Interactive tools included.',
               link: 'colors1.html',
               big_image: 'colorwheel/pouring.svg',
               recent: 'colorwheel/recent.svg',
               thumb: 'colorwheel/recent.svg',
               date: 'Nov 13, 2016',
-              blurb: 'Here is a tool for a fail-proof color palette.'
+              blurb: 'Easy step-by-step guide for winning color palettes. Interactive tools included.', 
             },
             {
               title: 'Emma Watson\'s Dress in the new Beauty and the Beast is Just so Yellow',
@@ -212,35 +212,35 @@ var data =
             }
           ],
       popular: 
-          [ 
+          [ {
+              title: 'See Whose Vote Counts Most',
+              subtitle: "When it comes to the electoral college it\'s not just the coasts that suffer.",
+              link: 'electoral.html',
+              thumb: 'evote/evote_red.png',
+              rank: 1
+            },
             {
               title: 'Think Shakespeare\'s Room was Drab?',
               subtitle: 'Think again.',
               link: 'shakes.html',
               thumb: 'shakes/thumb.png',
-              rank: 1
+              rank: 2
             }, 
             {
               title: 'A Giant Step Closer to Elusive Pure Blue',
               subtitle: 'How scientists created the purest blue yet.',
               link: 'blue.html',
               thumb: 'blue/thumb.png',
-              rank: 2
+              rank: 3
             },
             {
               title: '5 Keys to Getting Smarter',
               subtitle: 'Illustrations on how to train your brain.',
               link: 'smart.html',
               thumb: 'smart/thumb.svg',
-              rank: 3
-            },
-            {
-              title: 'See Whose Vote Counts Most',
-              subtitle: 'It\'s not just the coasts that suffer.',
-              link: 'electoral.html',
-              thumb: 'evote/evote_med.png',
               rank: 4
             },
+            
              {
               title: 'What Do Babies See?',
               subtitle: 'The first year of life is a busy time for a baby\'s vision.',
