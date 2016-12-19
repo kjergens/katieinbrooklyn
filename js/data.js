@@ -7,9 +7,9 @@ var data =
             title: 'See Whose Vote Counts Most',
             subtitle: 'It\'s not just the coasts that suffer.',
             link: 'electoral.html',
-            big_image: 'evote/evote_med.png',
-            recent: 'evote/recent.png',
-            thumb: 'evote/evote_med.png',
+            big_image: 'evote/evote_red.png',
+            recent: 'evote/evote_red.png',
+            thumb: 'evote/evote_red.png',
             date: 'Dec 17, 2016',
             blurb: "A New Yorker's vote has 28% the weight of a Wyomingite, according to the election system. Numbers like this have people questioning the relevance of the electoral college. The amount of votes each state is granted hasn't kept pace with shifting populations."
           },
@@ -38,8 +38,8 @@ var data =
               subtitle: 'Step-by-step guide. Interactive tools included.',
               link: 'colors1.html',
               big_image: 'colorwheel/pouring.svg',
-              recent: 'colorwheel/pouring.svg',
-              thumb: 'colorwheel/pouring.svg',
+              recent: 'colorwheel/recent.svg',
+              thumb: 'colorwheel/recent.svg',
               date: 'Nov 13, 2016',
               blurb: 'Here is a tool for a fail-proof color palette.'
             },
