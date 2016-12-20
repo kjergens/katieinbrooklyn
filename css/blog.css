@@ -85,11 +85,9 @@ figure {
 }
 
 .menu_item {
-  zbackground-color: #efefef;
   border-bottom: 1px solid #efefef;
-  zpadding: 3px 0px;
   min-width: 290px;
-  max-height: 105px;
+  max-height: 95px;
   overflow: hidden;
   text-align: left;
 }
@@ -126,6 +124,22 @@ figure {
   color: #666; /* override hyperlink color */
   font-family: Merriweather, serif;
   line-height: 1.3em;
+}
+
+/* 
+  Popular menu 
+*/
+
+.rank {
+  position: relative;
+  top: -6px;
+  float: left;
+  color: rgb(205, 51, 0);
+  padding: 0px 15px 5px 5px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Merriweather Sans", "Open Sans", sans-serif;
+  margin-bottom: 40px;
 }
 
 @media (max-width: 992px) {     /* Get rid of the excess padding when the */

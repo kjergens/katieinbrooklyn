@@ -41,8 +41,8 @@ var data =
               recent: 'colorwheel/recent.svg',
               thumb: 'colorwheel/recent.svg',
               date: 'Nov 13, 2016',
-              blurb: 'Easy step-by-step guide for winning color palettes. Interactive tools included.', 
-            },
+              blurb: 'Step-by-step guide for winning color palettes, with interactive tools.',
+               },
             {
               title: 'Emma Watson\'s Dress in the new Beauty and the Beast is Just so Yellow',
               subtitle: '',
@@ -212,42 +212,40 @@ var data =
             }
           ],
       popular: 
-          [ {
-              title: 'See Whose Vote Counts Most',
-              subtitle: "When it comes to the electoral college it\'s not just the coasts that suffer.",
-              link: 'electoral.html',
-              thumb: 'evote/evote_red.png',
-              rank: 1
-            },
+          [ 
             {
               title: 'Think Shakespeare\'s Room was Drab?',
               subtitle: 'Think again.',
               link: 'shakes.html',
-              thumb: 'shakes/thumb.png',
-              rank: 2
+              thumb: 'shakes/thumb.png'
             }, 
-            {
-              title: 'A Giant Step Closer to Elusive Pure Blue',
-              subtitle: 'How scientists created the purest blue yet.',
-              link: 'blue.html',
-              thumb: 'blue/thumb.png',
-              rank: 3
-            },
             {
               title: '5 Keys to Getting Smarter',
               subtitle: 'Illustrations on how to train your brain.',
               link: 'smart.html',
-              thumb: 'smart/thumb.svg',
-              rank: 4
+              thumb: 'smart/thumb.svg'
             },
-            
              {
               title: 'What Do Babies See?',
               subtitle: 'The first year of life is a busy time for a baby\'s vision.',
               link: 'babies.html',
-              thumb: 'babies/thumb.svg',
-              rank: 5
-            }
+              thumb: 'babies/thumb.svg'
+            },
+            {
+              title: 'How We Got to the Modern Bike',
+              subtitle: 'See how bike design changed with the times.',
+              link: 'bikes.html',
+              thumb: 'bikes/thumb.svg',
+              recent: 'bikes/recent.png',
+              date: 'Mar 28, 2016',
+              blurb: 'Bike designs from 1810 to 2015.'
+            },
+             {
+              title: 'Choose Perfect Color Combinations',
+              subtitle: 'Step-by-step guide for winning color palettes, with interactive tools.',
+              link: 'colors1.html',
+              thumb: 'colorwheel/recent.svg'
+             }
           ]
     };
 
