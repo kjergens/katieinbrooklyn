@@ -107,7 +107,7 @@ var show_popular = function() {
 
     // loop through data and build menu
     for (var i = 0; i<data.popular.length; i++) {
-         $popularmenu.append(get_menu_item_numbered(data.popular[i]));
+         $popularmenu.append(get_menu_item_numbered(data.popular[i], i+1));
     } 
 };
 
@@ -127,14 +127,8 @@ var show_archive = function() {
 
     // loop through data and build menu
     for (var i = 7; i<data.menu.length; i++) {
-        // skip items that are already in Most popular 
-        if(data.menu[i].link != "babies.html" && 
-           data.menu[i].link != "shakes.html" && 
-            data.menu[i].link != "smart.html" && 
-            data.menu[i].link != "constitutions.html" && 
-            data.menu[i].link != "bikes.html" ) {
          $menu.append(get_menu_item(data.menu[i]));
-        }
+        
     } 
 }
 
@@ -165,7 +159,7 @@ var get_menu_item = function (itemData) {
     A single menu item with ranking numbers
 
 *******************************************/
-var get_menu_item_numbered = function (itemData) {
+var get_menu_item_numbered = function (itemData, rank) {
     var item = $("<div class=\"menu_item\">")  
         .append(
           "<a href=\"" + itemData.link + "\">" +
@@ -173,7 +167,7 @@ var get_menu_item_numbered = function (itemData) {
             "<img src=\"images/" + itemData.thumb +
              "\"></div>" +
              " <div class=\"article_title_container\">" + 
-             "<div class=\"rank\">" + itemData.rank + ".</div>" +
+             "<div class=\"rank\">" + rank + ".</div>" +
             " <div class=\"article_title\">" + 
             itemData.title + 
             "<div class=\"article_subtitle\">" +

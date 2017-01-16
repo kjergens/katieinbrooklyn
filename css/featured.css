@@ -88,21 +88,7 @@ figure {
 	opacity: .9;
 }
 
-/* 
-	Popular menu 
-*/
 
-.rank {
-	position: relative;
-	top: -6px;
-	float: left;
-	color: rgb(205, 51, 0);
-	padding: 0px 15px 5px 5px;
-	font-size: 20px;
-	font-weight: bold;
-	font-family: "Merriweather Sans", "Open Sans", sans-serif;
-	margin-bottom: 20px;
-}
 
 
 @-moz-document url-prefix() {  /* hack to deal with ff not know max-width */
