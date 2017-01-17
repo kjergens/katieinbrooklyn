@@ -39,9 +39,10 @@
         background-image: url("dnastrand.png");
     }
 
-    .form-control {
-        font-size: 28px;
-        height: auto;
+    input#search-term {
+        font-size: 18px;
+        height: 200px;
+        text-align: top;
     }
 
     #sorry-message, #result {
@@ -74,7 +75,7 @@
         <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
+    <!-- Header 
     <header>
         <div class="container">
             <div class="row">
@@ -86,6 +87,7 @@
             </div>
         </div>
     </header>
+    -->
 
 
     <section id="search">
@@ -95,8 +97,8 @@
                     
                         
                     <form action="#">
-                    <h3>Amino acid sequence:</h3>
-                    <input type="text" class="form-control" placeholder="Enter a sequence of amino acids by initials, e.g. MLFVL" id="search-term">
+                    <h4>Amino acid sequence:</h4>
+                    <input type="textarea" rows="10" class="form-control" placeholder="Enter a sequence of amino acids by initials, e.g. MLFVL" id="search-term">
                     <br>
                      <button type="submit" class="btn btn-success btn-lg" id="submit">Get Information</button>
                     </form>
@@ -147,44 +149,44 @@
      $("#submit").click(function() {
         var searchterm = String(document.getElementById("search-term").value).toUpperCase();
 
-        document.getElementById("result-header").innerHTML = "Information for " + searchterm + ":";
+        document.getElementById("result-header").innerHTML = "Result:";
 
-        if (searchterm === "MKSAILTGLLFV") {
+        if (searchterm.indexOf("MKSAILTGLLFV") === 0) {
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/P12417";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/P12417";
-        } else if (searchterm === "MSKGEELFTGVV") {
+        } else if (searchterm.indexOf("MSKGEELFTGVV") === 0) {
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/P42212";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/P42212";
-        } else if (searchterm === "ENMENDENIVYG") {
+        } else if (searchterm.indexOf("MENMENDENIVYG") === 0) {
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/Q01158";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/Q01158";
-        } else if (searchterm === "GWALRIMFLHLY") {
+        } else if (searchterm.indexOf("GWALRIMFLHLY") === 0) {
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/Q8WTE7";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/Q8WTE7";
-        } else if (searchterm === "PGENLCYRKMWC") {
+        } else if (searchterm.indexOf("PGENLCYRKMWC") === 0) {
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/Q7T3J2";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/Q7T3J2";
-        } else if (searchterm === "PREIQTAVRLLL") {
+        } else if (searchterm.indexOf("PREIQTAVRLLL") === 0) {
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/Q99285";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/Q99285";
-        } else if (searchterm === "EKRKLFIRSMGE") {
+        } else if (searchterm.indexOf("EKRKLFIRSMGE") === 0) {
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/P29466";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/P29466";
-        } else if (searchterm === "MEFTLRQEALVN") {
+        } else if (searchterm.indexOf("MEFTLRQEALVN")===  0) {
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/P93848";
