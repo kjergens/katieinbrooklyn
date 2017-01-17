@@ -38,6 +38,23 @@
     #mainNav {
         background-image: url("dnastrand.png");
     }
+
+    .form-control {
+        font-size: 28px;
+        height: auto;
+    }
+
+    #sorry-message, #result {
+        opacity: 0;
+        -webkit-transition: all 500ms cubic-bezier(0.47, 0, 0.745, 0.715);
+        transition:         all 500ms cubic-bezier(0.47, 0, 0.745, 0.715); 
+    }
+
+    #sorry-message {
+        position: relative;
+        top: -80px;
+    }
+
     </style>
 
 </head>
@@ -77,23 +94,23 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     
                         
-                            <form action="#" onsubmit="handle">
-                            <h3>Amino acid sequence:</h3>
-                            <input type="text" class="form-control" placeholder="Enter a sequence of amino acids by their initials, e.g. MLFVL" id="search-term">
-                            <br>
-                             <button type="submit" class="btn btn-success btn-lg" id="submit">Search</button>
-                         </form>
-                        
-                        </div>
+                    <form action="#">
+                    <h3>Amino acid sequence:</h3>
+                    <input type="text" class="form-control" placeholder="Enter a sequence of amino acids by initials, e.g. MLFVL" id="search-term">
+                    <br>
+                     <button type="submit" class="btn btn-success btn-lg" id="submit">Get Information</button>
+                    </form>
+                    <br><br>
+
+                    <div id="result">
+                        <h3 id="result-header"></h3>
+                        <p><a target="_blank" href="" id="result-link"></a></p>
                     </div>
-                 
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <h3 id="result-header"></h3>
-                                <p><a href="" id="result-link"></a></p>
-                            </div>
-                        </div>
-                    
+                    <p id="sorry-message">Sorry, no information found.</p>
+
+                </div>
+
+
                 </div>
             </div>
         </div>
@@ -123,47 +140,59 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
 
     <script>
      $("#submit").click(function() {
-        document.getElementById("result-header").innerHTML = "Results";
         var searchterm = String(document.getElementById("search-term").value).toUpperCase();
-        console.log(searchterm);
+
+        document.getElementById("result-header").innerHTML = "Information for " + searchterm + ":";
 
         if (searchterm === "MKSAILTGLLFV") {
+            document.getElementById("result").style.opacity = 1;
+            document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/P12417";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/P12417";
         } else if (searchterm === "MSKGEELFTGVV") {
+            document.getElementById("result").style.opacity = 1;
+            document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/P42212";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/P42212";
         } else if (searchterm === "ENMENDENIVYG") {
+            document.getElementById("result").style.opacity = 1;
+            document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/Q01158";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/Q01158";
         } else if (searchterm === "GWALRIMFLHLY") {
+            document.getElementById("result").style.opacity = 1;
+            document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/Q8WTE7";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/Q8WTE7";
         } else if (searchterm === "PGENLCYRKMWC") {
+            document.getElementById("result").style.opacity = 1;
+            document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/Q7T3J2";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/Q7T3J2";
         } else if (searchterm === "PREIQTAVRLLL") {
+            document.getElementById("result").style.opacity = 1;
+            document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/Q99285";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/Q99285";
         } else if (searchterm === "EKRKLFIRSMGE") {
+            document.getElementById("result").style.opacity = 1;
+            document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/P29466";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/P29466";
         } else if (searchterm === "MEFTLRQEALVN") {
+            document.getElementById("result").style.opacity = 1;
+            document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/P93848";
             document.getElementById("result-link").innerHTML = "http://www.uniprot.org/uniprot/P93848";
         } else {
-            document.getElementById("result-link").href = "#";
-            document.getElementById("result-link").innerHTML = "Sorry, that sequence did not match any results.";
-        } 
+            document.getElementById("result").style.opacity = 0; 
+            document.getElementById("sorry-message").style.opacity = 1; 
+      } 
     });
 
     </script>
