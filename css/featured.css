@@ -11,6 +11,11 @@ figure {
 }
 
 
+.featured_img {
+	height: 350px;
+	overflow: hidden;
+}
+
 
 /*
 	 Featured article
@@ -22,6 +27,7 @@ figure {
 	border-radius: 2px;
 	padding: 2px 4px;
 	margin-bottom: 20px;
+	margin-left: 10px;
 }
 
 

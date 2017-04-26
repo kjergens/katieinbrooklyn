@@ -4,14 +4,14 @@ var data =
           [
           {
             //title: 'Where You Could Move To Make Your Vote Worth More',
-            title: 'See Whose Vote Counts Most',
+            title: 'Voter Impact by State',
             subtitle: "When it comes to the electoral college it\'s not just the coasts that suffer.",
             link: 'electoral.html',
             big_image: 'evote/evote_red.png',
             recent: 'evote/evote_red.png',
             thumb: 'evote/evote_red.png',
             date: 'Dec 17, 2016',
-            blurb: "A New Yorker's vote has 28% the weight of a Wyomingite, according to the election system. Numbers like this have people questioning the relevance of the electoral college. The amount of votes each state is granted hasn't kept pace with shifting populations."
+            blurb: "A vote from New York is worth little over a quarter of a vote from Wyoming. Numbers like this have people questioning the relevance of the electoral college. The amount of votes each state is granted hasn't kept pace with shifting populations."
           },
           {
               title: 'A Giant Step Closer to Elusive Pure Blue',
@@ -240,13 +240,7 @@ var data =
               recent: 'bikes/recent.png',
               date: 'Mar 28, 2016',
               blurb: 'Bike designs from 1810 to 2015.'
-            },
-             {
-              title: 'Choose Perfect Color Combinations',
-              subtitle: 'Step-by-step guide for winning color palettes, with interactive tools.',
-              link: 'colors1.html',
-              thumb: 'colorwheel/recent.svg'
-             }
+            }
           ]
     };
 

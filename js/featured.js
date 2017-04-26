@@ -19,13 +19,12 @@ $(function () {
 ******************************/
 var show_featured = function() {
 
-    var markup = "<div class='article'><a href=\"" + data.menu[0].link + "\">" +
-    "<span id=\"latest\">Latest</span><br><br>" +
+    var markup = "<div><a href=\"" + data.menu[0].link + "\">" +
     "<div class='featured_title'>" + data.menu[0].title + "</div>" +
-     "<div class='date'>" + data.menu[0].date + "</div>" +
-        "<img class=\"featured_img\" src=\"images/" + data.menu[0].recent + "\"></figure>" +
+     "<div class='date'>" + data.menu[0].date + "<span id=\"latest\">Latest</span></div>" +
+        "<div class=\"featured_img\"><img src=\"images/" + data.menu[0].recent + "\"></figure></div>" +
     "</a>" +
-    "<p>" + data.menu[0].blurb + 
+    "<p style='position:relative;top:-10'>" + data.menu[0].blurb + 
    "<a href=\"" + data.menu[0].link + "\"> Read more...</a>" + "</p></div>" +
   "<div class=\"clearfix\"></div>";
 
