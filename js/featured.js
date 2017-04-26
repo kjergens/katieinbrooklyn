@@ -39,7 +39,7 @@ var show_featured = function() {
 ***************************/
 var show_recent = function() {
 
-    var recent_container = "<h3 class=\"recent_header\">Recent articles</h3>";
+    var recent_container = "<h3 class=\"recent_header\">More recent articles</h3>";
     recent_container += '<div id="recent_container"><div id="leftrecent"></div><div id="rightrecent"></div><div class="clearfix"></div></div>';
 
      $("#featured_articles").append(recent_container);
@@ -49,9 +49,9 @@ var show_recent = function() {
     for (var i=1; i<=6; i+=2) {
         leftrecent += "<a href=\"" + data.menu[i].link + "\">" +
         "<div class='recent'>" +
+        "<div class='mediumimage'><img src=\"images/" + data.menu[i].recent + "\"></div>" +
         "<h4>" + data.menu[i].title +  "</h4>" +
         "<div class=\"date\">" + data.menu[i].date + "</div>" +
-        "<img src=\"images/" + data.menu[i].recent + "\">" +
         "</a>" +
         "<p>" + data.menu[i].blurb + 
         "<a href=\"" + data.menu[i].link + "\"> Read more.</a>" + "</p>" +
@@ -66,9 +66,9 @@ var show_recent = function() {
     for (var i=2; i<=6; i+=2) {
         rightrecent += "<a href=\"" + data.menu[i].link + "\">" +
         "<div class='recent'>" +
+        "<div class='mediumimage'><img src=\"images/" + data.menu[i].recent + "\"></div>" +
         "<h4>" + data.menu[i].title +  "</h4>" +
         "<div class=\"date\">" + data.menu[i].date + "</div>" +
-        "<img src=\"images/" + data.menu[i].recent + "\">" +
         "</a>" +
         "<p>" + data.menu[i].blurb + 
         "<a href=\"" + data.menu[i].link + "\"> Read more.</a>" + "</p>" +

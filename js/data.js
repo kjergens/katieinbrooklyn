@@ -11,10 +11,10 @@ var data =
             recent: 'evote/evote_red.png',
             thumb: 'evote/evote_red.png',
             date: 'Dec 17, 2016',
-            blurb: "A vote from New York is worth little over a quarter of a vote from Wyoming. Numbers like this have people questioning the relevance of the electoral college. The amount of votes each state is granted hasn't kept pace with shifting populations."
+            blurb: "A presidential vote cast in New York is barely worth more than one-fourth of one cast in Wyoming. Numbers like this have people questioning the relevance of the electoral college."
           },
           {
-              title: 'A Giant Step Closer to Elusive Pure Blue',
+              title: 'New Recipe for Making Blue',
               subtitle: 'How scientists created the purest blue yet.',
               link: 'blue.html',
               recent: 'blue/recent.png',
@@ -23,7 +23,7 @@ var data =
               blurb: 'Scientists have stumbled upon the purest blue known to man. It reflects infrared rays, doesn\'t fade and, unlike similar pigments like cobalt, is non-toxic and non-carcinogenic.'
           },
           {
-              title: 'Possible New (and Old) Logos for the Washington Redskins',
+              title: 'Alternative Names for the Controversial Washington Footballers',
               subtitle: '',
               link: 'redskins.html',
               big_image: 'redskins/featured.png',
@@ -41,7 +41,7 @@ var data =
               recent: 'emma/fbook.png',
               thumb: 'emma/thumb.png',
               date: 'Nov 4, 2016',
-              blurb: 'I tried to give it a better yellow.'
+              blurb: 'Let\'s do better, shall we?'
             },
               
             { title: 'Presidential Campaign Posters',

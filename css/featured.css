@@ -12,7 +12,12 @@ figure {
 
 
 .featured_img {
-	height: 350px;
+	height: 200px;
+	overflow: hidden;
+}
+
+.mediumimage {
+	height: 150px;
 	overflow: hidden;
 }
 
