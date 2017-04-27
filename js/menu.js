@@ -45,7 +45,7 @@ var show_archive = function() {
     $menu.append("<br><br><div class=\"menu_heading\">More articles</div>");
 
     // loop through data and build menu
-    for (var i = 7; i<data.menu.length; i++) {
+    for (var i = 6; i<data.menu.length; i++) {
          $menu.append(get_menu_item(data.menu[i]));
     } 
 }

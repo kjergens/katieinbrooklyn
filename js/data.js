@@ -4,17 +4,17 @@ var data =
           [
           {
             //title: 'Where You Could Move To Make Your Vote Worth More',
-            title: 'See Whose Vote Counts Most',
+            title: '[Infographic] Where To Move To Make Your Vote Count More',
             subtitle: "When it comes to the electoral college it\'s not just the coasts that suffer.",
             link: 'electoral.html',
-            big_image: 'evote/evote_red.png',
-            recent: 'evote/evote_red.png',
-            thumb: 'evote/evote_red.png',
+            big_image: 'evote/evote_med.png',
+            recent: 'evote/evote_med.png',
+            thumb: 'evote/evote_med.png',
             date: 'Dec 17, 2016',
-            blurb: "A New Yorker's vote has 28% the weight of a Wyomingite, according to the election system. Numbers like this have people questioning the relevance of the electoral college. The amount of votes each state is granted hasn't kept pace with shifting populations."
+            blurb: "In presidential elections, a vote cast in New York is worth less than a third of one cast in Wyoming. Numbers like this have people questioning the relevance of the electoral college."
           },
           {
-              title: 'A Giant Step Closer to Elusive Pure Blue',
+              title: 'Making Blue',
               subtitle: 'How scientists created the purest blue yet.',
               link: 'blue.html',
               recent: 'blue/recent.png',
@@ -23,7 +23,7 @@ var data =
               blurb: 'Scientists have stumbled upon the purest blue known to man. It reflects infrared rays, doesn\'t fade and, unlike similar pigments like cobalt, is non-toxic and non-carcinogenic.'
           },
           {
-              title: 'Possible New (and Old) Logos for the Washington Redskins',
+              title: 'Alternative Names for A Controversial Team',
               subtitle: '',
               link: 'redskins.html',
               big_image: 'redskins/featured.png',
@@ -41,7 +41,7 @@ var data =
               recent: 'emma/fbook.png',
               thumb: 'emma/thumb.png',
               date: 'Nov 4, 2016',
-              blurb: 'I tried to give it a better yellow.'
+              blurb: 'Let\'s do better, shall we?'
             },
               
             { title: 'Presidential Campaign Posters',
@@ -240,13 +240,7 @@ var data =
               recent: 'bikes/recent.png',
               date: 'Mar 28, 2016',
               blurb: 'Bike designs from 1810 to 2015.'
-            },
-             {
-              title: 'Choose Perfect Color Combinations',
-              subtitle: 'Step-by-step guide for winning color palettes, with interactive tools.',
-              link: 'colors1.html',
-              thumb: 'colorwheel/recent.svg'
-             }
+            }
           ]
     };
 

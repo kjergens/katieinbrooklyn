@@ -19,13 +19,12 @@ $(function () {
 ******************************/
 var show_featured = function() {
 
-    var markup = "<div class='article'><a href=\"" + data.menu[0].link + "\">" +
-    "<span id=\"latest\">Latest</span><br><br>" +
+    var markup = "<div><a href=\"" + data.menu[0].link + "\">" +
     "<div class='featured_title'>" + data.menu[0].title + "</div>" +
-     "<div class='date'>" + data.menu[0].date + "</div>" +
-        "<img class=\"featured_img\" src=\"images/" + data.menu[0].recent + "\"></figure>" +
+     "<div class='date'>" + data.menu[0].date + "<span id=\"latest\">Latest</span></div>" +
+        "<div class=\"featured_img\"><img src=\"images/" + data.menu[0].recent + "\"></figure></div>" +
     "</a>" +
-    "<p>" + data.menu[0].blurb + 
+    "<p style='position:relative;top:-10'>" + data.menu[0].blurb + 
    "<a href=\"" + data.menu[0].link + "\"> Read more...</a>" + "</p></div>" +
   "<div class=\"clearfix\"></div>";
 
@@ -40,7 +39,7 @@ var show_featured = function() {
 ***************************/
 var show_recent = function() {
 
-    var recent_container = "<h3 class=\"recent_header\">Recent articles</h3>";
+    var recent_container = "<h3 class=\"recent_header\">More recent articles</h3>";
     recent_container += '<div id="recent_container"><div id="leftrecent"></div><div id="rightrecent"></div><div class="clearfix"></div></div>';
 
      $("#featured_articles").append(recent_container);
@@ -50,9 +49,9 @@ var show_recent = function() {
     for (var i=1; i<=6; i+=2) {
         leftrecent += "<a href=\"" + data.menu[i].link + "\">" +
         "<div class='recent'>" +
+        "<div class='mediumimage'><img src=\"images/" + data.menu[i].recent + "\"></div>" +
         "<h4>" + data.menu[i].title +  "</h4>" +
         "<div class=\"date\">" + data.menu[i].date + "</div>" +
-        "<img src=\"images/" + data.menu[i].recent + "\">" +
         "</a>" +
         "<p>" + data.menu[i].blurb + 
         "<a href=\"" + data.menu[i].link + "\"> Read more.</a>" + "</p>" +
@@ -67,9 +66,9 @@ var show_recent = function() {
     for (var i=2; i<=6; i+=2) {
         rightrecent += "<a href=\"" + data.menu[i].link + "\">" +
         "<div class='recent'>" +
+        "<div class='mediumimage'><img src=\"images/" + data.menu[i].recent + "\"></div>" +
         "<h4>" + data.menu[i].title +  "</h4>" +
         "<div class=\"date\">" + data.menu[i].date + "</div>" +
-        "<img src=\"images/" + data.menu[i].recent + "\">" +
         "</a>" +
         "<p>" + data.menu[i].blurb + 
         "<a href=\"" + data.menu[i].link + "\"> Read more.</a>" + "</p>" +

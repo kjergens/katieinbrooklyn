@@ -1,0 +1,26 @@
+#mainNav, .footer-above{
+    background-image: url("../img/protein_green.png");
+}
+
+#search {
+    padding-top: 20px;
+}
+
+textarea#search-term {
+    height: 120px;
+}
+
+#sorry-message, #result {
+    opacity: 0;
+    -webkit-transition: all 500ms cubic-bezier(0.47, 0, 0.745, 0.715);
+    transition:         all 500ms cubic-bezier(0.47, 0, 0.745, 0.715); 
+}
+
+#sorry-message {
+    position: relative;
+    top: -50px;
+}
+
+#protein-image {
+
+}

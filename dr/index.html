@@ -41,7 +41,11 @@
 
     textarea#search-term {
         zfont-size: 20px;
+<<<<<<< HEAD
         height: 150px;
+=======
+        height: 120px;
+>>>>>>> c5440e5326caffed805d514bc6d2295058609b57
     }
 
     #sorry-message, #result {
@@ -53,6 +57,15 @@
     #sorry-message {
         position: relative;
         top: -50px;
+<<<<<<< HEAD
+=======
+    }
+
+    #result-header {
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+>>>>>>> c5440e5326caffed805d514bc6d2295058609b57
     }
 
     </style>
@@ -98,14 +111,29 @@
                     <h3>Amino acid sequence:</h3>
                     <textarea form ="searchform" type="text" align="top" class="form-control" placeholder="Enter a sequence of amino acids by initials, e.g. MLFVL" title="Enter a sequence of amino acids by initials, e.g. MLFVL" id="search-term"></textarea>
                     <br>
+<<<<<<< HEAD
                      <button type="submit" class="btn btn-success btn-lg" id="submit">Get Information</button>
+=======
+                     <button type="submit" class="btn btn-success btn-lg" id="submit">Get information</button>
+>>>>>>> c5440e5326caffed805d514bc6d2295058609b57
                     <!--</form>-->
                     <br><br>
 
                     <div id="result">
+<<<<<<< HEAD
                         <h3 id="result-header">Protein:</h3>
                         <p><a target="_blank" href="" id="result-link"></a></p>
+=======
+                        <h3>Protein found! </h3>
+                        <p>
+                        <span id="protein-name"></span>
+                        <a target="_blank" href="" id="result-link">Learn more.</a>
+                        <br>
+                        <img src="" id="protein-image">
+                        </p>
+>>>>>>> c5440e5326caffed805d514bc6d2295058609b57
                     </div>
+
                     <p id="sorry-message">Sorry, no information found.</p>
 
                 </div>
@@ -123,7 +151,7 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-12">
-                        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+                        <p>This is part of the CS-2 Assignment Digital Ribosome. <a href="https://daltonschool.github.io/DigitalRibosome/"> Click here for instructions and starter code.</a>.</p>
                     </div>
                 </div>
             </div>
@@ -154,52 +182,103 @@
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/P12417";
+<<<<<<< HEAD
             document.getElementById("result-link").innerHTML = "Type-3 ice-structuring protein 1.5";
+=======
+            document.getElementById("protein-name").innerHTML = "Type-3 ice-structuring protein 1.5.";
+            document.getElementById("protein-image").src = "img/1.jpg";
+>>>>>>> c5440e5326caffed805d514bc6d2295058609b57
         } else if (searchterm.indexOf("MSKGEELFTGVV") === 0) {
             //2
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/P42212";
+<<<<<<< HEAD
             document.getElementById("result-link").innerHTML = "Green fluorescent protein";
         } else if (searchterm.indexOf("MENIENDENIVY") === 0) {
+=======
+            document.getElementById("protein-name").innerHTML = "Green fluorescent protein.";
+            document.getElementById("protein-image").src = "img/2gfp.png";
+        } else if (searchterm.indexOf("MENMENDENIV") === 0) {
+>>>>>>> c5440e5326caffed805d514bc6d2295058609b57
             //3
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/Q01158";
+<<<<<<< HEAD
             document.getElementById("result-link").innerHTML = "Luciferin 4-monooxygenase";
+=======
+            document.getElementById("protein-name").innerHTML = "Luciferin 4-monooxygenase.";
+            document.getElementById("protein-image").src = "img/3lucifern.png";
+>>>>>>> c5440e5326caffed805d514bc6d2295058609b57
         } else if (searchterm.indexOf("MKLNKLNPRWDA") === 0) {
             //4
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/Q8WTE7";
+<<<<<<< HEAD
             document.getElementById("result-link").innerHTML = "Odorant receptor Or1";
+=======
+            document.getElementById("protein-name").innerHTML = "Odorant receptor Or1.";
+            document.getElementById("protein-image").src = "img/4olfactory.gif";
+>>>>>>> c5440e5326caffed805d514bc6d2295058609b57
         } else if (searchterm.indexOf("MKTLLLTLVVVT") === 0) {
             //5
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/Q7T3J2";
+<<<<<<< HEAD
             document.getElementById("result-link").innerHTML = "Alpha-elapitoxin-Bm2a";
+=======
+            document.getElementById("protein-name").innerHTML = "Alpha-elapitoxin-Bm2a.";
+            document.getElementById("protein-image").src = "img/5abt.png";
+>>>>>>> c5440e5326caffed805d514bc6d2295058609b57
         } else if (searchterm.indexOf("MAEPAKKKPKKL") === 0) {
             //6
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/Q99285";
+<<<<<<< HEAD
             document.getElementById("result-link").innerHTML = "Histone H2B";
+=======
+            document.getElementById("protein-name").innerHTML = "Histone H2B.";
+            document.getElementById("protein-image").src = "img/6hb.png";
+>>>>>>> c5440e5326caffed805d514bc6d2295058609b57
         } else if (searchterm.indexOf("MADKVLKEKR") === 0) {
             //7
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/P29466";
+<<<<<<< HEAD
             document.getElementById("result-link").innerHTML = "Caspase-1";
+=======
+            document.getElementById("protein-name").innerHTML = "Caspase-1.";
+            document.getElementById("protein-image").src = "img/7cap.png";
+>>>>>>> c5440e5326caffed805d514bc6d2295058609b57
         } else if (searchterm.indexOf("MEFTLRQEAL")===  0) {
             //8
             document.getElementById("result").style.opacity = 1;
             document.getElementById("sorry-message").style.opacity = 0;
             document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/P93848";
+<<<<<<< HEAD
             document.getElementById("result-link").innerHTML = "Leghemoglobin 29";
         } else {
+=======
+            document.getElementById("protein-name").innerHTML = "Leghemoglobin 29.";
+            document.getElementById("protein-image").src = "img/8lhg.png";
+        } else if (searchterm.indexOf("MFSGMTQSVIALLFLT") === 0){
+            // sample
+            document.getElementById("result").style.opacity = 1;
+            document.getElementById("sorry-message").style.opacity = 0;
+            document.getElementById("protein-image").src = "img/ctgf.png";
+            document.getElementById("result-link").href = "http://www.uniprot.org/uniprot/Q9R1E9";
+            document.getElementById("protein-name").innerHTML = "Connective tissue growth factor.";
+        } 
+        else {
+>>>>>>> c5440e5326caffed805d514bc6d2295058609b57
             document.getElementById("result").style.opacity = 0; 
             document.getElementById("sorry-message").style.opacity = 1; 
+            document.getElementById("protein-image").src = "";
       } 
     });
 
