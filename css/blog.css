@@ -14,7 +14,12 @@ a>h4 {
 
 .thumbnail {
   border: 0px;
-  margin-top: 120px;
+  margin-bottom: 90px;
+}
+
+
+.thumbnail h3 {
+  margin-top: 0px;
 }
 
 .subtitle {
