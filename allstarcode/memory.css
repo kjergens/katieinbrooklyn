@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  zbackground-color: #eee;
+  zbackground-color: #f9f9f9;
 }
 
 .game_container {
@@ -77,12 +77,16 @@ html, body {
 }
 
 .card_back {
-	background-color: #f5b323
+	background-color: #ff9977; #f5b323
 }
 
 .card_face {
-	background-color: white; 
-	border: 2px solid #f5b323;
+	background-color: white; #ff9977; 
+	border: 2px solid #ff9977;
+}
+
+.card_container .matched {
+	transform: rotate(5deg);
 }
 
 @media (max-width: 800px) {
