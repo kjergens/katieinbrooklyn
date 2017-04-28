@@ -1,15 +1,20 @@
 a>h4 {
   color: #414f55;
-  font-weight: bold;
+  zfont-weight: bold;
 }
 
 .title {
   padding: 10px 0px;
-  font-size: 42px;
+  font-size: 40px;
   letter-spacing: -3px;
   line-height: 1.1em;
-  font-weight: bold;
+  zfont-weight: bold;
   font-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
+}
+
+.thumbnail {
+  border: 0px;
+  margin-top: 120px;
 }
 
 .subtitle {
@@ -78,10 +83,10 @@ figure {
 .menu_heading {
   font-family: 'Merriweather Sans', 'Open Sans', Helvetica, sans-serif;
   font-size: 14px;
-  font-weight: bold;
+  zfont-weight: bold;
   padding: 2px 4px 0px 0px;
   min-width: 290px;
-  border-bottom: 7px solid #CD3300;
+  border-bottom: 5px solid #CD3300;
 }
 
 .menu_item {

@@ -11,16 +11,16 @@ var data =
             recent: 'evote/evote_med.png',
             thumb: 'evote/evote_med.png',
             date: 'Dec 17, 2016',
-            blurb: "In presidential elections, a vote cast in New York is worth less than a third of one cast in Wyoming. Numbers like this have people questioning the relevance of the electoral college."
+            blurb: "In presidential elections, a New Yorker\'s vote is worth less than a third of a Wyomingite\'s."
           },
           {
-              title: 'Making Blue',
+              title: 'Making Blue Bluer',
               subtitle: 'How scientists created the purest blue yet.',
               link: 'blue.html',
               recent: 'blue/recent.png',
               thumb: 'blue/thumb.png',
               date: 'Dec 4, 2016',
-              blurb: 'Scientists have stumbled upon the purest blue known to man. It reflects infrared rays, doesn\'t fade and, unlike similar pigments like cobalt, is non-toxic and non-carcinogenic.'
+              blurb: 'Scientists have stumbled upon the purest blue known to man.'
           },
           {
               title: 'Alternative Names for A Controversial Team',
@@ -30,8 +30,8 @@ var data =
               recent: 'redskins/braves.png',
               thumb: 'redskins/bravesthumb.png',
               date: 'Nov 26, 2016',
-              blurb: 'Fans don\'t support changing \
-              the controversial name. Here are ideas to persuade them. '
+              blurb: 'Redskins fans don\'t support changing \
+              the name. Nonetheless, here are ideas to rebrand the DC football team. '
             },
             {
               title: 'Emma Watson\'s Dress in the new Beauty and the Beast is Just so Yellow',
@@ -44,14 +44,14 @@ var data =
               blurb: 'Let\'s do better, shall we?'
             },
               
-            { title: 'Presidential Campaign Posters',
-              subtitle: 'Age-old strategies to win your vote.',
+            { title: 'Cringe-Worthy Presidential Campaign Posters',
+              subtitle: 'Corny attempts to win the vote.',
               link: 'campaigns.html',
               big_image: 'campaigns/nixon.png',
               recent: 'campaigns/jcrecent.png',
               thumb: 'campaigns/jcthumb.png',
               date: 'Aug 8, 2016',
-              blurb: 'Candidates have used the same strategies to lure in the vote. Here are the results for better or worse.'
+              blurb: 'There have been some corny attempts to win the vote.'
            }, 
            {
               title: 'The Oldest Constitution: U.S.A.!',
@@ -193,7 +193,7 @@ var data =
               blurb: 'See what a baby sees in the first year of life.'
               },
               {
-              title: 'How We Got to the Modern Bike',
+              title: 'Evolution of the Bicycle',
               subtitle: 'See how bike design changed with the times.',
               link: 'bikes.html',
               thumb: 'bikes/thumb.svg',
@@ -233,7 +233,7 @@ var data =
               thumb: 'babies/thumb.svg'
             },
             {
-              title: 'How We Got to the Modern Bike',
+              title: 'Evolution of the Bicycle',
               subtitle: 'See how bike design changed with the times.',
               link: 'bikes.html',
               thumb: 'bikes/thumb.svg',
