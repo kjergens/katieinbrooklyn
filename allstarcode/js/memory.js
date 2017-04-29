@@ -1,14 +1,19 @@
 // Global vars
 var card_to_match;
 var turns;
+var win = false;
 
 var setup = function() {
 
-	$(".game").hide();
+	if (win) {
+		$(".modal-overlay").show();
+		$(".modal").fadeIn("slow");
+	}
 
 	// Initialize
 	card_to_match = null;
 	turns = 0;
+	win = false;
 
 	// Shuffle the array of cards
 	this.$cards = $(shuffleCards(cards));
@@ -19,18 +24,19 @@ var setup = function() {
 		board += '<div class="card_container" data-id="'+ val.id +'"><div class="card">\
 		<div class="card_face"><img src="'+ val.img +'"\
 		alt="'+ val.name +'" /></div>\
-		<div class="card_back"></div></div>\
+		<div class="card_back"><img src="img/card_decoration.svg"></div></div>\
 		</div>';
 	})
 
 	// Put board on the page
 	$(".game").html(board);
 
-	// Bind each card to event handler
+	// Bind event handlers
 	$(".card_container").on("click", cardClicked);
+	$(".close").on("click", closeModal);
 
 	// Reveal
-	$(".game").show();
+	$(".game").show("slow");
 
 };
 
@@ -70,7 +76,28 @@ var cardClicked = function(){
 		} else { 
 				if ($(this).attr("data-id") == card_to_match){
 					// Mark both active cards as matched
-					$(".active").addClass("matched");
+					setTimeout(function(){
+						$(".active").addClass("matched");
+
+						console.log($(".card.matched").length);
+
+						// Check if won
+						if($(".card.matched").length == cards.length){
+
+
+							// Notify of win
+							var win_text = "You Won in " + turns + " turns.";
+						  $("#win_message").html(win_text);
+
+							win = true;
+							console.log(win);
+						
+							// End game & start a new one
+							$(".game").fadeOut();
+							setup();
+						}
+
+					}, 600);
 				} 
 
 				// Remove both active cards
@@ -83,24 +110,14 @@ var cardClicked = function(){
 				// Increment turns
 				turns++;
 		}
-
-
-		// Check if won
-		if($(".matched").length == cards.length){
-
-			var winScreen = "<div><h1>You Won in " + 
-		      turns + " turns.</h1></div>";
-
-			// Pause for a beat then fade out
-			setTimeout(function(){
-				$("game").html(winScreen);
-				setup();
-			}, 1000);
-
-		}
 	}
 };
 
+var closeModal = function() {
+	// Hide the win modal
+	$(".modal-overlay").fadeOut();
+	$(".modal").fadeOut();
+}
 
 var cards = [
 	{
