@@ -14,10 +14,10 @@ var data =
             blurb: "In presidential elections, a New Yorker\'s vote is worth less than a third of a Wyomingite\'s."
           },
           {
-              title: 'Making Blue Bluer',
+              title: 'How to Make a Bluer Blue',
               subtitle: 'How scientists created the purest blue yet.',
               link: 'blue.html',
-              recent: 'blue/recent.png',
+              recent: 'blue/pigments.png',
               thumb: 'blue/thumb.png',
               date: 'Dec 4, 2016',
               blurb: 'Scientists have stumbled upon the purest blue known to man.'
@@ -73,12 +73,12 @@ var data =
               blurb: 'Scientific American published a study on how to increase your intelligence. ' 
               },
             {
-              title: 'Purple Snails and Royal Robes',
+              title: 'Snails and Royalty',
               subtitle: 'Why purple dye is so damn expensive.',
               link: 'tyrian.html',
-              big_image: 'tyrian/eII.jpg',
-              thumb: 'tyrian/crown.png',
-              recent: 'tyrian/recent.png',
+              big_image: 'tyrian/murex.jpg',
+              thumb: 'tyrian/murex.jpg',
+              recent: 'tyrian/murex.jpg',
               date: 'Apr 1, 2016',
               blurb: 'Imperial purple holds the record as the world\'s most expensive dye thanks to a very slimy ingredient.'
             },
@@ -87,6 +87,7 @@ var data =
               title: 'The Importance of a Creative Blackout Hour',
               subtitle: '',
               link: 'blackout.html',
+              recent: 'thoughts/thumb.svg',
               thumb: 'thoughts/thumb.svg',
               date: 'Feb 24, 2016',
               blurb: 'When creativity strikes it\'s important to capture it, fast! But equally important is knowing when to let it go.'
@@ -95,6 +96,7 @@ var data =
               title: 'Quiz: Can You Guess the Titles of These \'80s Teen Romance Novels?',
               subtitle: '',
               link: 'bookcovers.html',
+              recent: 'bookcovers/teaser.png',
               thumb: 'bookcovers/thumb.png',
               date: 'Feb 27, 2016',
               blurb: "They are incredible."
@@ -103,9 +105,21 @@ var data =
               title: 'Who Needs A Spreadsheet When You Have Dye And Some Rope?',
               subtitle: '',
               link: 'quipu.html',
+              recent: 'quipu/quipu.png',
               thumb: 'quipu/thumb.png',
-              date: 'Jan 27, 2016'
+              date: 'Jan 27, 2016',
+              blurb: ''
             },
+            {
+              title: 'Steps to Perfect Color Combinations',
+              subtitle: 'Easy step-by-step guide for color palettes. Interactive tools included.',
+              link: 'colors1.html',
+              big_image: 'colorwheel/pouring.svg',
+              recent: 'colorwheel/recent.svg',
+              thumb: 'colorwheel/recent.svg',
+              date: 'Nov 13, 2016',
+              blurb: 'Step-by-step guide for winning color palettes, with interactive tools.',
+               },
             {
               title: 'Is Your Blue My Blue?',
               subtitle: 'Language experiments show we might see colors differently.',
@@ -200,17 +214,7 @@ var data =
               recent: 'bikes/recent.png',
               date: 'Mar 28, 2016',
               blurb: 'Bike designs from 1810 to 2015.'
-            },
-          {
-              title: 'Choose Perfect Color Combinations',
-              subtitle: 'Easy step-by-step guide for winning color palettes. Interactive tools included.',
-              link: 'colors1.html',
-              big_image: 'colorwheel/pouring.svg',
-              recent: 'colorwheel/recent.svg',
-              thumb: 'colorwheel/recent.svg',
-              date: 'Nov 13, 2016',
-              blurb: 'Step-by-step guide for winning color palettes, with interactive tools.',
-               }
+            }
           ],
       popular: 
           [ 

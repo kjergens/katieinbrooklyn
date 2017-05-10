@@ -46,7 +46,7 @@ var show_recent = function() {
 
     // left hand column
     var leftrecent = '';
-    for (var i=1; i<=6; i+=2) {
+    for (var i=1; i<=10; i+=2) {
         leftrecent += "<a href=\"" + data.menu[i].link + "\">" +
         "<div class='recent'>" +
         "<div class='mediumimage'><img src=\"images/" + data.menu[i].recent + "\"></div>" +
@@ -62,7 +62,7 @@ var show_recent = function() {
 
     // right hand column
     var rightrecent = '';
-    for (var i=2; i<=6; i+=2) {
+    for (var i=2; i<=10; i+=2) {
         rightrecent += "<a href=\"" + data.menu[i].link + "\">" +
         "<div class='recent'>" +
         "<div class='mediumimage'><img src=\"images/" + data.menu[i].recent + "\"></div>" +
@@ -124,7 +124,7 @@ var show_archive = function() {
     $menu.append("<br><br><div class=\"menu_heading\">More articles</div>");
 
     // loop through data and build menu
-    for (var i = 7; i<data.menu.length; i++) {
+    for (var i = 11; i<data.menu.length; i++) {
          $menu.append(get_menu_item(data.menu[i]));
         
     } 

@@ -108,15 +108,15 @@ figure {
 
 
 .thumb_container img {
-  float: right;
+  float: left;
   overflow: hidden;
   width: 110px;
-  margin-left: 5px;
+  margin-right: 5px;
 }
 
 
 .article_title_container {
-  padding: 10px 20px 10px 5px;
+  padding: 10px 25px 10px 20px;
 }
 
 .article_title {
