@@ -46,8 +46,8 @@ ul {
 .blackout {
 	background-color: #f3b128; 
 	position: relative;
-	height: 100px;
-	top: -260px;
+	height: 120px;
+	top: -300px;
 }
 
 .off {
@@ -58,29 +58,24 @@ ul {
 	opacity: 1;
 }
 
-.fat {
-	height: 120px;
-}
 
 
 
 @media (min-width: 425px) {  
 	.blackout {               
-		top: -325px;
+		top: -280px;
 	}
+}
 
-	.fat, .high {
-		top: -350px;
+@media (min-width: 465px) {  
+	.blackout {               
+		top: -380px;
 	}
 }
 
 @media (min-width: 500px) {  
 	.blackout {               
-		top: -350px;
-	}
-
-		.fat, .high {
-		top: -380px;
+		top: -400px;
 	}
 }
 
@@ -88,109 +83,56 @@ ul {
 	.blackout {               
 		top: -425px;
 	}
-
-	.fat, .high {
-		top: -435px;
-	}
 }
 
-@media (min-width: 640px) {  /* iPhone */
+@media (min-width: 650px) {  /* iPhone */
 	.blackout {
-		top: -445px;
-	}
-
-	.fat, .high {
-		top: -455;
+		top: -480px;
 	}
 }
 
-
-@media (min-width: 680px) { 
-	.fat, .high {
-		top: -470px;
-	}
-}
 
 @media (min-width: 700px) { 
 	.blackout {
 		top: -490px;
-	}
-
-	.fat, .high {
-		top: -500px;
-		height: 155px;
 	}
 }
 
 
 @media (min-width: 740px) {  
 	.blackout {
-		top: -500px;
-	}
-
-	.fat, .high {
 		top: -525px;
 	}
 }
 
 @media (min-width: 768px) {  /* Windows Phone */
 	.blackout {
-		top: -315px;
+		top: -350px;
 	}
-
-	.fat, .high{
-		height: 100px;
-		top: -330px;
-	}
-
-
 }
 
 @media (min-width: 992px) { 
 	.blackout {
-		top: -400px;
+		top: -450px;
 	}
 }
 
 @media (min-width: 1024px) { /* iPad */
 	.blackout {
-		top: -420px;
-	}
-
-	.fat {
-		top: -435px;
-		height: 155px;
-	}
-
-	.high {
-		top: -445px;
+		top: -450px;
 	}
 }
 
 @media (min-width: 1200px) { 
 	.blackout {
-		top: -530px;
-		height: 150px;
-	}
-
-	.fat {
-		height: 150px;
 		top: -540px;
+		height: 150px;
 	}
 }
 
 @media (min-width: 1280px) { /* small desktop, netbook */
 	.blackout {
-		top: -520px;
-	}
-
-	.fat{
-		height: 150px;
-		top: -530px;
-	}
-
-	.high {
-		top: -550px;
+		top: -560px;
 	}
 }
 
