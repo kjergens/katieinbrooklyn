@@ -194,13 +194,13 @@ ul {
 	}
 }
 
-#blackout1, #blackout2, #blackout3, #blackout4, #blackout5, #blackout6, #blackout7 {
+.blackout {
 	transition-property: opacity;
 	transition-duration: 1s;
 	transition-timing-function: ease-out;
 }
 
-.result_container, #score_final {
+.result_container, .score_container, .total_score {
 	transition-property: opacity;
 	transition-duration: .7s;
 	transition-timing-function: ease-out;

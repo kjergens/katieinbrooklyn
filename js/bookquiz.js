@@ -44,25 +44,31 @@ Set up the quiz.
 var setup = function() {
 	var quiz = '';
 	var i = 0;
+
+	// Loop thru the array and write all the questions
 	$.each(books, function(key, val){
-	quiz += '<div class="row book_container"><h1>' + ++i + '.</h1>'
-		+ '<div class="bookcover col-md-6 col-sm-6 col-xs-6">' 
-	    + '<img src="'+ val.img +'"/>'
-	    + '<div class="blackout" id="blackout' + i + '"></div>'
-	    + '</div>'
-	    + '<div class="col-md-6 col-sm-6 col-xs-6">'
-        + '<ul class="options options' + i + '" id="' + key + '">'
-        + '<li class="option option' + i + '">' + val.options[0]
-        + '<li class="option option' + i + '">' + val.options[1]
-        + '<li class="option option' + i + '">' + val.options[2]
-        + '<li class="option option' + i + '">' + val.options[3]
-        + '</ul>'
-        + '<div class="result_container off">'
-        + '<div class="result" id="result' + i + '"></div>'
-        + '<div class="score_container" id="score' + i + '"></div>' 
-        + '</div>'
-        + '</div>' 
-	    + '</div>';
+		// It's easier to get the question options first, then plug them in.
+		var options ='';
+		$.each(val.options, function(key, val) {
+			options += '<li class="option">' + val + '</li>';
+		});
+
+		// display the imagine and options
+		quiz += '<div class="row book_container"><h1>' + ++i + '.</h1>'
+			+ '<div class="bookcover col-md-6 col-sm-6 col-xs-6">' 
+		    + '<img src="'+ val.img +'"/>'
+		    + '<div class="blackout" id="blackout' + i + '"></div>'
+		    + '</div>'
+		    + '<div class="col-md-6 col-sm-6 col-xs-6">'
+		    + '<ul class="options" id="' + key + '">'
+		    + options
+		    + '</ul>'
+		    + '<div class="result_container off">'
+		    + '<div class="result"></div>'
+		    + '<div class="score_container"></div>' 
+		    + '</div>'
+		    + '</div>' 
+		    + '</div>';
 	})
 
 	quiz += '<div id="total_result"></div>';
