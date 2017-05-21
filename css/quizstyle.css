@@ -51,11 +51,14 @@ ul {
 
 
 .blackout {
-	background-color: #f3b128; 
-	height: 180px;
-	bottom: 100px;
+	background-color: black; 
+	height: 150px;
 	position: absolute;
 	width: 100%;
+	top: 40px;
+	transition-property: opacity;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
 }
 
 .off {
@@ -67,39 +70,14 @@ ul {
 }
 
 
-/* As screen (and therefore image) gets bigger, move blocker up */
+/* As screen (and therefore image) gets smaller, make blackout smaller */
 
-@media (min-width: 425px) {  
+@media (max-width: 560px) {  
 	.blackout {               
-		bottom: 100px;
+		height: 80px;
 	}
 }
 
-
-@media (min-width: 460px) {  
-	.blackout {               
-		bottom: 200px;
-	}
-}
-
-@media (min-width: 600px) {  
-	.blackout {               
-		bottom: 300px;
-	}
-}
-
-@media (min-width: 992px) { 
-	.blackout {
-		bottom: 400px;
-	}
-}
-
-
-.blackout {
-	transition-property: opacity;
-	transition-duration: 1s;
-	transition-timing-function: ease-out;
-}
 
 .result_container, .score_container, .total_score {
 	transition-property: opacity;

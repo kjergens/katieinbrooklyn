@@ -1,0 +1,13 @@
+.jumbotron {
+	transition-property: opacity;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+}
+
+.on {
+	opacity: 1;
+}
+
+.off {
+	opacity: 0;
+}
