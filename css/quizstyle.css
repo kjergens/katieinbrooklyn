@@ -1,0 +1,110 @@
+.bookcover {
+	margin-bottom: -80px;
+}
+
+.options {
+	display: inline;
+	list-style-type: none;
+	padding: 0px
+}
+
+ul {
+	margin-bottom: 50px;
+}
+
+
+.options li {
+	list-style: none;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	color: #131313;
+	margin-bottom: 15px;
+	background-color: #3892c8;
+	color: #fff;
+	padding: 15px 15px;
+	transition-property: background-color, color;
+	transition-duration: .75s;
+	transition-timing-function: ease-out;
+	cursor: pointer;
+}
+
+
+.options li:hover {
+	transition-property: background-color, color;
+	transition-duration: .4s;
+	transition-timing-function: ease-out;
+	background-color: #46b7fa; 
+}
+
+
+.bookcover  {  /* need to set width for media queries to work  */
+	max-width: 400px;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.bookcover img {
+	width: 100%;
+	padding-left: 15px; /* make up for bootstrap negative padding, messing up blackout */
+}
+
+
+.blackout {
+	background-color: #f3b128; 
+	height: 180px;
+	bottom: 100px;
+	position: absolute;
+	width: 100%;
+}
+
+.off {
+	opacity: 0;
+}
+
+.on {
+	opacity: 1;
+}
+
+
+/* As screen (and therefore image) gets bigger, move blocker up */
+
+@media (min-width: 425px) {  
+	.blackout {               
+		bottom: 100px;
+	}
+}
+
+
+@media (min-width: 460px) {  
+	.blackout {               
+		bottom: 200px;
+	}
+}
+
+@media (min-width: 600px) {  
+	.blackout {               
+		bottom: 300px;
+	}
+}
+
+@media (min-width: 992px) { 
+	.blackout {
+		bottom: 400px;
+	}
+}
+
+
+.blackout {
+	transition-property: opacity;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+}
+
+.result_container, .score_container, .total_score {
+	transition-property: opacity;
+	transition-duration: .7s;
+	transition-timing-function: ease-out;
+}
+
+
