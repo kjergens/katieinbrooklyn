@@ -1,236 +1,119 @@
-$(document).ready(function () {
+var score=0;
+var answered = 0;
+var books = [
+    {
+        img: "images/bookcovers/10-please-love-me-somebody-maud-johnson.jpg",
+        options: ["Please Love Me...Somebody", "Boarding School Blues", "Forgive or Forget?","Real Love"],
+        answer: "Please Love Me...Somebody"
+    },
+     {
+        img: "images/bookcovers/8-special-girl-dorothy-francis.jpg",
+        options: ["Am I Alone?", "Special Girl", "Worthy Of Love","When To Say Yes"],
+        answer: "Special Girl"
+    },
+    {
+        img: "images/bookcovers/kiis-me-creep.png",
+        options: ["Growing Up", "Average Boy", "Kiss Me Creep","Much Too Young"],
+        answer: "Kiss Me Creep"
+    },
+    {
+        img: "images/bookcovers/crosswinds-15-lighten-up-jennifer-kathlyn-lampi.jpg",
+        options: ["We're Not Friends", "Lighten Up, Jennifer", "Love Me Not", "The End Of Us"],
+        answer: "Lighten Up, Jennifer"
+    },
+    {
+        img: "images/bookcovers/wildfire-10-ive-got-a-crush-on-you-carol-stanley.jpg",
+        options: ["Teach Me, Mister", "Ever Lasting", "Jo & Joe", "I've Got A Crush On You"],
+        answer: "I've Got A Crush On You"
+    },
+    {
+        img: "images/bookcovers/caprice_27tooyoungtoknowmargaretmscariano_thumb.jpg",
+        options: ["When I'm A Woman...", "Lacing Up", "Too Young To Know", "High School Dreams"],
+        answer: "Too Young To Know"
+    },
+    {
+        img: "images/bookcovers/171-write-on-dorothy-francis.jpg",
+        options: ["Make It Happen", "Too Smart For A Girl?", "Just Friends", "Write On!"],
+        answer: "Write On!"
+    }
+];
 
-	var score=0;
-	var answered = 0;
-	var total = 7;
-	var question1_answered = false;
-	var question2_answered = false;
-	var question3_answered = false;
-	var question4_answered = false;
-	var question5_answered = false;
-	var question6_answered = false;
-	var question_last_answered = false;
-
-	/*
-Call this function each time an answer is selected.
+/*
+Set up the quiz.
 */
-var getTotal = function() {
-	if (answered == total) {
-			document.getElementById("total_result").innerHTML += "<h3>Total: " + score + " out of " + answered + "</h3>";
-	}
+var setup = function() {
+	var quiz = '';
+	var i = 0;
+	$.each(books, function(key, val){
+	quiz += '<div class="row book_container"><h1>' + ++i + '.</h1>'
+		+ '<div class="bookcover col-md-6 col-sm-6 col-xs-6">' 
+	    + '<img src="'+ val.img +'"/>'
+	    + '<div class="blackout" id="blackout' + i + '"></div>'
+	    + '</div>'
+	    + '<div class="col-md-6 col-sm-6 col-xs-6">'
+        + '<ul class="options options' + i + '" id="' + key + '">'
+        + '<li class="option option' + i + '">' + val.options[0]
+        + '<li class="option option' + i + '">' + val.options[1]
+        + '<li class="option option' + i + '">' + val.options[2]
+        + '<li class="option option' + i + '">' + val.options[3]
+        + '</ul>'
+        + '<div class="result_container off">'
+        + '<div class="result" id="result' + i + '"></div>'
+        + '<div class="score_container" id="score' + i + '"></div>' 
+        + '</div>'
+        + '</div>' 
+	    + '</div>';
+	})
+
+	quiz += '<div id="total_result"></div>';
+
+	// Put quiz on the page
+	$("#quiz").html(quiz);
+
+	// Bind event handlers
+	$(".option").on("click", selectionMade);
 }
 
 /*
-Question 1
+Respond to a selection
 */
-	$(".option1").click(function() {
-		
-		if (!question1_answered) {
-			question1_answered = true;
-			answered++;
-			document.getElementById("blackout1").style.opacity = 0;
-			document.getElementById("result1_container").style.opacity = 1;
+var selectionMade = (function() {
+	var book_container = $(this).parent().parent().parent();
+	var blackout = $(book_container).find(".blackout");
+	var result = $(book_container).find(".result");
+	var points = $(book_container).find(".score_container");
+	var answer = books[this.parentNode.id].answer;
 
-			document.getElementById("correct1").style.background = "#b2d8b2";
-			document.getElementById("correct1").style.color = "#338933";
+	$(blackout).addClass("off");
+	$(result).parent().removeClass("off");
 
-			if (this.classList.contains("correct")) {
-				score++;
-				document.getElementById("correct1").style.border = "6px solid #66b266";
-				document.getElementById("result1").innerHTML += "<h3>Correct!</h3>";
-			}
-			else {
-				this.style.background = "#ee9999";
-				this.style.color = "#994444";
-				this.style.border = "6px solid #bb6666";
-				document.getElementById("result1").innerHTML += "<h3>Incorrect</h3>";
-			}
-			document.getElementById("score1").innerHTML += "<h4>Score: " + score + " out of " + answered + "</h4>";
+	if (answer == this.innerHTML) {
+		this.style.background = "#b2d8b2";
+		this.style.color = "#338933";
+		this.style.border = "6px solid #66b266";
+		$(result).html("<h3>Correct!</h3>");
+		score++;
+	}
+	else {
+		this.style.background = "#ee9999";
+		this.style.color = "#994444";
+		this.style.border = "6px solid #bb6666";
+		$(result).html("<h3>Incorrect!</h3>");
+	}
+	answered++;
 
-		}
-	}); 
+	$(points).html("<h4>Score: " + score + " out of " + answered + "</h4>");
 
-/*
-Question 2
-*/
-	$(".option2").click(function() {
+	// Check if done with quiz
+	if (answered == books.length) {
+		document.getElementById("total_result").style.opacity = 1;
+	    document.getElementById("total_result").innerHTML += "<h1>Total: " + score + " out of " + answered + "</h1>";
 
-		if (!question2_answered) {
-			question2_answered = true;
-			answered++;
-			document.getElementById("blackout2").style.opacity = 0;
-			document.getElementById("result2_container").style.opacity = 1;
+	}
+})
 
-			document.getElementById("correct2").style.background = "#b2d8b2";
-			document.getElementById("correct2").style.color = "#338933";
-
-			if (this.classList.contains("correct")) {
-				score++;
-				document.getElementById("correct2").style.border = "6px solid #66b266";
-				document.getElementById("result2").innerHTML += "<h3>Correct!</h3>";
-			}
-			else {
-				this.style.background = "#ee9999";
-				this.style.color = "#994444";
-				this.style.border = "6px solid #bb6666";
-				document.getElementById("result2").innerHTML += "<h3>Incorrect</h3>";
-			}
-			document.getElementById("score2").innerHTML += "<h4>Score: " + score + " out of " + answered + "</h4>";
-		}
-	}); 
-
-
-	/*
-Question 3 - 12 changes to make
-*/
-	$(".option3").click(function() {
-
-		if (!question3_answered) {
-			question3_answered = true;
-			answered++;
-			document.getElementById("blackout3").style.opacity = 0;
-			document.getElementById("result3_container").style.opacity = 1;
-
-			document.getElementById("correct3").style.background = "#b2d8b2";
-			document.getElementById("correct3").style.color = "#338933";
-
-			if (this.classList.contains("correct")) {
-				score++;
-				
-				document.getElementById("correct3").style.border = "6px solid #66b266";
-				document.getElementById("result3").innerHTML += "<h3>Correct!</h3>";
-			}
-			else {
-				this.style.background = "#ee9999";
-				this.style.color = "#994444";
-				this.style.border = "6px solid #bb6666";
-				document.getElementById("result3").innerHTML += "<h3>Incorrect</h3>";
-			}
-			document.getElementById("score3").innerHTML += "<h4>Score: " + score + " out of " + answered + "</h4>";
-		}
-	});
-
-	/*
-Question 4 - 12 changes to make
-*/
-	$(".option4").click(function() {
-
-		if (!question4_answered) {
-			question4_answered = true;
-			answered++;
-			document.getElementById("blackout4").style.opacity = 0;
-			document.getElementById("result4_container").style.opacity = 1;
-
-			document.getElementById("correct4").style.background = "#b2d8b2";
-			document.getElementById("correct4").style.color = "#338933";
-
-			if (this.classList.contains("correct")) {
-				score++;
-				document.getElementById("correct4").style.border = "6px solid #66b266";
-				document.getElementById("result4").innerHTML += "<h3>Correct!</h3>";
-			}
-			else {
-				this.style.background = "#ee9999";
-				this.style.color = "#994444";
-				this.style.border = "6px solid #bb6666";
-				document.getElementById("result4").innerHTML += "<h3>Incorrect</h3>";
-			}
-			document.getElementById("score4").innerHTML += "<h4>Score: " + score + " out of " + answered + "</h4>";
-		}
-	});
-
-	/*
-Question 5 - 12 changes to make
-*/
-	$(".option5").click(function() {
-
-		if (!question5_answered) {
-			question5_answered = true;
-			answered++;
-			document.getElementById("blackout5").style.opacity = 0;
-			document.getElementById("result5_container").style.opacity = 1;
-
-			document.getElementById("correct5").style.background = "#b2d8b2";
-			document.getElementById("correct5").style.color = "#338933";
-				
-			if (this.classList.contains("correct")) {
-				score++;
-				document.getElementById("correct5").style.border = "6px solid #66b266";
-				document.getElementById("result5").innerHTML += "<h3>Correct!</h3>";
-			}
-			else {
-				this.style.background = "#ee9999";
-				this.style.color = "#994444";
-				this.style.border = "6px solid #bb6666";
-				document.getElementById("result5").innerHTML += "<h3>Incorrect</h3>";
-			}
-			document.getElementById("score5").innerHTML += "<h4>Score: " + score + " out of " + answered + "</h4>";
-		}
-	});
-
-	/*
-Question 6 - 12 changes to make
-*/
-	$(".option6").click(function() {
-
-		if (!question6_answered) {
-			question6_answered = true;
-			answered++;
-			document.getElementById("blackout6").style.opacity = 0;
-			document.getElementById("result6_container").style.opacity = 1;
-
-			document.getElementById("correct6").style.background = "#b2d8b2";
-			document.getElementById("correct6").style.color = "#338933";
-				
-			if (this.classList.contains("correct")) {
-				score++;
-				document.getElementById("correct6").style.border = "6px solid #66b266";
-				document.getElementById("result6").innerHTML += "<h3>Correct!</h3>";
-			}
-			else {
-				this.style.background = "#ee9999";
-				this.style.color = "#994444";
-				this.style.border = "6px solid #bb6666";
-				document.getElementById("result6").innerHTML += "<h3>Incorrect</h3>";
-			}
-			document.getElementById("score6").innerHTML += "<h4>Score: " + score + " out of  " + answered + "</h4>";
-		}
-	});
-
-	/*
-Question 7 - 12 changes to make
-*/
-	$(".option7").click(function() {
-
-		if (!question_last_answered) {
-			question_last_answered = true;
-			answered++;
-			document.getElementById("blackout7").style.opacity = 0;
-			document.getElementById("result7_container").style.opacity = 1;
-
-			document.getElementById("correct7").style.background = "#b2d8b2";
-			document.getElementById("correct7").style.color = "#338933";
-
-			if (this.classList.contains("correct")) {
-				score++;
-				document.getElementById("correct7").style.border = "6px solid #66b266";
-				document.getElementById("result7").innerHTML += "<h3>Correct!</h3>";
-			}
-			else {
-				this.style.background = "#ee9999";
-				this.style.color = "#994444";
-				this.style.border = "6px solid #bb6666";
-				document.getElementById("result7").innerHTML += "<h3>Incorrect</h3>";
-			}
-		
-			document.getElementById("score7").innerHTML += "<h4>Score: " + score + " out of " + answered + "</h4>";
-
-			document.getElementById("score_final").style.opacity = 1;
-			document.getElementById("score_final").innerHTML += "<h1>Total: " + score + " out of " + answered + "</h1>";
-
-		}
-	});
-
+$(document).ready(function () {
+	setup();
 });
 
 

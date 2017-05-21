@@ -50,6 +50,14 @@ ul {
 	top: -260px;
 }
 
+.off {
+	opacity: 0;
+}
+
+.on {
+	opacity: 1;
+}
+
 .fat {
 	height: 120px;
 }
@@ -192,9 +200,7 @@ ul {
 	transition-timing-function: ease-out;
 }
 
-#result1_container, #result2_container, #result3_container, #result4_container
-, #result5_container, #result6_container, #result7_container, #score_final {
-	opacity: 0;
+.result_container, #score_final {
 	transition-property: opacity;
 	transition-duration: .7s;
 	transition-timing-function: ease-out;
